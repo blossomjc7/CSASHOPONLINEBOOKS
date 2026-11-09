@@ -1,0 +1,555 @@
+---
+import type { Book } from '../data/books';
+import { AUTHOR_NAME } from '../data/books';
+
+interface Props {
+  book: Book;
+}
+
+const { book } = Astro.props;
+
+const themeBg =
+  book.audience === 'seeker'
+    ? 'from-[#0A1128] to-[#162347] border-[#D4AF37]'
+    : book.audience === 'believer'
+    ? 'from-[#233D32] to-[#345949] border-[#6B8E7B]'
+    : 'from-[#1B4B82] to-[#2968B0] border-[#F5A623]';
+
+const accentColor =
+  book.audience === 'seeker'
+    ? '#D4AF37'
+    : book.audience === 'believer'
+    ? '#6B8E7B'
+    : '#F5A623';
+
+// Build 5 interactive sample pages for this book
+const initialPages = [
+  {
+    type: 'cover',
+    badge: `Concept ${book.conceptNumber} • ${book.conceptTitle}`,
+    title: book.title,
+    subtitle: book.subtitle,
+    scripture: `Written by ${AUTHOR_NAME}`,
+    body: book.shortDescription,
+    footer: 'Interactive 6-Language Preview & Audio Storyteller',
+  },
+  {
+    type: 'day',
+    badge: 'Day 1 Sample • Scripture & Fulfilment',
+    title: book.sampleDayTitle,
+    subtitle: book.sampleScripture,
+    scripture: book.sampleScripture,
+    body: book.sampleExcerpt,
+    footer: 'Day 1 of 30 • Tap Speaker to Listen',
+  },
+  {
+    type: 'reflection',
+    badge: 'Day 1 Reflection & Activation',
+    title: 'Personal Reflection & Daily Walk',
+    subtitle: book.conceptFocus,
+    scripture: book.audienceLabel,
+    body: book.sampleReflectionOrActivity,
+    footer: 'Day 1 Reflection • Available in 6 Languages',
+  },
+  {
+    type: 'discover',
+    badge: '30-Day Blueprint Highlights',
+    title: 'What You Will Uncover in This Book',
+    subtitle: book.title,
+    scripture: `${book.audienceLabel} Edition`,
+    body: book.keyTakeaways.join(' • '),
+    footer: 'Full 30-Day Print & Ebook Edition Available Above',
+  },
+];
+---
+
+<section id="interactive-reader" class="py-16 px-6 bg-[#FAF9F6] border-y border-gray-200">
+  <div class="max-w-5xl mx-auto">
+    <!-- Top Header Bar with 6-Language Selector & Parent/Admin Voice Gate -->
+    <div class="bg-[#0A1128] text-white rounded-t-3xl p-6 md:px-8 border-b-4 border-[#D4AF37] flex flex-col md:flex-row items-center justify-between gap-4 shadow-lg">
+      <div class="text-center md:text-left">
+        <div class="flex items-center justify-center md:justify-start gap-2">
+          <span class="text-2xl">📖</span>
+          <h2 class="font-playfair text-2xl md:text-3xl font-bold text-white" id="idr-header-title">
+            Interactive Multi-Language Reader &amp; Audio
+          </h2>
+        </div>
+        <p class="font-inter text-xs sm:text-sm text-gray-300 mt-1" id="idr-header-sub">
+          Read and listen to this 30-day sample in 6 languages with fluent Storyteller Voice!
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-3">
+        <!-- 6-Language Selector -->
+        <div class="bg-white/10 border border-[#D4AF37]/50 rounded-full px-4 py-2 flex items-center gap-2 shadow-inner">
+          <span class="font-montserrat text-[11px] font-bold uppercase tracking-wider text-[#D4AF37]" id="idr-lang-lbl">Language:</span>
+          <select id="idr-lang-select" class="bg-transparent text-white font-montserrat font-bold text-xs focus:outline-none cursor-pointer pr-1">
+            <option value="en" class="text-[#0A1128]">🇺🇸 English</option>
+            <option value="sv" class="text-[#0A1128]">🇸🇪 Svenska</option>
+            <option value="de" class="text-[#0A1128]">🇩🇪 Deutsch</option>
+            <option value="es" class="text-[#0A1128]">🇪🇸 Español</option>
+            <option value="sw" class="text-[#0A1128]">🇹🇿 Kiswahili</option>
+            <option value="fr" class="text-[#0A1128]">🇫🇷 Français</option>
+          </select>
+        </div>
+
+        <!-- Auto-Read Toggle -->
+        <label class="bg-white/10 border border-white/20 rounded-full px-3.5 py-2 flex items-center gap-2 cursor-pointer text-xs font-montserrat font-semibold">
+          <input type="checkbox" id="idr-autoread" class="accent-[#D4AF37] w-4 h-4 cursor-pointer" />
+          <span id="idr-autoread-lbl">Auto-Read</span>
+        </label>
+
+        <!-- Admin/Parent Voice Gate Button -->
+        <button
+          type="button"
+          id="idr-admin-btn"
+          class="bg-white/10 hover:bg-white/20 text-gray-200 border border-white/20 rounded-full px-3.5 py-2 text-xs font-montserrat font-bold flex items-center gap-1.5 transition-colors"
+          title="Voice Engine Settings (Protected)"
+        >
+          <span>🔒</span> <span class="hidden sm:inline">Voice Admin</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Reader Body -->
+    <div class="bg-white rounded-b-3xl shadow-xl border border-t-0 border-gray-200 p-6 md:p-10">
+      <div class="grid lg:grid-cols-12 gap-8 items-center">
+        <!-- Left: Voice Controls & Book Info (4 cols) -->
+        <div class="lg:col-span-4 space-y-5">
+          <div class="bg-[#FAF9F6] border border-gray-200 rounded-2xl p-5">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="font-montserrat text-xs font-bold uppercase tracking-wider text-[#0A1128] flex items-center gap-1.5">
+                <span>🔊</span> <span id="idr-voice-title">Storyteller Audio</span>
+              </h3>
+              <span class="text-[10px] font-montserrat font-bold uppercase px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
+                6 Languages 🌟
+              </span>
+            </div>
+
+            <label class="block text-[11px] font-montserrat font-semibold text-gray-500 uppercase mb-1.5" id="idr-voice-char-lbl">
+              Narrator Style
+            </label>
+            <select id="idr-voice-select" class="w-full bg-white border border-gray-300 rounded-xl px-3 py-2 text-xs font-montserrat font-semibold text-[#0A1128] mb-4 focus:outline-none focus:border-[#0A1128]">
+              <option value="Kore">Kore (Warm &amp; Clear)</option>
+              <option value="Zephyr">Zephyr (Gentle &amp; Reflective)</option>
+              <option value="Fenrir">Fenrir (Deep &amp; Reverent)</option>
+              <option value="Aoede">Aoede (Bright &amp; Expressive)</option>
+            </select>
+
+            <button
+              type="button"
+              id="idr-play-btn"
+              class="w-full min-h-[48px] bg-[#0A1128] hover:bg-[#D4AF37] text-white hover:text-[#0A1128] font-montserrat font-bold text-sm rounded-full shadow-md transition-all flex items-center justify-center gap-2"
+            >
+              <span id="idr-play-icon">🔊</span>
+              <span id="idr-play-label">Listen to This Page</span>
+            </button>
+
+            <p id="idr-audio-status" class="text-[11px] font-inter text-gray-500 text-center mt-3">
+              Click "Listen to This Page" or tap the page card to hear narration.
+            </p>
+          </div>
+
+          <!-- Quick Page Dots / Index -->
+          <div class="bg-[#FAF9F6] border border-gray-200 rounded-2xl p-5">
+            <span class="block font-montserrat text-[11px] font-bold uppercase tracking-wider text-gray-500 mb-3" id="idr-sections-lbl">
+              Sample Pages Inside:
+            </span>
+            <div class="space-y-2" id="idr-page-tabs">
+              <button type="button" data-page="0" class="idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-bold bg-[#0A1128] text-white transition-colors flex items-center justify-between">
+                <span>1. Book Cover &amp; Overview</span>
+                <span>&rarr;</span>
+              </button>
+              <button type="button" data-page="1" class="idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-semibold bg-white hover:bg-gray-100 text-[#0A1128] border border-gray-200 transition-colors flex items-center justify-between">
+                <span>2. Day 1 Reading &amp; Scripture</span>
+                <span>&rarr;</span>
+              </button>
+              <button type="button" data-page="2" class="idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-semibold bg-white hover:bg-gray-100 text-[#0A1128] border border-gray-200 transition-colors flex items-center justify-between">
+                <span>3. Daily Reflection / Activity</span>
+                <span>&rarr;</span>
+              </button>
+              <button type="button" data-page="3" class="idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-semibold bg-white hover:bg-gray-100 text-[#0A1128] border border-gray-200 transition-colors flex items-center justify-between">
+                <span>4. 30-Day Key Takeaways</span>
+                <span>&rarr;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Flipbook Card (8 cols) -->
+        <div class="lg:col-span-8 flex flex-col items-center">
+          <div
+            id="idr-card"
+            class={`w-full min-h-[380px] sm:min-h-[420px] rounded-3xl bg-gradient-to-br ${themeBg} border-4 p-8 md:p-10 text-white shadow-2xl flex flex-col justify-between relative cursor-pointer transition-all duration-300`}
+          >
+            <!-- Top Badge & Page Counter -->
+            <div class="flex items-center justify-between gap-2 border-b border-white/15 pb-4">
+              <span id="idr-page-badge" class="font-montserrat text-[11px] font-bold uppercase tracking-widest text-[#D4AF37]">
+                {initialPages[0].badge}
+              </span>
+              <span id="idr-page-counter" class="font-montserrat text-xs font-bold bg-white/15 px-3 py-1 rounded-full">
+                Page 1 of 4
+              </span>
+            </div>
+
+            <!-- Center Content -->
+            <div class="my-auto py-6 space-y-4">
+              <h3 id="idr-page-title" class="font-playfair text-2xl sm:text-3xl md:text-4xl font-bold leading-tight text-white">
+                {initialPages[0].title}
+              </h3>
+              <p id="idr-page-subtitle" class="font-playfair italic text-base sm:text-lg text-[#D4AF37]">
+                {initialPages[0].subtitle}
+              </p>
+              <div class="bg-white/10 backdrop-blur-sm border border-white/15 rounded-2xl p-5 sm:p-6">
+                <p id="idr-page-body" class="font-inter text-sm sm:text-base md:text-lg leading-relaxed text-gray-100">
+                  {initialPages[0].body}
+                </p>
+              </div>
+            </div>
+
+            <!-- Footer Bar inside Flipbook -->
+            <div class="flex items-center justify-between border-t border-white/15 pt-4 text-xs font-montserrat text-gray-300">
+              <span id="idr-page-footer">{initialPages[0].footer}</span>
+              <span class="text-[#D4AF37] font-bold uppercase tracking-wider flex items-center gap-1">
+                <span>🔊</span> <span id="idr-tap-hint">Tap to Listen</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Next / Prev Page Flip Controls -->
+          <div class="w-full flex items-center justify-between gap-4 mt-6 px-2">
+            <button
+              type="button"
+              id="idr-prev-btn"
+              class="min-h-[44px] px-5 rounded-full bg-gray-100 hover:bg-[#0A1128] text-[#0A1128] hover:text-white font-montserrat font-bold text-xs uppercase tracking-wider transition-colors disabled:opacity-40"
+            >
+              &larr; Previous Page
+            </button>
+
+            <span id="idr-translating-indicator" class="hidden font-montserrat text-xs font-bold text-[#B38F1D] animate-pulse">
+              Translating page... 🌍
+            </span>
+
+            <button
+              type="button"
+              id="idr-next-btn"
+              class="min-h-[44px] px-5 rounded-full bg-[#D4AF37] hover:bg-[#0A1128] text-[#0A1128] hover:text-white font-montserrat font-bold text-xs uppercase tracking-wider transition-colors disabled:opacity-40"
+            >
+              Next Page &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin / Parent Voice Gate Modal (Hidden by default) -->
+  <div id="idr-gate-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 md:p-8 border-4 border-[#D4AF37] shadow-2xl">
+      <div class="flex items-center justify-between border-b border-gray-100 pb-3 mb-4">
+        <h3 class="font-playfair font-bold text-xl text-[#0A1128] flex items-center gap-2">
+          <span>🔒</span> Voice Engine Admin Gate
+        </h3>
+        <button type="button" id="idr-gate-close" class="text-gray-400 hover:text-gray-700 text-2xl font-bold">&times;</button>
+      </div>
+
+      <div id="idr-gate-step1">
+        <p class="font-inter text-xs text-gray-600 mb-4">
+          Solve this quick check to unlock the Cloud Voice Engine configuration:
+        </p>
+        <div class="bg-[#FAF9F6] border border-gray-200 rounded-2xl p-4 text-center mb-4">
+          <span id="idr-math-q" class="font-montserrat text-2xl font-black text-[#0A1128]">4 + 5 = ?</span>
+        </div>
+        <input
+          type="number"
+          id="idr-math-ans"
+          placeholder="Enter answer"
+          class="w-full border-2 border-gray-200 rounded-xl px-4 py-2.5 text-center font-montserrat font-bold text-base mb-4 focus:outline-none focus:border-[#0A1128]"
+        />
+        <button
+          type="button"
+          id="idr-math-submit"
+          class="w-full bg-[#0A1128] hover:bg-[#D4AF37] text-white hover:text-[#0A1128] font-montserrat font-bold text-xs uppercase tracking-wider py-3 rounded-full transition-colors"
+        >
+          Verify &amp; Unlock
+        </button>
+      </div>
+
+      <div id="idr-gate-step2" class="hidden space-y-4">
+        <div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-4 text-xs text-emerald-900">
+          <strong>🎙️ Cloud Voice Engine Active:</strong> Multi-language TTS is automatically powered by Cloudflare Serverless Functions (`/api/swahili-tts`) with native device fallback.
+        </div>
+        <div>
+          <label class="block font-montserrat text-[11px] font-bold uppercase text-gray-600 mb-1">
+            Optional Custom Gemini API Key:
+          </label>
+          <div class="flex gap-2">
+            <input
+              type="password"
+              id="idr-custom-key"
+              placeholder="Active via Cloud Deploy (Optional key)"
+              class="flex-grow border border-gray-300 rounded-xl px-3 py-2 text-xs"
+            />
+            <button
+              type="button"
+              id="idr-save-key"
+              class="bg-emerald-700 text-white font-montserrat font-bold text-xs px-4 py-2 rounded-xl"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script define:vars={{ initialPages }}>
+  document.addEventListener('DOMContentLoaded', () => {
+    const pagesData = initialPages;
+    const translatedCache = { en: pagesData };
+    let currentLang = 'en';
+    let currentPage = 0;
+    let isPlaying = false;
+    const audioPlayer = new Audio();
+
+    const langSelect = document.getElementById('idr-lang-select');
+    const autoReadCheck = document.getElementById('idr-autoread');
+    const playBtn = document.getElementById('idr-play-btn');
+    const playIcon = document.getElementById('idr-play-icon');
+    const playLabel = document.getElementById('idr-play-label');
+    const audioStatus = document.getElementById('idr-audio-status');
+    const prevBtn = document.getElementById('idr-prev-btn');
+    const nextBtn = document.getElementById('idr-next-btn');
+    const card = document.getElementById('idr-card');
+    const translatingIndicator = document.getElementById('idr-translating-indicator');
+
+    const badgeEl = document.getElementById('idr-page-badge');
+    const counterEl = document.getElementById('idr-page-counter');
+    const titleEl = document.getElementById('idr-page-title');
+    const subtitleEl = document.getElementById('idr-page-subtitle');
+    const bodyEl = document.getElementById('idr-page-body');
+    const footerEl = document.getElementById('idr-page-footer');
+    const tabBtns = document.querySelectorAll('.idr-tab-btn');
+
+    const uiLabels = {
+      en: { listen: 'Listen to This Page', stop: 'Stop Audio', speaking: 'Narrator is speaking...', ended: 'Finished speaking. Flip to the next page!' },
+      sv: { listen: 'Lyssna på denna sida', stop: 'Stoppa ljud', speaking: 'Berättaren läser...', ended: 'Uppläsning klar. Vänd blad!' },
+      de: { listen: 'Diese Seite anhören', stop: 'Audio stoppen', speaking: 'Erzähler spricht...', ended: 'Fertig gesprochen. Nächste Seite!' },
+      es: { listen: 'Escuchar esta página', stop: 'Detener audio', speaking: 'El narrador está hablando...', ended: 'Lectura terminada. ¡Siguiente página!' },
+      sw: { listen: 'Sikiliza Ukurasa Huu', stop: 'Simamisha Sauti', speaking: 'Msimulizi anasoma...', ended: 'Amemaliza kusoma. Geuza ukurasa!' },
+      fr: { listen: 'Écouter cette page', stop: 'Arrêter l\'audio', speaking: 'Le narrateur parle...', ended: 'Lecture terminée. Page suivante !' },
+    };
+
+    function stopAudio() {
+      if (window.speechSynthesis) window.speechSynthesis.cancel();
+      audioPlayer.pause();
+      isPlaying = false;
+      const lbl = uiLabels[currentLang] || uiLabels.en;
+      if (playIcon) playIcon.textContent = '🔊';
+      if (playLabel) playLabel.textContent = lbl.listen;
+    }
+
+    function speakFallback(text) {
+      if (!window.speechSynthesis) {
+        stopAudio();
+        return;
+      }
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      const locales = { en: 'en-US', sv: 'sv-SE', de: 'de-DE', es: 'es-ES', sw: 'sw-TZ', fr: 'fr-FR' };
+      u.lang = locales[currentLang] || 'en-US';
+      u.rate = 0.9;
+      const lbl = uiLabels[currentLang] || uiLabels.en;
+      u.onstart = () => {
+        isPlaying = true;
+        if (playIcon) playIcon.textContent = '⏹';
+        if (playLabel) playLabel.textContent = lbl.stop;
+        if (audioStatus) audioStatus.textContent = lbl.speaking;
+      };
+      u.onend = () => {
+        stopAudio();
+        if (audioStatus) audioStatus.textContent = lbl.ended;
+      };
+      u.onerror = () => stopAudio();
+      window.speechSynthesis.speak(u);
+    }
+
+    function playCurrentPageAudio() {
+      stopAudio();
+      const activePages = translatedCache[currentLang] || pagesData;
+      const p = activePages[currentPage];
+      if (!p) return;
+      const textToRead = `${p.title}. ${p.subtitle}. ${p.body}`;
+      const lbl = uiLabels[currentLang] || uiLabels.en;
+
+      isPlaying = true;
+      if (playIcon) playIcon.textContent = '⏹';
+      if (playLabel) playLabel.textContent = lbl.stop;
+      if (audioStatus) audioStatus.textContent = lbl.speaking;
+
+      audioPlayer.src = `/api/swahili-tts?lang=${encodeURIComponent(currentLang)}&text=${encodeURIComponent(textToRead)}`;
+      audioPlayer.onended = () => {
+        stopAudio();
+        if (audioStatus) audioStatus.textContent = lbl.ended;
+      };
+      audioPlayer.onerror = () => {
+        speakFallback(textToRead);
+      };
+      audioPlayer.play().catch(() => {
+        speakFallback(textToRead);
+      });
+    }
+
+    async function ensureLanguageTranslated(lang) {
+      if (translatedCache[lang]) return translatedCache[lang];
+      if (translatingIndicator) translatingIndicator.classList.remove('hidden');
+      try {
+        const flatStrings = [];
+        pagesData.forEach((p) => {
+          flatStrings.push(p.badge, p.title, p.subtitle, p.body, p.footer);
+        });
+        const res = await fetch('/api/translate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ lang, texts: flatStrings }),
+        });
+        if (!res.ok) throw new Error('Translation request failed');
+        const data = await res.json();
+        const tr = data.translated || flatStrings;
+        const rebuilt = pagesData.map((p, idx) => {
+          const base = idx * 5;
+          return {
+            ...p,
+            badge: tr[base] || p.badge,
+            title: tr[base + 1] || p.title,
+            subtitle: tr[base + 2] || p.subtitle,
+            body: tr[base + 3] || p.body,
+            footer: tr[base + 4] || p.footer,
+          };
+        });
+        translatedCache[lang] = rebuilt;
+      } catch (e) {
+        translatedCache[lang] = pagesData;
+      } finally {
+        if (translatingIndicator) translatingIndicator.classList.add('hidden');
+      }
+      return translatedCache[lang];
+    }
+
+    function renderCurrentPage() {
+      stopAudio();
+      const activePages = translatedCache[currentLang] || pagesData;
+      const p = activePages[currentPage];
+      if (!p) return;
+
+      if (badgeEl) badgeEl.textContent = p.badge;
+      if (counterEl) counterEl.textContent = `Page ${currentPage + 1} of ${activePages.length}`;
+      if (titleEl) titleEl.textContent = p.title;
+      if (subtitleEl) subtitleEl.textContent = p.subtitle;
+      if (bodyEl) bodyEl.textContent = p.body;
+      if (footerEl) footerEl.textContent = p.footer;
+
+      if (prevBtn) prevBtn.disabled = currentPage === 0;
+      if (nextBtn) nextBtn.disabled = currentPage === activePages.length - 1;
+
+      tabBtns.forEach((btn, idx) => {
+        if (idx === currentPage) {
+          btn.className = 'idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-bold bg-[#0A1128] text-white transition-colors flex items-center justify-between';
+        } else {
+          btn.className = 'idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-semibold bg-white hover:bg-gray-100 text-[#0A1128] border border-gray-200 transition-colors flex items-center justify-between';
+        }
+      });
+
+      if (autoReadCheck && autoReadCheck.checked) {
+        playCurrentPageAudio();
+      }
+    }
+
+    langSelect?.addEventListener('change', async () => {
+      currentLang = langSelect.value;
+      const lbl = uiLabels[currentLang] || uiLabels.en;
+      if (playLabel && !isPlaying) playLabel.textContent = lbl.listen;
+      await ensureLanguageTranslated(currentLang);
+      renderCurrentPage();
+    });
+
+    prevBtn?.addEventListener('click', () => {
+      if (currentPage > 0) {
+        currentPage--;
+        renderCurrentPage();
+      }
+    });
+
+    nextBtn?.addEventListener('click', () => {
+      if (currentPage < pagesData.length - 1) {
+        currentPage++;
+        renderCurrentPage();
+      }
+    });
+
+    tabBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const idx = parseInt(btn.getAttribute('data-page') || '0', 10);
+        currentPage = idx;
+        renderCurrentPage();
+      });
+    });
+
+    playBtn?.addEventListener('click', () => {
+      if (isPlaying) {
+        stopAudio();
+      } else {
+        playCurrentPageAudio();
+      }
+    });
+
+    card?.addEventListener('click', () => {
+      if (isPlaying) {
+        stopAudio();
+      } else {
+        playCurrentPageAudio();
+      }
+    });
+
+    // Admin Gate Modal logic
+    const adminBtn = document.getElementById('idr-admin-btn');
+    const gateModal = document.getElementById('idr-gate-modal');
+    const gateClose = document.getElementById('idr-gate-close');
+    const mathQ = document.getElementById('idr-math-q');
+    const mathAns = document.getElementById('idr-math-ans');
+    const mathSubmit = document.getElementById('idr-math-submit');
+    const step1 = document.getElementById('idr-gate-step1');
+    const step2 = document.getElementById('idr-gate-step2');
+    let expectedAns = 9;
+
+    adminBtn?.addEventListener('click', () => {
+      const a = Math.floor(Math.random() * 6) + 3;
+      const b = Math.floor(Math.random() * 6) + 3;
+      expectedAns = a + b;
+      if (mathQ) mathQ.textContent = `${a} + ${b} = ?`;
+      if (mathAns) mathAns.value = '';
+      step1?.classList.remove('hidden');
+      step2?.classList.add('hidden');
+      gateModal?.classList.remove('hidden');
+      gateModal?.classList.add('flex');
+    });
+
+    gateClose?.addEventListener('click', () => {
+      gateModal?.classList.add('hidden');
+      gateModal?.classList.remove('flex');
+    });
+
+    mathSubmit?.addEventListener('click', () => {
+      if (parseInt(mathAns?.value || '0', 10) === expectedAns) {
+        step1?.classList.add('hidden');
+        step2?.classList.remove('hidden');
+      } else if (mathAns) {
+        mathAns.value = '';
+        mathAns.placeholder = 'Try again!';
+      }
+    });
+
+    renderCurrentPage();
+  });
+</script>

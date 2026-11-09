@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import InteractiveBookReader from '../../components/InteractiveBookReader.astro';
 import { BOOKS, AUTHOR_NAME, getBooksByAudience } from '../../data/books';
 import type { Book } from '../../data/books';
 
@@ -202,6 +203,8 @@ const bookSchema = {
       </div>
     </div>
   </section>
+
+  <InteractiveBookReader book={book} />
 
   <!-- Look Inside / Sample Day Excerpt -->
   <section class="py-16 px-6 bg-white border-y border-gray-100">
