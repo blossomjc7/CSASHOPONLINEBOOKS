@@ -1,21 +1,22 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BookCard from '../../components/BookCard.astro';
-import { getBooksByAudience } from '../../data/books';
+import { getConceptsByAudience, getBooksByAudience } from '../../data/books';
 
+const concepts = getConceptsByAudience('believer');
 const believerBooks = getBooksByAudience('believer');
-const sampleBook = believerBooks[0];
+const sampleBook = believerBooks.find((b) => b.slug === 'you-can-trust-the-bible') || believerBooks[0];
 ---
 <BaseLayout
-  title="The New Believer Collection | Welcome to the Family. Let's Build Your Foundation."
-  description="Christian books for new believers by Christine A. Simple, grace-filled, 5-minute daily readings that reveal Jesus in the Old Testament without confusing jargon."
+  title="The New Believer Collection (25 Books) | Welcome to the Family. Let's Build Your Foundation."
+  description="Explore all 25 Christian books for new believers across 5 Thematic Concepts by Christine A. Simple, grace-filled, 5-minute daily readings revealing Jesus in the Old Testament."
   keywords="Christian books for new believers, Understanding the Bible, Grace-based books, You Can Trust the Bible, From Ritual to Relationship"
 >
   <!-- [Hero Section] -->
   <section class="bg-[#0A1128] text-white py-24 px-6 border-b-4 border-[#6B8E7B]">
     <div class="max-w-4xl mx-auto text-center">
       <span class="inline-block font-montserrat text-xs font-bold uppercase tracking-widest text-[#8FBC8F] bg-[#6B8E7B]/20 border border-[#6B8E7B]/40 px-4 py-1.5 rounded-full mb-6">
-        Target Group 2 &bull; The New Believer Collection
+        Target Group 2 &bull; The New Believer Collection &bull; 25 Books (5 Concepts)
       </span>
       <h1 class="font-playfair text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
         Welcome to the Family. <span class="text-[#8FBC8F]">Let's Build Your Foundation.</span>
@@ -31,7 +32,7 @@ const sampleBook = believerBooks[0];
           href="#believer-books"
           class="min-h-[48px] inline-flex items-center justify-center bg-[#6B8E7B] text-white px-8 py-4 rounded-full font-montserrat font-bold hover:bg-white hover:text-[#0A1128] transition-colors"
         >
-          Shop the New Believer Collection
+          See All 25 Books for New Believers
         </a>
         <a
           href="#believer-excerpt"
@@ -44,13 +45,13 @@ const sampleBook = believerBooks[0];
   </section>
 
   <!-- [Section 2: Why These Books are Different for You] -->
-  <section class="py-24 px-6 max-w-5xl mx-auto">
+  <section class="py-20 px-6 max-w-5xl mx-auto">
     <div class="text-center max-w-3xl mx-auto mb-16">
       <h2 class="font-playfair text-3xl md:text-5xl font-bold text-[#0A1128] mb-6">
         Simple. Grace-Filled. Encouraging.
       </h2>
       <p class="font-inter text-lg text-gray-700 leading-relaxed">
-        You do not need a theology degree to know Jesus. These books are designed for you. They take the deep, intimidating truths of the Old Testament and break them down into warm, easy-to-understand daily readings.
+        You do not need a theology degree to know Jesus. These 25 books across 5 foundational themes take the deep, intimidating truths of the Old Testament and break them down into warm, easy-to-understand 5-minute daily readings.
       </p>
     </div>
 
@@ -91,24 +92,57 @@ const sampleBook = believerBooks[0];
     </div>
   </section>
 
-  <!-- [Section 3: Featured New Believer Books (All 5 Books)] -->
-  <section id="believer-books" class="py-24 px-6 bg-white border-t border-gray-100">
+  <!-- [Section 3: All 25 New Believer Books Grouped by 5 Thematic Concepts] -->
+  <section id="believer-books" class="py-20 px-6 bg-white border-t border-gray-100">
     <div class="max-w-7xl mx-auto">
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-10">
         <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#6B8E7B] block mb-2">
-          Complete 5-Book New Believer Series
+          Complete 25-Book New Believer Library &bull; 5 Thematic Concepts
         </span>
         <h2 class="font-playfair text-3xl md:text-5xl font-bold text-[#0A1128] mb-4">
           Start Your Journey
         </h2>
         <p class="font-inter text-gray-600">
-          All 5 books in the New Believer Collection by Christine A. Available in Paperback and Ebook.
+          Jump to any of the 5 Thematic Concepts below (5 books per concept, 25 New Believer books total):
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {believerBooks.map((book) => (
-          <BookCard book={book} accentColor="bg-[#6B8E7B]" />
+      <!-- Quick Concept Jump Bar -->
+      <div class="flex flex-wrap justify-center gap-3 mb-16">
+        {concepts.map((c) => (
+          <a
+            href={`#concept-${c.conceptNumber}`}
+            class="px-5 py-2.5 rounded-full bg-[#6B8E7B] text-white font-montserrat text-xs font-bold hover:bg-[#0A1128] transition-colors"
+          >
+            {c.conceptTitle} (5)
+          </a>
+        ))}
+      </div>
+
+      <!-- Loop Through All 5 Concepts (5 Books Each = 25 Books) -->
+      <div class="space-y-20">
+        {concepts.map((concept) => (
+          <div id={`concept-${concept.conceptNumber}`} class="scroll-mt-28">
+            <div class="border-b-2 border-[#6B8E7B] pb-4 mb-8 flex flex-col md:flex-row md:items-end justify-between gap-2">
+              <div>
+                <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#6B8E7B]">
+                  Thematic Pillar 0{concept.conceptNumber} &bull; 5 New Believer Titles
+                </span>
+                <h3 class="font-playfair text-3xl font-bold text-[#0A1128] mt-1">
+                  {concept.conceptTitle}
+                </h3>
+              </div>
+              <p class="font-inter text-sm text-[#6C757D]">
+                Focus: {concept.conceptFocus}
+              </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {concept.books.map((book) => (
+                <BookCard book={book} accentColor="bg-[#6B8E7B]" />
+              ))}
+            </div>
+          </div>
         ))}
       </div>
     </div>

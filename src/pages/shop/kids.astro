@@ -1,21 +1,22 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BookCard from '../../components/BookCard.astro';
-import { getBooksByAudience } from '../../data/books';
+import { getConceptsByAudience, getBooksByAudience } from '../../data/books';
 
+const concepts = getConceptsByAudience('kids');
 const kidsBooks = getBooksByAudience('kids');
-const sampleBook = kidsBooks[0];
+const sampleBook = kidsBooks.find((b) => b.slug === 'the-great-prophecy-hunt') || kidsBooks[0];
 ---
 <BaseLayout
-  title="The Children's Collection (Ages 4-8) | Introduce Your Little Ones to the Greatest Hero"
-  description="Clean Christian activity books for kids ages 4-8 by Christine A. Pure biblical truth paired with coloring pages, object lessons, and simple prayers without worldly distractions."
+  title="The Children's Collection (25 Books for Ages 4-8) | Introduce Your Little Ones to the Greatest Hero"
+  description="Explore all 25 clean Christian activity books for kids ages 4-8 across 5 Thematic Concepts by Christine A. Pure biblical truth paired with coloring pages, object lessons, and simple prayers."
   keywords="Christian activity books for kids 4-8, Clean Bible storybooks for kids, Christian coloring books, The Great Prophecy Hunt, clean Christian books for kids"
 >
   <!-- [Hero Section] -->
   <section class="bg-[#0A1128] text-white py-24 px-6 border-b-4 border-[#4A90E2]">
     <div class="max-w-4xl mx-auto text-center">
       <span class="inline-block font-montserrat text-xs font-bold uppercase tracking-widest text-[#00BFFF] bg-[#4A90E2]/20 border border-[#4A90E2]/40 px-4 py-1.5 rounded-full mb-6">
-        Target Group 3 &bull; The Children's Edition (Ages 4-8)
+        Target Group 3 &bull; The Children's Edition (Ages 4-8) &bull; 25 Books (5 Concepts)
       </span>
       <h1 class="font-playfair text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
         Introduce Your Little Ones to the <span class="text-[#00BFFF]">Greatest Hero of All.</span>
@@ -24,14 +25,14 @@ const sampleBook = kidsBooks[0];
         For parents and grandparents (Ages 4-8) who are hunting for clean, biblical, character-building books.
       </p>
       <p class="font-inter text-base md:text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed mb-10">
-        We know the struggle. It is hard to find children's books that are actually rooted in scripture and free of weird, distracting, or worldly characters. We created this series for you. This is not your typical Bible storybook. It goes straight to the Bible - but breaks it down into fun, simple, digestible bits that kids actually understand and love.
+        We know the struggle. It is hard to find children's books that are actually rooted in scripture and free of weird, distracting, or worldly characters. We created this 25-book series across 5 biblical themes for you. It goes straight to the Bible - but breaks it down into fun, simple, digestible bits that kids actually understand and love.
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-4">
         <a
           href="#kids-books"
           class="min-h-[48px] inline-flex items-center justify-center bg-[#4A90E2] text-white px-8 py-4 rounded-full font-montserrat font-bold hover:bg-white hover:text-[#0A1128] transition-colors"
         >
-          Shop the Children's Collection
+          See All 25 Books for Kids
         </a>
         <a
           href="#kids-sample"
@@ -44,13 +45,13 @@ const sampleBook = kidsBooks[0];
   </section>
 
   <!-- [Section 2: Why These Books are Different for Your Kids] -->
-  <section class="py-24 px-6 max-w-5xl mx-auto">
+  <section class="py-20 px-6 max-w-5xl mx-auto">
     <div class="text-center max-w-3xl mx-auto mb-16">
       <h2 class="font-playfair text-3xl md:text-5xl font-bold text-[#0A1128] mb-6">
         Clean. Fun. Biblically Sound.
       </h2>
       <p class="font-inter text-lg text-gray-700 leading-relaxed">
-        Your kids will not just read these books; they will experience them. Every day includes interactive activities, coloring pages, object lessons, and simple prayers. It is designed to build strong character, good morals, and a real relationship with Jesus from a young age. No fluff. No weird distractions. Just pure, clean fun.
+        Your kids will not just read these 25 books; they will experience them. Every day includes interactive activities, coloring pages, object lessons, and simple prayers. It is designed to build strong character, good morals, and a real relationship with Jesus from a young age.
       </p>
     </div>
 
@@ -91,24 +92,57 @@ const sampleBook = kidsBooks[0];
     </div>
   </section>
 
-  <!-- [Section 3: Featured Children's Books (All 5 Books)] -->
-  <section id="kids-books" class="py-24 px-6 bg-white border-t border-gray-100">
+  <!-- [Section 3: All 25 Children's Books Grouped by 5 Thematic Concepts] -->
+  <section id="kids-books" class="py-20 px-6 bg-white border-t border-gray-100">
     <div class="max-w-7xl mx-auto">
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-10">
         <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#4A90E2] block mb-2">
-          Complete 5-Book Children's Series (Ages 4-8)
+          Complete 25-Book Children's Library (Ages 4-8) &bull; 5 Thematic Concepts
         </span>
         <h2 class="font-playfair text-3xl md:text-5xl font-bold text-[#0A1128] mb-4">
           Start the Adventure Today
         </h2>
         <p class="font-inter text-gray-600">
-          All 5 clean, interactive books in the Children's Collection by Christine A.
+          Jump to any of the 5 Thematic Concepts below (5 books per concept, 25 Children's books total):
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {kidsBooks.map((book) => (
-          <BookCard book={book} accentColor="bg-[#4A90E2]" />
+      <!-- Quick Concept Jump Bar -->
+      <div class="flex flex-wrap justify-center gap-3 mb-16">
+        {concepts.map((c) => (
+          <a
+            href={`#concept-${c.conceptNumber}`}
+            class="px-5 py-2.5 rounded-full bg-[#4A90E2] text-white font-montserrat text-xs font-bold hover:bg-[#0A1128] transition-colors"
+          >
+            {c.conceptTitle} (5)
+          </a>
+        ))}
+      </div>
+
+      <!-- Loop Through All 5 Concepts (5 Books Each = 25 Books) -->
+      <div class="space-y-20">
+        {concepts.map((concept) => (
+          <div id={`concept-${concept.conceptNumber}`} class="scroll-mt-28">
+            <div class="border-b-2 border-[#4A90E2] pb-4 mb-8 flex flex-col md:flex-row md:items-end justify-between gap-2">
+              <div>
+                <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#4A90E2]">
+                  Thematic Adventure 0{concept.conceptNumber} &bull; 5 Kids Titles (Ages 4-8)
+                </span>
+                <h3 class="font-playfair text-3xl font-bold text-[#0A1128] mt-1">
+                  {concept.conceptTitle}
+                </h3>
+              </div>
+              <p class="font-inter text-sm text-[#6C757D]">
+                Focus: {concept.conceptFocus}
+              </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {concept.books.map((book) => (
+                <BookCard book={book} accentColor="bg-[#4A90E2]" />
+              ))}
+            </div>
+          </div>
         ))}
       </div>
     </div>

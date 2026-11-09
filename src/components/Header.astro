@@ -1,9 +1,9 @@
 ---
-import { getBooksByAudience } from '../data/books';
+import { getConceptsByAudience } from '../data/books';
 
-const seekerBooks = getBooksByAudience('seeker');
-const believerBooks = getBooksByAudience('believer');
-const kidsBooks = getBooksByAudience('kids');
+const seekerConcepts = getConceptsByAudience('seeker');
+const believerConcepts = getConceptsByAudience('believer');
+const kidsConcepts = getConceptsByAudience('kids');
 ---
 <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
   <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
@@ -11,7 +11,7 @@ const kidsBooks = getBooksByAudience('kids');
     <a href="/" class="font-playfair text-2xl font-bold text-[#0A1128] tracking-wider flex items-center gap-1">
       CSA<span class="text-[#D4AF37]">.</span>
       <span class="hidden sm:inline-block font-montserrat text-[10px] uppercase tracking-widest text-[#6C757D] ml-2 border-l border-gray-200 pl-2">
-        Divine Blueprint Series
+        Divine Blueprint Series &bull; 75 Books
       </span>
     </a>
 
@@ -19,60 +19,69 @@ const kidsBooks = getBooksByAudience('kids');
     <nav class="hidden md:flex items-center space-x-8 font-montserrat text-sm font-semibold">
       <a href="/" class="hover:text-[#D4AF37] transition-colors py-2">Home</a>
 
-      <!-- Shop Mega Dropdown (Three Path Hierarchy) -->
+      <!-- Shop Mega Dropdown (Three Path Hierarchy x 5 Thematic Concepts) -->
       <div class="relative group">
         <a href="/shop/" class="hover:text-[#D4AF37] transition-colors flex items-center py-2">
-          Shop
+          Shop (75 Books)
           <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
           </svg>
         </a>
 
         <!-- Dropdown Content -->
-        <div class="absolute left-1/2 -translate-x-1/2 mt-0 pt-3 w-[680px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+        <div class="absolute left-1/2 -translate-x-1/2 mt-0 pt-3 w-[760px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
           <div class="bg-white border border-gray-100 shadow-2xl rounded-2xl p-6 grid grid-cols-3 gap-6">
-            <!-- Path 1: Seekers -->
+            <!-- Path 1: Seekers (25 Books) -->
             <div>
-              <a href="/shop/seekers/" class="block font-bold text-[#D4AF37] hover:underline mb-2 text-sm border-b border-[#D4AF37]/30 pb-2">
-                1. For the Seeker &rarr;
+              <a href="/shop/seekers/" class="block font-bold text-[#D4AF37] hover:underline mb-1 text-sm">
+                1. For the Seeker (25 Books) &rarr;
               </a>
-              <ul class="space-y-1.5 text-xs font-inter font-normal text-gray-600">
-                {seekerBooks.map((b) => (
+              <p class="font-inter text-[11px] text-gray-400 mb-3 border-b border-[#D4AF37]/30 pb-2">
+                5 Thematic Concepts &times; 5 Titles
+              </p>
+              <ul class="space-y-2 text-xs font-inter font-normal text-gray-600">
+                {seekerConcepts.map((c) => (
                   <li>
-                    <a href={`/books/${b.slug}/`} class="hover:text-[#0A1128] hover:font-medium block py-0.5">
-                      &bull; {b.title}
+                    <a href={`/shop/seekers/#concept-${c.conceptNumber}`} class="hover:text-[#0A1128] font-medium block py-0.5">
+                      &bull; {c.conceptTitle} <span class="text-[10px] text-gray-400">(5)</span>
                     </a>
                   </li>
                 ))}
               </ul>
             </div>
 
-            <!-- Path 2: New Believers -->
+            <!-- Path 2: New Believers (25 Books) -->
             <div>
-              <a href="/shop/believers/" class="block font-bold text-[#6B8E7B] hover:underline mb-2 text-sm border-b border-[#6B8E7B]/30 pb-2">
-                2. For the New Believer &rarr;
+              <a href="/shop/believers/" class="block font-bold text-[#6B8E7B] hover:underline mb-1 text-sm">
+                2. For New Believers (25 Books) &rarr;
               </a>
-              <ul class="space-y-1.5 text-xs font-inter font-normal text-gray-600">
-                {believerBooks.map((b) => (
+              <p class="font-inter text-[11px] text-gray-400 mb-3 border-b border-[#6B8E7B]/30 pb-2">
+                5 Thematic Concepts &times; 5 Titles
+              </p>
+              <ul class="space-y-2 text-xs font-inter font-normal text-gray-600">
+                {believerConcepts.map((c) => (
                   <li>
-                    <a href={`/books/${b.slug}/`} class="hover:text-[#0A1128] hover:font-medium block py-0.5">
-                      &bull; {b.title}
+                    <a href={`/shop/believers/#concept-${c.conceptNumber}`} class="hover:text-[#0A1128] font-medium block py-0.5">
+                      &bull; {c.conceptTitle} <span class="text-[10px] text-gray-400">(5)</span>
                     </a>
                   </li>
                 ))}
               </ul>
             </div>
 
-            <!-- Path 3: Children -->
+            <!-- Path 3: Children (25 Books) -->
             <div>
-              <a href="/shop/kids/" class="block font-bold text-[#4A90E2] hover:underline mb-2 text-sm border-b border-[#4A90E2]/30 pb-2">
-                3. For the Children &rarr;
+              <a href="/shop/kids/" class="block font-bold text-[#4A90E2] hover:underline mb-1 text-sm">
+                3. For Children 4-8 (25 Books) &rarr;
               </a>
-              <ul class="space-y-1.5 text-xs font-inter font-normal text-gray-600">
-                {kidsBooks.map((b) => (
+              <p class="font-inter text-[11px] text-gray-400 mb-3 border-b border-[#4A90E2]/30 pb-2">
+                5 Thematic Concepts &times; 5 Titles
+              </p>
+              <ul class="space-y-2 text-xs font-inter font-normal text-gray-600">
+                {kidsConcepts.map((c) => (
                   <li>
-                    <a href={`/books/${b.slug}/`} class="hover:text-[#0A1128] hover:font-medium block py-0.5">
-                      &bull; {b.title}
+                    <a href={`/shop/kids/#concept-${c.conceptNumber}`} class="hover:text-[#0A1128] font-medium block py-0.5">
+                      &bull; {c.conceptTitle} <span class="text-[10px] text-gray-400">(5)</span>
                     </a>
                   </li>
                 ))}
@@ -93,7 +102,7 @@ const kidsBooks = getBooksByAudience('kids');
       href="/shop/"
       class="hidden md:inline-flex items-center justify-center min-h-[48px] bg-[#0A1128] text-white px-6 py-2.5 rounded-full font-montserrat text-sm font-semibold hover:bg-[#D4AF37] hover:text-[#0A1128] transition-colors duration-300"
     >
-      Explore Books
+      Explore 75 Books
     </a>
 
     <!-- Mobile Hamburger Button (48px touch target) -->
@@ -117,16 +126,16 @@ const kidsBooks = getBooksByAudience('kids');
   <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-6 py-6 space-y-4 font-montserrat">
     <a href="/" class="block py-3 text-base font-semibold text-[#0A1128] border-b border-gray-100">Home</a>
     <div class="py-2 border-b border-gray-100">
-      <a href="/shop/" class="block text-base font-bold text-[#0A1128] mb-3">Shop by Path</a>
+      <a href="/shop/" class="block text-base font-bold text-[#0A1128] mb-3">Shop by Path (75 Books Total)</a>
       <div class="space-y-2 pl-3">
         <a href="/shop/seekers/" class="block py-2.5 px-3 rounded-lg bg-[#0A1128]/5 text-[#B38F1D] font-bold text-sm">
-          1. The Spiritual Seeker (5 Books)
+          1. The Spiritual Seeker (25 Books &bull; 5 Concepts)
         </a>
         <a href="/shop/believers/" class="block py-2.5 px-3 rounded-lg bg-[#6B8E7B]/10 text-[#6B8E7B] font-bold text-sm">
-          2. The New Believer (5 Books)
+          2. The New Believer (25 Books &bull; 5 Concepts)
         </a>
         <a href="/shop/kids/" class="block py-2.5 px-3 rounded-lg bg-[#4A90E2]/10 text-[#4A90E2] font-bold text-sm">
-          3. The Children Edition Ages 4-8 (5 Books)
+          3. The Children's Edition Ages 4-8 (25 Books &bull; 5 Concepts)
         </a>
       </div>
     </div>
