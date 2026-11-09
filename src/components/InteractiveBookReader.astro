@@ -409,14 +409,33 @@ const initialPages = [
         pagesData.forEach((p) => {
           flatStrings.push(p.badge, p.title, p.subtitle, p.body, p.footer);
         });
-        const res = await fetch('/api/translate', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ lang, texts: flatStrings }),
-        });
-        if (!res.ok) throw new Error('Translation request failed');
-        const data = await res.json();
-        const tr = data.translated || flatStrings;
+        let tr = null;
+        try {
+          const joined = flatStrings.join('\n|||\n');
+          const gUrl = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${encodeURIComponent(lang)}&dt=t&q=${encodeURIComponent(joined)}`;
+          const gRes = await fetch(gUrl);
+          if (gRes.ok) {
+            const gData = await gRes.json();
+            if (Array.isArray(gData) && Array.isArray(gData[0])) {
+              const fullTr = gData[0].map((part) => part[0] || '').join('');
+              const parts = fullTr.split(/\s*\|\|\|\s*/);
+              if (parts.length === flatStrings.length) tr = parts;
+            }
+          }
+        } catch (_) {}
+
+        if (!tr) {
+          const res = await fetch('/api/translate', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ lang, texts: flatStrings }),
+          });
+          if (res.ok) {
+            const data = await res.json();
+            tr = data.translated;
+          }
+        }
+        tr = tr || flatStrings;
         const rebuilt = pagesData.map((p, idx) => {
           const base = idx * 5;
           return {

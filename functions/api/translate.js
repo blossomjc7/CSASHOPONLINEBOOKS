@@ -33,29 +33,33 @@ export async function onRequest(context) {
             });
         }
 
-        const translated = await Promise.all(texts.map(async (txt) => {
-            if (!txt) return "";
-            const gUrl = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${encodeURIComponent(targetLang)}&dt=t&q=${encodeURIComponent(txt)}`;
-            const res = await fetch(gUrl, {
-                headers: {
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-                }
-            });
-            if (!res.ok) return txt;
+        // Combine with delimiter to do a single fast request
+        const joined = texts.join("\n|||\n");
+        const gUrl = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${encodeURIComponent(targetLang)}&dt=t&q=${encodeURIComponent(joined)}`;
+        const res = await fetch(gUrl, {
+            headers: {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+                "Accept": "application/json, text/plain, */*"
+            }
+        });
+
+        if (res.ok) {
             const data = await res.json();
             if (Array.isArray(data) && Array.isArray(data[0])) {
-                return data[0].map(part => part[0]).join("");
+                const fullTranslated = data[0].map(part => part[0] || "").join("");
+                const splitParts = fullTranslated.split(/\s*\|\|\|\s*/);
+                if (splitParts.length === texts.length) {
+                    return new Response(JSON.stringify({ translated: splitParts }), {
+                        status: 200,
+                        headers: { "Content-Type": "application/json", "Cache-Control": "public, max-age=86400", ...corsHeaders }
+                    });
+                }
             }
-            return txt;
-        }));
+        }
 
-        return new Response(JSON.stringify({ translated }), {
+        return new Response(JSON.stringify({ translated: texts }), {
             status: 200,
-            headers: {
-                "Content-Type": "application/json",
-                "Cache-Control": "public, max-age=86400",
-                ...corsHeaders
-            }
+            headers: { "Content-Type": "application/json", ...corsHeaders }
         });
     } catch (err) {
         return new Response(JSON.stringify({ error: err.message }), {
