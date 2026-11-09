@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 import { BOOKS } from '../data/books';
 
-const SITE = 'https://csashoponline.com';
+const SITE = 'https://csaonlineshop.com';
 
 const staticPages = [
   '/',

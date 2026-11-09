@@ -23,8 +23,8 @@ export interface Book {
 }
 
 export const AUTHOR_NAME = 'Christine A.';
-export const CONTACT_EMAIL = 'contact@csashoponline.com';
-export const PRESS_EMAIL = 'press@csashoponline.com';
+export const CONTACT_EMAIL = 'contact@csaonlineshop.com';
+export const PRESS_EMAIL = 'press@csaonlineshop.com';
 
 export const BOOKS: Book[] = [
   // ==========================================

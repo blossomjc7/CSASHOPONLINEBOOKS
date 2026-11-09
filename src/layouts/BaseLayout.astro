@@ -19,8 +19,8 @@ const {
   schemaJson,
 } = Astro.props;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://csashoponline.com');
-const socialImageURL = new URL(ogImage, Astro.site || 'https://csashoponline.com');
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://csaonlineshop.com');
+const socialImageURL = new URL(ogImage, Astro.site || 'https://csaonlineshop.com');
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +30,7 @@ const socialImageURL = new URL(ogImage, Astro.site || 'https://csashoponline.com
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonicalURL} />
 
-    <title>{title} | CSASHOPONLINE</title>
+    <title>{title} | CSAONLINESHOP</title>
     <meta name="description" content={description} />
     <meta name="keywords" content={keywords} />
     <meta name="author" content="Christine A." />
@@ -38,13 +38,13 @@ const socialImageURL = new URL(ogImage, Astro.site || 'https://csashoponline.com
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
-    <meta property="og:title" content={`${title} | CSASHOPONLINE`} />
+    <meta property="og:title" content={`${title} | CSAONLINESHOP`} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={socialImageURL} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={`${title} | CSASHOPONLINE`} />
+    <meta name="twitter:title" content={`${title} | CSAONLINESHOP`} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImageURL} />
 

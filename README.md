@@ -1,4 +1,4 @@
-# CSASHOPONLINE (`csashoponline.com`)
+# CSAONLINESHOP (`csaonlineshop.com`)
 
 **One Message. Three Audiences. The Same Savior.**
 
@@ -11,11 +11,11 @@ Official Astro + Tailwind CSS website for **The Divine Blueprint Series** by **C
 ## Deploying on Cloudflare Pages
 
 1. Log in to your **Cloudflare Dashboard** -> **Workers & Pages** -> **Create** -> **Pages** -> **Connect to Git**.
-2. Select `blossomjc7/CSASHOPONLINEBOOKS`.
+2. Select `blossomjc7/CSAONLINESHOPBOOKS`.
 3. Configure Build Settings:
    - **Framework preset**: `Astro`
    - **Build command**: `npm run build`
    - **Build output directory**: `dist`
    - **Environment variables**: `NODE_VERSION` = `20`
 4. Click **Save and Deploy**.
-5. Under **Custom domains**, add `csashoponline.com` and `www.csashoponline.com`.
+5. Under **Custom domains**, add `csaonlineshop.com` and `www.csaonlineshop.com`.
