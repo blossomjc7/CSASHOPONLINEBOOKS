@@ -1451,9 +1451,9 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Bible's%20Biggest%20Secrets',
-    amazonUrl: 'https://www.amazon.com/s?k=The%20Bible's%20Biggest%20Secrets%20Christine%20A',
-    googleBooksUrl: 'https://books.google.com/?q=The%20Bible's%20Biggest%20Secrets%20Christine%20A'
+    directBuyUrl: '/contact/?book=The%20Bibles%20Biggest%20Secrets',
+    amazonUrl: 'https://www.amazon.com/s?k=The%20Bibles%20Biggest%20Secrets%20Christine%20A',
+    googleBooksUrl: 'https://books.google.com/?q=The%20Bibles%20Biggest%20Secrets%20Christine%20A'
   },
   {
     slug: 'the-future-told-kids',
