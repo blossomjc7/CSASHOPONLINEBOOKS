@@ -5518,7 +5518,7 @@
                 // If there is no custom API key, route ALL languages to our secure serverless translation TTS proxy
                 if (!apiKey) {
                     setLoading(false);
-                    audioPlayer.src = `${BASE_NETLIFY_URL}/.netlify/functions/swahili-tts?lang=${activeLang}&text=${encodeURIComponent(text)}`;
+                    audioPlayer.src = `${BASE_NETLIFY_URL}/api/swahili-tts?lang=${activeLang}&text=${encodeURIComponent(text)}`;
                     audioPlayer.play().catch(() => {});
                     return;
                 }
@@ -5526,7 +5526,7 @@
                 // Route Swahili and Swedish to our secure high-quality native serverless proxy (when API key is present)
                 if (activeLang === 'sw' || activeLang === 'sv') {
                     setLoading(false);
-                    audioPlayer.src = `${BASE_NETLIFY_URL}/.netlify/functions/swahili-tts?lang=${activeLang}&text=${encodeURIComponent(text)}`;
+                    audioPlayer.src = `${BASE_NETLIFY_URL}/api/swahili-tts?lang=${activeLang}&text=${encodeURIComponent(text)}`;
                     audioPlayer.play().catch(() => {});
                     return;
                 }
@@ -5590,7 +5590,7 @@
                         startAudioTrack(audioCache[cacheKey], activePage);
                         return;
                     }
-                    const srcUrl = `${BASE_NETLIFY_URL}/.netlify/functions/swahili-tts?lang=${activeLang}&text=${encodeURIComponent(text)}`;
+                    const srcUrl = `${BASE_NETLIFY_URL}/api/swahili-tts?lang=${activeLang}&text=${encodeURIComponent(text)}`;
                     audioCache[cacheKey] = srcUrl;
                     startAudioTrack(srcUrl, activePage);
                     return;
@@ -5603,7 +5603,7 @@
                         startAudioTrack(audioCache[cacheKey], activePage);
                         return;
                     }
-                    const srcUrl = `${BASE_NETLIFY_URL}/.netlify/functions/swahili-tts?lang=${activeLang}&text=${encodeURIComponent(text)}`;
+                    const srcUrl = `${BASE_NETLIFY_URL}/api/swahili-tts?lang=${activeLang}&text=${encodeURIComponent(text)}`;
                     audioCache[cacheKey] = srcUrl;
                     startAudioTrack(srcUrl, activePage);
                     return;
@@ -5816,7 +5816,7 @@
                 if (apiKey) {
                     url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=${apiKey}`;
                 } else {
-                    url = `${BASE_NETLIFY_URL}/.netlify/functions/tts`;
+                    url = `${BASE_NETLIFY_URL}/api/tts`;
                 }
 
                 const retryIntervals = [1000, 2000, 4000, 8000, 16000];
@@ -6032,7 +6032,7 @@
 
         async function playWordPronunciation(word) {
             // Pronounce only the Swahili word itself to ensure clean native pronunciation without broken mixed accents
-            const audio = new Audio(`${BASE_NETLIFY_URL}/.netlify/functions/swahili-tts?lang=sw&text=${encodeURIComponent(word)}`);
+            const audio = new Audio(`${BASE_NETLIFY_URL}/api/swahili-tts?lang=sw&text=${encodeURIComponent(word)}`);
             audio.play().catch(() => {});
         }
 
