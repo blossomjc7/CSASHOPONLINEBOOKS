@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CONTACT_EMAIL } from '../data/books';
+---
+<BaseLayout
+  title="Shipping & Returns"
+  description="Shipping, digital delivery, and return information for CSASHOPONLINE books."
+>
+  <section class="py-20 px-6 max-w-3xl mx-auto">
+    <h1 class="font-playfair text-4xl font-bold text-[#0A1128] mb-6">Shipping &amp; Returns</h1>
+    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 space-y-6 font-inter text-gray-700 leading-relaxed">
+      <h2 class="font-playfair text-2xl font-bold text-[#0A1128]">1. Digital Ebooks</h2>
+      <p>
+        Ebook editions purchased directly or through Google Books / Amazon Kindle are delivered digitally. If you experience any trouble downloading your file, please contact us at <a href={`mailto:${CONTACT_EMAIL}`} class="underline font-semibold">{CONTACT_EMAIL}</a> and we will gladly assist you right away.
+      </p>
+      <h2 class="font-playfair text-2xl font-bold text-[#0A1128]">2. Paperback Orders</h2>
+      <p>
+        Paperback editions ordered via Amazon Books enjoy standard Amazon shipping, tracking, and return policies. For direct ministry paperback orders placed through our website, shipping times typically range from 5-10 business days.
+      </p>
+      <h2 class="font-playfair text-2xl font-bold text-[#0A1128]">3. Our Heart &amp; Guarantee</h2>
+      <p>
+        Our ultimate goal is to point you to Jesus and bless your walk with Him. If a book arrives damaged or you have any issue with your order, reach out to <a href={`mailto:${CONTACT_EMAIL}`} class="underline font-semibold">{CONTACT_EMAIL}</a> and we will make it right.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

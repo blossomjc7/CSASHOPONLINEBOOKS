@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="404 - Page Not Found"
+  description="Oops! This page wandered off. Return to the CSASHOPONLINE homepage to explore the Divine Blueprint Series."
+>
+  <section class="py-32 px-6 text-center max-w-2xl mx-auto">
+    <span class="inline-block font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] bg-[#0A1128] px-4 py-1.5 rounded-full mb-6">
+      404 &bull; Page Not Found
+    </span>
+    <h1 class="font-playfair text-4xl md:text-6xl font-bold text-[#0A1128] mb-6">
+      Oops! This page wandered off.
+    </h1>
+    <p class="font-inter text-lg text-gray-600 mb-10 leading-relaxed">
+      Even in the wilderness, there is always a clear path home. Let's get you back to the Divine Blueprint Series so you can choose your journey.
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <a
+        href="/"
+        class="min-h-[48px] inline-flex items-center justify-center bg-[#0A1128] text-white px-8 py-4 rounded-full font-montserrat font-bold hover:bg-[#D4AF37] hover:text-[#0A1128] transition-colors"
+      >
+        Return to Homepage
+      </a>
+      <a
+        href="/shop/"
+        class="min-h-[48px] inline-flex items-center justify-center border-2 border-[#0A1128] text-[#0A1128] px-8 py-4 rounded-full font-montserrat font-bold hover:bg-[#0A1128] hover:text-white transition-colors"
+      >
+        Explore the 3 Collections
+      </a>
+    </div>
+  </section>
+</BaseLayout>

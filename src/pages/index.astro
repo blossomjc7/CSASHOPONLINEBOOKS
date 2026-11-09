@@ -1,0 +1,206 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TargetGroupCard from '../components/TargetGroupCard.astro';
+import BookCard from '../components/BookCard.astro';
+import { getFeaturedBooks } from '../data/books';
+
+const bestsellers = getFeaturedBooks();
+---
+<BaseLayout
+  title="One Message. Three Audiences. The Same Savior."
+  description="Discover the Divine Blueprint Series by Christine A. Christian books for spiritual seekers, books for new believers, and clean Christian activity books for kids ages 4-8 revealing Jesus in the Old Testament."
+  keywords="Christian books for spiritual seekers, Books for new believers, Clean Christian books for kids, Bible prophecy books, Christian children activity books, finding Jesus in the Old Testament"
+>
+  <!-- [Hero Section: Top of Page] -->
+  <section class="bg-[#0A1128] text-white py-24 md:py-32 px-6 relative overflow-hidden">
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <span class="inline-block font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] bg-[#D4AF37]/10 border border-[#D4AF37]/30 px-4 py-1.5 rounded-full mb-6">
+        The Divine Blueprint Series &bull; By Christine A.
+      </span>
+      <h1 class="font-playfair text-4xl sm:text-5xl md:text-7xl font-bold leading-tight mb-6">
+        One Message. <br class="hidden md:block" />
+        Three Audiences. <span class="text-[#D4AF37]">The Same Savior.</span>
+      </h1>
+      <p class="font-playfair italic text-xl md:text-2xl text-gray-200 mb-6 max-w-3xl mx-auto">
+        Most Christian books try to speak to everyone and end up overwhelming the reader. We took the life-changing message of Jesus in the Old Testament and tailored it specifically for how you learn, read, and grow.
+      </p>
+      <p class="font-inter text-base md:text-lg text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+        You do not have to be a Bible scholar to understand the Bible. You just need a guide that speaks your language. Whether you are a curious seeker looking for evidence, a new believer building your foundation, or a parent raising the next generation - we have a book designed just for you.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a
+          href="#choose-your-journey"
+          class="min-h-[48px] inline-flex items-center justify-center bg-[#D4AF37] text-[#0A1128] px-8 py-4 rounded-full font-montserrat font-bold hover:bg-white transition-colors duration-300 shadow-lg"
+        >
+          Explore the Collection
+        </a>
+        <a
+          href="/about/"
+          class="min-h-[48px] inline-flex items-center justify-center border border-white text-white px-8 py-4 rounded-full font-montserrat font-bold hover:bg-white hover:text-[#0A1128] transition-colors duration-300"
+        >
+          Read Our Story
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- [Section 2: The Problem & The Solution] -->
+  <section class="py-24 px-6 max-w-4xl mx-auto text-center">
+    <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#6C757D] block mb-3">
+      Stop Abandoning Your Bible Reading
+    </span>
+    <h2 class="font-playfair text-3xl md:text-5xl font-bold mb-8 text-[#0A1128]">
+      Why We Do Things Differently
+    </h2>
+    <p class="font-inter text-lg text-gray-700 leading-relaxed mb-6">
+      We noticed a problem in the Christian book market. Authors write one book and try to sell it to a 45-year-old skeptic, a 22-year-old new Christian, and a 7-year-old child. The result? The skeptic gets frustrated. The new believer gets confused. The child gets bored and abandons reading.
+    </p>
+    <p class="font-inter text-lg text-[#0A1128] leading-relaxed font-semibold bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
+      We believe that knowing Jesus personally is what saves a soul - not just going to church or being a good person. But we also know that everyone learns differently. So, we created the <span class="text-[#D4AF37] underline decoration-[#D4AF37]/50">Divine Blueprint Series</span>. Same powerful biblical truth. Three completely different reading experiences.
+    </p>
+  </section>
+
+  <!-- [Section 3: Choose Your Journey (The Three Path Rule)] -->
+  <section id="choose-your-journey" class="py-24 px-6 bg-white border-y border-gray-100">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block mb-2">
+          Three Tailored Experiences
+        </span>
+        <h2 class="font-playfair text-3xl md:text-5xl font-bold text-[#0A1128] mb-4">
+          Which Path Are You On?
+        </h2>
+        <p class="font-inter text-gray-600">
+          Select your path below to explore the 5 books written specifically for your stage of life and learning style.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Card 1: The Spiritual Seeker -->
+        <TargetGroupCard
+          title="The Spiritual Seeker"
+          subtitle="Curious, skeptical, or spiritually awakening."
+          vibe="Show me the hidden code. Prove it to me."
+          description="Deep, intellectual, and mysterious. We do not ask you to 'just believe.' We present ancient prophecies and patterns as a compelling puzzle."
+          color="border-[#D4AF37]"
+          badgeBg="bg-[#D4AF37]/20 text-[#0A1128]"
+          btnColor="bg-[#D4AF37]"
+          btnTextColor="text-[#0A1128]"
+          buttonText="Explore Books for Seekers"
+          link="/shop/seekers/"
+          coverPreview="/images/covers/the-prophecy-code.svg"
+        />
+
+        <!-- Card 2: The New Believer -->
+        <TargetGroupCard
+          title="The New Believer"
+          subtitle="Just starting your walk with God."
+          vibe="Help me understand. Make it simple and full of grace."
+          description="Warm, encouraging, and easy to digest. We take deep Old Testament concepts and break them down into 5-minute daily readings without confusing Christian jargon."
+          color="border-[#6B8E7B]"
+          badgeBg="bg-[#6B8E7B]/20 text-[#0A1128]"
+          btnColor="bg-[#6B8E7B]"
+          buttonText="Explore Books for New Believers"
+          link="/shop/believers/"
+          coverPreview="/images/covers/you-can-trust-the-bible.svg"
+        />
+
+        <!-- Card 3: The Children's Edition (Ages 4-8) -->
+        <TargetGroupCard
+          title="The Children's Edition (Ages 4-8)"
+          subtitle="Parents and grandparents looking for clean, biblical material."
+          vibe="Fun, interactive, and safe for my child's imagination."
+          description="This is not your average kids Bible storybook. No strange cartoon characters or worldly distractions. Just pure, simple biblical truth paired with fun activities, coloring pages, and object lessons."
+          color="border-[#4A90E2]"
+          badgeBg="bg-[#4A90E2]/20 text-[#0A1128]"
+          btnColor="bg-[#4A90E2]"
+          buttonText="Explore Books for Kids"
+          link="/shop/kids/"
+          coverPreview="/images/covers/the-great-prophecy-hunt.svg"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- [Section 4: Featured Collection] -->
+  <section class="py-24 px-6 max-w-7xl mx-auto">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#6C757D] block mb-2">
+        Featured Collection
+      </span>
+      <h2 class="font-playfair text-3xl md:text-5xl font-bold text-[#0A1128] mb-4">
+        Bestsellers from the Divine Blueprint Series
+      </h2>
+      <p class="font-inter text-lg text-gray-600">
+        Every book is a 30-day journey designed to reveal Jesus in the Old Testament. Choose your format: Paperback or Ebook.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8 mb-12">
+      {bestsellers.map((book) => (
+        <BookCard
+          book={book}
+          accentColor={
+            book.audience === 'seeker'
+              ? 'bg-[#0A1128]'
+              : book.audience === 'believer'
+              ? 'bg-[#6B8E7B]'
+              : 'bg-[#4A90E2]'
+          }
+        />
+      ))}
+    </div>
+
+    <div class="text-center">
+      <a
+        href="/shop/"
+        class="min-h-[48px] inline-flex items-center justify-center bg-[#0A1128] text-white px-10 py-4 rounded-full font-montserrat font-bold hover:bg-[#D4AF37] hover:text-[#0A1128] transition-colors duration-300 shadow-md"
+      >
+        Shop All 15 Books
+      </a>
+    </div>
+  </section>
+
+  <!-- [Section 5: The Perfect Gift] -->
+  <section class="py-24 px-6 bg-[#0A1128] text-white">
+    <div class="max-w-5xl mx-auto bg-white/5 border border-[#D4AF37]/30 rounded-3xl p-8 md:p-16">
+      <div class="max-w-3xl mx-auto text-center">
+        <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block mb-3">
+          The Perfect Gift
+        </span>
+        <h2 class="font-playfair text-3xl md:text-5xl font-bold mb-6">
+          Give a Gift That Lasts for Eternity
+        </h2>
+        <p class="font-inter text-lg text-gray-300 leading-relaxed mb-8">
+          Looking for a gift that actually changes a life? Perfect for birthdays, Christmas, Easter, or just because you love someone. Give them the gift of spiritual growth and a deeper relationship with Jesus.
+        </p>
+
+        <div class="grid sm:grid-cols-2 gap-6 text-left mb-10">
+          <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
+            <h3 class="font-playfair text-xl font-bold text-[#D4AF37] mb-2">
+              &bull; For Seekers &amp; New Believers
+            </h3>
+            <p class="font-inter text-sm text-gray-300 leading-relaxed">
+              Give the gift of clarity and confidence in their faith - showing them undeniable evidence that the Bible is a rescue story.
+            </p>
+          </div>
+          <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
+            <h3 class="font-playfair text-xl font-bold text-[#4A90E2] mb-2">
+              &bull; For Children (Ages 4-8)
+            </h3>
+            <p class="font-inter text-sm text-gray-300 leading-relaxed">
+              Introduce little ones to Jesus early with clean, character-building, and fun activities. A great alternative to worldly children's books!
+            </p>
+          </div>
+        </div>
+
+        <a
+          href="/shop/"
+          class="min-h-[48px] inline-flex items-center justify-center bg-[#D4AF37] text-[#0A1128] px-10 py-4 rounded-full font-montserrat font-bold hover:bg-white transition-colors duration-300"
+        >
+          Buy a Gift Today
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

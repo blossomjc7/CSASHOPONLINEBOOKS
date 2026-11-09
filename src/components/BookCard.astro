@@ -1,0 +1,54 @@
+---
+import type { Book } from '../data/books';
+import { AUTHOR_NAME } from '../data/books';
+
+interface Props {
+  book: Book;
+  accentColor?: string;
+}
+
+const { book, accentColor = 'bg-[#0A1128]' } = Astro.props;
+---
+<article class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col h-full group">
+  <a href={`/books/${book.slug}/`} class="block bg-[#0A1128]/5 p-6 flex justify-center items-center relative overflow-hidden">
+    <img
+      src={book.coverImage}
+      alt={`Book cover for ${book.title} by ${AUTHOR_NAME}`}
+      class="w-44 h-64 object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-300"
+      loading="lazy"
+    />
+    <span class="absolute top-3 right-3 bg-white/95 backdrop-blur-sm text-[#0A1128] font-montserrat text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">
+      30-Day Journey
+    </span>
+  </a>
+
+  <div class="p-6 flex flex-col flex-grow">
+    <p class="font-montserrat text-[11px] font-bold uppercase tracking-wider text-[#6C757D] mb-1">
+      {book.conceptTitle}
+    </p>
+    <h3 class="font-playfair font-bold text-xl text-[#0A1128] mb-1">
+      <a href={`/books/${book.slug}/`} class="hover:text-[#D4AF37] transition-colors">
+        {book.title}
+      </a>
+    </h3>
+    <p class="font-inter text-xs font-medium text-[#6C757D] mb-3">
+      {book.subtitle}
+    </p>
+    <p class="font-inter text-sm text-gray-600 mb-6 flex-grow leading-relaxed">
+      {book.shortDescription}
+    </p>
+
+    <div class="pt-4 border-t border-gray-100 flex items-center justify-between text-xs font-montserrat font-semibold text-[#0A1128] mb-4">
+      <span>Ebook: ${book.priceEbook}</span>
+      <span class="text-gray-300">|</span>
+      <span>Paperback: ${book.pricePaperback}</span>
+    </div>
+
+    <a
+      href={`/books/${book.slug}/`}
+      class={`min-h-[48px] flex items-center justify-center text-center ${accentColor} text-white px-5 py-3 rounded-full font-montserrat text-sm font-bold hover:bg-[#D4AF37] hover:text-[#0A1128] transition-colors`}
+    >
+      Read More / Buy Book
+    </a>
+  </div>
+</article>

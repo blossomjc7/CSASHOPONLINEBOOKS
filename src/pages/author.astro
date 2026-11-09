@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { AUTHOR_NAME } from '../data/books';
+---
+<BaseLayout
+  title={`About the Author: ${AUTHOR_NAME}`}
+  description={`Meet ${AUTHOR_NAME}, creator of the Divine Blueprint Series at CSASHOPONLINE - helping spiritual seekers, new believers, and children see Jesus across the Old Testament.`}
+>
+  <section class="bg-[#0A1128] text-white py-24 px-6">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-12 gap-12 items-center">
+      <!-- Author Emblem / Portrait Placeholder -->
+      <div class="md:col-span-5 flex justify-center">
+        <div class="w-64 h-64 md:w-72 md:h-72 rounded-3xl bg-white/5 border-2 border-[#D4AF37] flex flex-col items-center justify-center p-8 text-center shadow-2xl">
+          <span class="font-playfair text-6xl font-bold text-[#D4AF37] mb-2">CA</span>
+          <span class="font-montserrat text-sm font-bold tracking-widest uppercase text-white">{AUTHOR_NAME}</span>
+          <span class="font-inter text-xs text-gray-400 mt-1">Writer &bull; Researcher &bull; Follower of Jesus</span>
+        </div>
+      </div>
+
+      <!-- Author Bio -->
+      <div class="md:col-span-7">
+        <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block mb-3">
+          Meet the Author
+        </span>
+        <h1 class="font-playfair text-4xl md:text-5xl font-bold mb-6">
+          {AUTHOR_NAME}
+        </h1>
+        <p class="font-inter text-lg text-gray-200 leading-relaxed mb-6">
+          <strong>{AUTHOR_NAME}</strong> is a writer, researcher, and passionate follower of Jesus. She believes that faith is not a blind leap into the dark, but a confident step into the light based on undeniable evidence and personal encounter.
+        </p>
+        <p class="font-inter text-base text-gray-300 leading-relaxed mb-8">
+          After spending years studying Old Testament typology, ancient Hebrew festivals, and messianic prophecy - and seeing how often readers felt overwhelmed by one-size-fits-all books - she created the <strong>Divine Blueprint Series</strong> to help seekers, new believers, and children see the undeniable truth of the Gospel in a language that speaks directly to their hearts.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a
+            href="#testimony"
+            class="min-h-[48px] inline-flex items-center justify-center bg-[#D4AF37] text-[#0A1128] px-7 py-3.5 rounded-full font-montserrat text-sm font-bold hover:bg-white transition-colors"
+          >
+            Read My Testimony
+          </a>
+          <a
+            href="/contact/"
+            class="min-h-[48px] inline-flex items-center justify-center border border-white text-white px-7 py-3.5 rounded-full font-montserrat text-sm font-bold hover:bg-white hover:text-[#0A1128] transition-colors"
+          >
+            Invite Me to Speak
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Heart Behind the Project -->
+  <section id="testimony" class="py-24 px-6 max-w-4xl mx-auto">
+    <h2 class="font-playfair text-3xl md:text-4xl font-bold text-[#0A1128] mb-6 text-center">
+      Why I Created the Divine Blueprint Series
+    </h2>
+    <div class="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100 space-y-6 font-inter text-gray-700 leading-relaxed">
+      <p>
+        "For years, I watched people open the Bible with sincere hunger, only to close it a few weeks later feeling defeated. Skeptics wanted real historical and prophetic evidence, not cliches. New Christians wanted simple, grace-filled guidance without heavy theological jargon. And parents wanted clean, joyful, biblically faithful books for their young children without strange worldly distractions."
+      </p>
+      <p>
+        "The Bible is not a rulebook - it is a rescue story. From the very first chapter of Genesis to the final promise of Malachi, every shadow, prophet, priesthood, and festival is whispering the name of Jesus."
+      </p>
+      <p class="font-semibold text-[#0A1128]">
+        "This website and book series is a labor of love and ministry. Whether you pick up a book for yourself, your grandchild, or a skeptical friend, my prayer is that by Day 30 you will not merely know facts about the Bible - you will know the Author personally."
+      </p>
+      <p class="font-playfair italic text-xl text-[#0A1128] pt-2">
+        - {AUTHOR_NAME}
+      </p>
+    </div>
+  </section>
+</BaseLayout>

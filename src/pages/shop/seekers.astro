@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BookCard from '../../components/BookCard.astro';
+import { getBooksByAudience } from '../../data/books';
+
+const seekerBooks = getBooksByAudience('seeker');
+const sampleBook = seekerBooks[0];
+---
+<BaseLayout
+  title="The Seeker Collection | You Don't Need Blind Faith. You Need Evidence."
+  description="For the curious, the skeptical, and the intellectually hungry. Explore Messianic prophecy books, Bible evidence for skeptics, and Old Testament codes by Christine A."
+  keywords="Messianic prophecy books, Bible evidence for skeptics, Old Testament codes, Christian books for spiritual seekers, The Prophecy Code"
+>
+  <!-- [Hero Section] -->
+  <section class="bg-[#0A1128] text-white py-24 px-6 border-b-4 border-[#D4AF37]">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="inline-block font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] bg-[#D4AF37]/10 border border-[#D4AF37]/30 px-4 py-1.5 rounded-full mb-6">
+        Target Group 1 &bull; The Seeker Collection
+      </span>
+      <h1 class="font-playfair text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
+        You Don't Need Blind Faith. <span class="text-[#D4AF37]">You Need Evidence.</span>
+      </h1>
+      <p class="font-playfair italic text-xl md:text-2xl text-gray-200 mb-6">
+        For the curious, the skeptical, the spiritually awakening, and the intellectually hungry.
+      </p>
+      <p class="font-inter text-base md:text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed mb-10">
+        If you are exploring spirituality, you might feel like the Bible is a closed book or a set of outdated rules. We get it. That is why we created this collection. These books do not ask you to "just believe." They present the ancient text as a supernatural blueprint, full of hidden codes, prophecies, and patterns that all point to one person: Jesus.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a
+          href="#seeker-books"
+          class="min-h-[48px] inline-flex items-center justify-center bg-[#D4AF37] text-[#0A1128] px-8 py-4 rounded-full font-montserrat font-bold hover:bg-white transition-colors"
+        >
+          Shop the Seeker Collection
+        </a>
+        <a
+          href="#seeker-excerpt"
+          class="min-h-[48px] inline-flex items-center justify-center border border-[#D4AF37] text-[#D4AF37] px-8 py-4 rounded-full font-montserrat font-bold hover:bg-[#D4AF37] hover:text-[#0A1128] transition-colors"
+        >
+          Read an Excerpt
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- [Section 2: Why These Books are Different for You] -->
+  <section class="py-24 px-6 max-w-5xl mx-auto">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="font-playfair text-3xl md:text-5xl font-bold text-[#0A1128] mb-6">
+        Deep. Intellectual. Unapologetically Mysterious.
+      </h2>
+      <p class="font-inter text-lg text-gray-700 leading-relaxed">
+        We know you want depth. You want to dig into the original languages, the ancient festivals, and the hidden meanings. These books are written with you in mind. They are investigative, compelling, and treat you like the intelligent person you are. We do not water down the truth; we present the evidence.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8 mb-12">
+      <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-[#D4AF37]">
+        <h3 class="font-playfair text-xl font-bold text-[#0A1128] mb-3">&bull; No Religious Jargon</h3>
+        <p class="font-inter text-sm text-gray-600 leading-relaxed">
+          We explain the complex simply - unpacking ancient Hebrew concepts and historical context in clear, modern language.
+        </p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-[#D4AF37]">
+        <h3 class="font-playfair text-xl font-bold text-[#0A1128] mb-3">&bull; The "Aha!" Moments</h3>
+        <p class="font-inter text-sm text-gray-600 leading-relaxed">
+          Discover the mathematical probability of prophecy and the hidden codes embedded inside ancient rituals.
+        </p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-[#D4AF37]">
+        <h3 class="font-playfair text-xl font-bold text-[#0A1128] mb-3">&bull; Respect for Your Intelligence</h3>
+        <p class="font-inter text-sm text-gray-600 leading-relaxed">
+          We encourage questions. We encourage skepticism. We just ask you to look honestly at the historical evidence.
+        </p>
+      </div>
+    </div>
+
+    <!-- Interactive Sample Excerpt Box -->
+    <div id="seeker-excerpt" class="bg-[#0A1128] text-white rounded-3xl p-8 md:p-12 border border-[#D4AF37]/40 shadow-xl">
+      <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block mb-2">
+        Sample Investigation Excerpt &bull; From "{sampleBook.title}"
+      </span>
+      <h3 class="font-playfair text-2xl md:text-3xl font-bold mb-2">{sampleBook.sampleDayTitle}</h3>
+      <p class="font-inter text-xs text-[#D4AF37] mb-6">{sampleBook.sampleScripture}</p>
+      <p class="font-inter text-gray-200 leading-relaxed mb-6 italic">
+        "{sampleBook.sampleExcerpt}"
+      </p>
+      <div class="bg-white/10 p-4 rounded-xl text-sm text-gray-200">
+        <strong>{sampleBook.sampleReflectionOrActivity}</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- [Section 3: Featured Seeker Books (All 5 Books)] -->
+  <section id="seeker-books" class="py-24 px-6 bg-white border-t border-gray-100">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block mb-2">
+          Complete 5-Book Seeker Series
+        </span>
+        <h2 class="font-playfair text-3xl md:text-5xl font-bold text-[#0A1128] mb-4">
+          Choose Your Investigation
+        </h2>
+        <p class="font-inter text-gray-600">
+          All 5 books in the Seeker Collection by Christine A. Click any book to read an excerpt or choose Paperback / Ebook.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {seekerBooks.map((book) => (
+          <BookCard book={book} accentColor="bg-[#0A1128]" />
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

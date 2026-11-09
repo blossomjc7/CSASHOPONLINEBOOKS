@@ -1,0 +1,160 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CONTACT_EMAIL, PRESS_EMAIL } from '../data/books';
+---
+<BaseLayout
+  title="Contact Us | Get in Touch"
+  description="Have a question about the Divine Blueprint Series, ordering a copy, or inviting Christine A. to speak? Send us a message."
+>
+  <section class="bg-[#0A1128] text-white py-20 px-6 text-center">
+    <div class="max-w-3xl mx-auto">
+      <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block mb-3">
+        We Would Love to Hear From You
+      </span>
+      <h1 class="font-playfair text-4xl md:text-5xl font-bold mb-4">
+        Get in Touch
+      </h1>
+      <p class="font-inter text-lg text-gray-300">
+        Have a question about the books? Ordering direct copies for your family, church, or small group? Or requesting a review copy? Send a message below.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 px-6 max-w-5xl mx-auto">
+    <div class="grid md:grid-cols-12 gap-12">
+      <!-- Info Column -->
+      <div class="md:col-span-5 space-y-6">
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+          <h2 class="font-playfair text-2xl font-bold text-[#0A1128] mb-3">
+            Direct Ministry &amp; Book Inquiries
+          </h2>
+          <p class="font-inter text-sm text-gray-600 leading-relaxed mb-4">
+            Our ultimate goal is not to sell books - it is to point you to a deeper relationship with Jesus. Every book purchase helps support and renew the domain and ministry resources.
+          </p>
+          <div class="space-y-3 pt-2 text-sm font-inter">
+            <p>
+              <strong class="block font-montserrat text-xs uppercase text-[#6C757D]">General &amp; Direct Orders:</strong>
+              <a href={`mailto:${CONTACT_EMAIL}`} class="text-[#0A1128] font-semibold underline hover:text-[#D4AF37]">
+                {CONTACT_EMAIL}
+              </a>
+            </p>
+            <p>
+              <strong class="block font-montserrat text-xs uppercase text-[#6C757D]">Media &amp; Review Copies:</strong>
+              <a href={`mailto:${PRESS_EMAIL}`} class="text-[#0A1128] font-semibold underline hover:text-[#D4AF37]">
+                {PRESS_EMAIL}
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-[#0A1128] text-white p-8 rounded-2xl">
+          <h3 class="font-playfair text-xl font-bold text-[#D4AF37] mb-2">
+            Church &amp; Small Group Bulk Orders
+          </h3>
+          <p class="font-inter text-sm text-gray-300 leading-relaxed">
+            Want to equip new believers at your church or gift the Children's Edition to families? Mention the title and quantity in the form and we will reply promptly.
+          </p>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="md:col-span-7 bg-white p-8 md:p-10 rounded-3xl shadow-md border border-gray-100">
+        <h2 class="font-playfair text-2xl font-bold text-[#0A1128] mb-6">
+          Send a Message
+        </h2>
+        <form
+          id="contact-form"
+          action={`mailto:${CONTACT_EMAIL}`}
+          method="post"
+          enctype="text/plain"
+          class="space-y-5"
+        >
+          <div>
+            <label for="name" class="block font-montserrat text-xs font-bold uppercase text-[#0A1128] mb-2">
+              Your Name *
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your full name"
+              class="w-full min-h-[48px] px-4 py-3 rounded-xl border border-gray-200 focus:border-[#0A1128] focus:outline-none text-sm"
+            />
+          </div>
+
+          <div>
+            <label for="email" class="block font-montserrat text-xs font-bold uppercase text-[#0A1128] mb-2">
+              Your Email Address *
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="you@example.com"
+              class="w-full min-h-[48px] px-4 py-3 rounded-xl border border-gray-200 focus:border-[#0A1128] focus:outline-none text-sm"
+            />
+          </div>
+
+          <div>
+            <label for="topic" class="block font-montserrat text-xs font-bold uppercase text-[#0A1128] mb-2">
+              How Can We Help?
+            </label>
+            <select
+              id="topic"
+              name="topic"
+              class="w-full min-h-[48px] px-4 py-3 rounded-xl border border-gray-200 focus:border-[#0A1128] focus:outline-none text-sm bg-white"
+            >
+              <option value="Direct Book Order">Order a Book Directly (Paperback / Ebook)</option>
+              <option value="Question About the Series">Question About the Divine Blueprint Series</option>
+              <option value="Request a Review Copy">Request a Review Copy / Press Inquiry</option>
+              <option value="Speaking or Ministry Invitation">Invite Christine A. to Speak / Podcast</option>
+              <option value="Prayer Request or Testimony">Share a Testimony or Prayer Request</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message" class="block font-montserrat text-xs font-bold uppercase text-[#0A1128] mb-2">
+              Your Message *
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              placeholder="Tell us which book or path you are interested in, or share your question..."
+              class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#0A1128] focus:outline-none text-sm"
+            ></textarea>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-4 pt-2">
+            <button
+              type="submit"
+              class="min-h-[48px] flex-1 bg-[#0A1128] text-white px-8 py-4 rounded-full font-montserrat text-sm font-bold hover:bg-[#D4AF37] hover:text-[#0A1128] transition-colors"
+            >
+              Send a Message
+            </button>
+            <a
+              href="/press-kit/"
+              class="min-h-[48px] inline-flex items-center justify-center px-6 py-4 rounded-full border border-[#6C757D] text-[#0A1128] font-montserrat text-xs font-bold hover:bg-gray-100 transition-colors"
+            >
+              Request a Review Copy
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const bookParam = params.get('book');
+    if (bookParam) {
+      const msgEl = document.getElementById('message') as HTMLTextAreaElement | null;
+      if (msgEl) {
+        msgEl.value = `Hello Christine A., I would like to get a copy of "${bookParam}". Please let me know the next steps for Paperback or Ebook!`;
+      }
+    }
+  </script>
+</BaseLayout>

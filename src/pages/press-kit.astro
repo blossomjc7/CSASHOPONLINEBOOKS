@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { AUTHOR_NAME, PRESS_EMAIL } from '../data/books';
+---
+<BaseLayout
+  title="Press & Media Kit"
+  description={`Official Press & Media Kit for CSASHOPONLINE and the Divine Blueprint Series by ${AUTHOR_NAME}. Download high-res book covers, sample chapters, and interview topics.`}
+>
+  <section class="bg-[#0A1128] text-white py-20 px-6 text-center">
+    <div class="max-w-3xl mx-auto">
+      <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block mb-3">
+        For Reviewers, Podcasters &amp; Church Leaders
+      </span>
+      <h1 class="font-playfair text-4xl md:text-5xl font-bold mb-4">
+        Press &amp; Media Kit
+      </h1>
+      <p class="font-inter text-lg text-gray-300">
+        Are you a reviewer, podcaster, or church leader? We want to make it easy for you to share the Divine Blueprint message.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 px-6 max-w-5xl mx-auto space-y-12">
+    <!-- Downloadable Assets -->
+    <div class="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
+      <h2 class="font-playfair text-3xl font-bold text-[#0A1128] mb-6">
+        Downloadable Media Assets
+      </h2>
+      <div class="grid sm:grid-cols-2 gap-6">
+        <a
+          href="/images/covers/the-prophecy-code.svg"
+          download
+          class="p-6 rounded-2xl border border-gray-200 hover:border-[#D4AF37] hover:shadow-md transition-all flex items-center justify-between group"
+        >
+          <div>
+            <span class="block font-montserrat font-bold text-sm text-[#0A1128] group-hover:text-[#D4AF37]">
+              Download High-Res Book Covers
+            </span>
+            <span class="block font-inter text-xs text-[#6C757D] mt-1">
+              Vector SVG &amp; Web-Ready Cover Art (All 3 Series)
+            </span>
+          </div>
+          <span class="text-xl font-bold text-[#D4AF37]">&darr;</span>
+        </a>
+
+        <a
+          href="/author/"
+          class="p-6 rounded-2xl border border-gray-200 hover:border-[#D4AF37] hover:shadow-md transition-all flex items-center justify-between group"
+        >
+          <div>
+            <span class="block font-montserrat font-bold text-sm text-[#0A1128] group-hover:text-[#D4AF37]">
+              Author Bio &amp; Emblem ({AUTHOR_NAME})
+            </span>
+            <span class="block font-inter text-xs text-[#6C757D] mt-1">
+              Official short &amp; long biography for introductions
+            </span>
+          </div>
+          <span class="text-xl font-bold text-[#D4AF37]">&rarr;</span>
+        </a>
+
+        <a
+          href="/about/"
+          class="p-6 rounded-2xl border border-gray-200 hover:border-[#D4AF37] hover:shadow-md transition-all flex items-center justify-between group"
+        >
+          <div>
+            <span class="block font-montserrat font-bold text-sm text-[#0A1128] group-hover:text-[#D4AF37]">
+              Official Series Overview &amp; Fact Sheet
+            </span>
+            <span class="block font-inter text-xs text-[#6C757D] mt-1">
+              The "One Message, Three Audiences" Press Summary
+            </span>
+          </div>
+          <span class="text-xl font-bold text-[#D4AF37]">&rarr;</span>
+        </a>
+
+        <a
+          href="/books/the-prophecy-code/"
+          class="p-6 rounded-2xl border border-gray-200 hover:border-[#D4AF37] hover:shadow-md transition-all flex items-center justify-between group"
+        >
+          <div>
+            <span class="block font-montserrat font-bold text-sm text-[#0A1128] group-hover:text-[#D4AF37]">
+              Read a Sample Chapter Excerpt
+            </span>
+            <span class="block font-inter text-xs text-[#6C757D] mt-1">
+              Preview Day 1 across Seeker, Believer &amp; Kids editions
+            </span>
+          </div>
+          <span class="text-xl font-bold text-[#D4AF37]">&rarr;</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Suggested Interview Topics -->
+    <div class="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
+      <h2 class="font-playfair text-3xl font-bold text-[#0A1128] mb-6">
+        Suggested Podcast &amp; Interview Topics with {AUTHOR_NAME}
+      </h2>
+      <ul class="space-y-4 font-inter text-gray-700">
+        <li class="flex items-start gap-3">
+          <span class="text-[#D4AF37] font-bold">01.</span>
+          <span><strong>Why One-Size-Fits-All Christian Books Fail:</strong> How a 45-year-old skeptic, a 22-year-old new believer, and a 7-year-old child each need a tailored pathway into Scripture.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-[#D4AF37] font-bold">02.</span>
+          <span><strong>Jesus on Every Page of the Old Testament:</strong> Decoding the ancient Hebrew festivals, the Tabernacle, and 30 messianic prophecies.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-[#D4AF37] font-bold">03.</span>
+          <span><strong>Raising Kids (Ages 4-8) on Pure Scripture:</strong> Why parents are moving away from noisy, worldly cartoons toward interactive biblical detective hunts.</span>
+        </li>
+      </ul>
+
+      <div class="mt-8 pt-6 border-t border-gray-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="font-inter text-sm text-[#0A1128]">
+          <strong>Contact for Interviews &amp; Review Copies:</strong>{' '}
+          <a href={`mailto:${PRESS_EMAIL}`} class="underline text-[#D4AF37] font-semibold">{PRESS_EMAIL}</a>
+        </p>
+        <a
+          href="/contact/"
+          class="min-h-[48px] inline-flex items-center justify-center bg-[#0A1128] text-white px-7 py-3 rounded-full font-montserrat text-xs font-bold hover:bg-[#D4AF37] hover:text-[#0A1128] transition-colors"
+        >
+          Request a Review Copy
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

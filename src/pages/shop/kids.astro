@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BookCard from '../../components/BookCard.astro';
+import { getBooksByAudience } from '../../data/books';
+
+const kidsBooks = getBooksByAudience('kids');
+const sampleBook = kidsBooks[0];
+---
+<BaseLayout
+  title="The Children's Collection (Ages 4-8) | Introduce Your Little Ones to the Greatest Hero"
+  description="Clean Christian activity books for kids ages 4-8 by Christine A. Pure biblical truth paired with coloring pages, object lessons, and simple prayers without worldly distractions."
+  keywords="Christian activity books for kids 4-8, Clean Bible storybooks for kids, Christian coloring books, The Great Prophecy Hunt, clean Christian books for kids"
+>
+  <!-- [Hero Section] -->
+  <section class="bg-[#0A1128] text-white py-24 px-6 border-b-4 border-[#4A90E2]">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="inline-block font-montserrat text-xs font-bold uppercase tracking-widest text-[#00BFFF] bg-[#4A90E2]/20 border border-[#4A90E2]/40 px-4 py-1.5 rounded-full mb-6">
+        Target Group 3 &bull; The Children's Edition (Ages 4-8)
+      </span>
+      <h1 class="font-playfair text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
+        Introduce Your Little Ones to the <span class="text-[#00BFFF]">Greatest Hero of All.</span>
+      </h1>
+      <p class="font-playfair italic text-xl md:text-2xl text-gray-200 mb-6">
+        For parents and grandparents (Ages 4-8) who are hunting for clean, biblical, character-building books.
+      </p>
+      <p class="font-inter text-base md:text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed mb-10">
+        We know the struggle. It is hard to find children's books that are actually rooted in scripture and free of weird, distracting, or worldly characters. We created this series for you. This is not your typical Bible storybook. It goes straight to the Bible - but breaks it down into fun, simple, digestible bits that kids actually understand and love.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a
+          href="#kids-books"
+          class="min-h-[48px] inline-flex items-center justify-center bg-[#4A90E2] text-white px-8 py-4 rounded-full font-montserrat font-bold hover:bg-white hover:text-[#0A1128] transition-colors"
+        >
+          Shop the Children's Collection
+        </a>
+        <a
+          href="#kids-sample"
+          class="min-h-[48px] inline-flex items-center justify-center border border-[#00BFFF] text-[#00BFFF] px-8 py-4 rounded-full font-montserrat font-bold hover:bg-[#4A90E2] hover:text-white transition-colors"
+        >
+          View a Sample Activity Page
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- [Section 2: Why These Books are Different for Your Kids] -->
+  <section class="py-24 px-6 max-w-5xl mx-auto">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="font-playfair text-3xl md:text-5xl font-bold text-[#0A1128] mb-6">
+        Clean. Fun. Biblically Sound.
+      </h2>
+      <p class="font-inter text-lg text-gray-700 leading-relaxed">
+        Your kids will not just read these books; they will experience them. Every day includes interactive activities, coloring pages, object lessons, and simple prayers. It is designed to build strong character, good morals, and a real relationship with Jesus from a young age. No fluff. No weird distractions. Just pure, clean fun.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8 mb-12">
+      <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-[#4A90E2]">
+        <h3 class="font-playfair text-xl font-bold text-[#0A1128] mb-3">&bull; Clean &amp; Safe</h3>
+        <p class="font-inter text-sm text-gray-600 leading-relaxed">
+          No obscene, weird, or worldly character inferences. 100% safe for your child's heart and imagination.
+        </p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-[#4A90E2]">
+        <h3 class="font-playfair text-xl font-bold text-[#0A1128] mb-3">&bull; Interactive</h3>
+        <p class="font-inter text-sm text-gray-600 leading-relaxed">
+          Coloring prompts, hands-on object lessons, and simple family discussions that keep 4-8 year olds engaged.
+        </p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-[#4A90E2]">
+        <h3 class="font-playfair text-xl font-bold text-[#0A1128] mb-3">&bull; Early Foundation</h3>
+        <p class="font-inter text-sm text-gray-600 leading-relaxed">
+          Teach deep biblical truths in a way that makes sense to a 4-8 year old, planting seeds of lifelong faith.
+        </p>
+      </div>
+    </div>
+
+    <!-- Sample Activity Page Preview -->
+    <div id="kids-sample" class="bg-white rounded-3xl p-8 md:p-12 border-2 border-[#4A90E2] shadow-lg">
+      <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#4A90E2] block mb-2">
+        Sample Activity Page &bull; From "{sampleBook.title}"
+      </span>
+      <h3 class="font-playfair text-2xl md:text-3xl font-bold text-[#0A1128] mb-2">{sampleBook.sampleDayTitle}</h3>
+      <p class="font-inter text-xs font-bold text-[#4A90E2] mb-6">{sampleBook.sampleScripture}</p>
+      <p class="font-inter text-gray-700 leading-relaxed mb-6">
+        {sampleBook.sampleExcerpt}
+      </p>
+      <div class="bg-[#4A90E2]/10 p-5 rounded-2xl text-sm text-[#0A1128] border border-[#4A90E2]/30">
+        <strong>{sampleBook.sampleReflectionOrActivity}</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- [Section 3: Featured Children's Books (All 5 Books)] -->
+  <section id="kids-books" class="py-24 px-6 bg-white border-t border-gray-100">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#4A90E2] block mb-2">
+          Complete 5-Book Children's Series (Ages 4-8)
+        </span>
+        <h2 class="font-playfair text-3xl md:text-5xl font-bold text-[#0A1128] mb-4">
+          Start the Adventure Today
+        </h2>
+        <p class="font-inter text-gray-600">
+          All 5 clean, interactive books in the Children's Collection by Christine A.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {kidsBooks.map((book) => (
+          <BookCard book={book} accentColor="bg-[#4A90E2]" />
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,273 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { BOOKS, AUTHOR_NAME, getBooksByAudience } from '../../data/books';
+import type { Book } from '../../data/books';
+
+export function getStaticPaths() {
+  return BOOKS.map((book) => ({
+    params: { slug: book.slug },
+    props: { book },
+  }));
+}
+
+interface Props {
+  book: Book;
+}
+
+const { book } = Astro.props;
+
+const relatedBooks = getBooksByAudience(book.audience)
+  .filter((b) => b.slug !== book.slug)
+  .slice(0, 3);
+
+const audienceLink =
+  book.audience === 'seeker'
+    ? '/shop/seekers/'
+    : book.audience === 'believer'
+    ? '/shop/believers/'
+    : '/shop/kids/';
+
+const accentBadge =
+  book.audience === 'seeker'
+    ? 'bg-[#D4AF37]/20 text-[#0A1128] border-[#D4AF37]'
+    : book.audience === 'believer'
+    ? 'bg-[#6B8E7B]/20 text-[#0A1128] border-[#6B8E7B]'
+    : 'bg-[#4A90E2]/20 text-[#0A1128] border-[#4A90E2]';
+
+const primaryBtnClass =
+  book.audience === 'seeker'
+    ? 'bg-[#D4AF37] text-[#0A1128] hover:bg-[#0A1128] hover:text-white'
+    : book.audience === 'believer'
+    ? 'bg-[#6B8E7B] text-white hover:bg-[#0A1128]'
+    : 'bg-[#4A90E2] text-white hover:bg-[#0A1128]';
+
+// JSON-LD Book Schema Markup (Critical for Book SEO)
+const bookSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Book',
+  name: book.title,
+  alternativeHeadline: book.subtitle,
+  author: {
+    '@type': 'Person',
+    name: AUTHOR_NAME,
+  },
+  bookFormat: 'https://schema.org/EBook',
+  inLanguage: 'en',
+  isbn: book.isbn,
+  description: book.shortDescription,
+  image: new URL(book.coverImage, 'https://csashoponline.com').toString(),
+  publisher: {
+    '@type': 'Organization',
+    name: 'CSASHOPONLINE',
+  },
+  offers: [
+    {
+      '@type': 'Offer',
+      name: 'Ebook Edition',
+      price: book.priceEbook,
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+    },
+    {
+      '@type': 'Offer',
+      name: 'Paperback Edition',
+      price: book.pricePaperback,
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+    },
+  ],
+};
+---
+<BaseLayout
+  title={`${book.title}: ${book.subtitle}`}
+  description={`${book.title} by ${AUTHOR_NAME} - ${book.shortDescription}`}
+  ogImage={book.coverImage}
+  schemaJson={bookSchema}
+>
+  <!-- Breadcrumb Bar -->
+  <div class="bg-white border-b border-gray-100 py-4 px-6">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center gap-2 text-xs font-montserrat text-[#6C757D]">
+      <a href="/" class="hover:text-[#0A1128]">Home</a>
+      <span>/</span>
+      <a href="/shop/" class="hover:text-[#0A1128]">Shop</a>
+      <span>/</span>
+      <a href={audienceLink} class="hover:text-[#0A1128] font-semibold">{book.audienceLabel}</a>
+      <span>/</span>
+      <span class="text-[#0A1128] font-bold">{book.title}</span>
+    </div>
+  </div>
+
+  <!-- Book Detail Hero -->
+  <section class="py-16 md:py-24 px-6 max-w-7xl mx-auto">
+    <div class="grid lg:grid-cols-12 gap-12 items-start">
+      <!-- Book Cover Showcase (5 cols) -->
+      <div class="lg:col-span-5 bg-white p-8 md:p-12 rounded-3xl shadow-md border border-gray-100 flex flex-col items-center">
+        <img
+          src={book.coverImage}
+          alt={`Book cover for ${book.title} by ${AUTHOR_NAME}`}
+          class="w-64 sm:w-72 h-auto drop-shadow-2xl mb-6"
+        />
+        <p class="font-montserrat text-xs text-[#6C757D] text-center">
+          30-Day Guided Journey &bull; Written by <strong>{AUTHOR_NAME}</strong>
+        </p>
+      </div>
+
+      <!-- Book Copy, Format Selector & Buy Buttons (7 cols) -->
+      <div class="lg:col-span-7">
+        <span class={`inline-block font-montserrat text-xs font-bold uppercase tracking-wider px-4 py-1.5 rounded-full border mb-4 ${accentBadge}`}>
+          {book.audienceLabel} &bull; {book.conceptTitle}
+        </span>
+
+        <h1 class="font-playfair text-3xl sm:text-5xl font-bold text-[#0A1128] mb-3 leading-tight">
+          {book.title}
+        </h1>
+        <p class="font-playfair italic text-xl md:text-2xl text-[#6C757D] mb-6">
+          {book.subtitle}
+        </p>
+
+        <!-- Format Selector Box -->
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 mb-8">
+          <p class="font-montserrat text-xs font-bold uppercase tracking-wider text-[#0A1128] mb-4">
+            Select Your Preferred Format:
+          </p>
+          <div class="grid sm:grid-cols-2 gap-4 mb-6">
+            <label class="cursor-pointer border-2 border-[#0A1128] bg-[#0A1128]/5 rounded-xl p-4 flex items-center justify-between">
+              <div>
+                <span class="block font-montserrat font-bold text-sm text-[#0A1128]">Paperback Edition</span>
+                <span class="block font-inter text-xs text-[#6C757D]">Physical 30-Day Companion Book</span>
+              </div>
+              <span class="font-playfair font-bold text-2xl text-[#0A1128]">${book.pricePaperback}</span>
+            </label>
+
+            <label class="cursor-pointer border-2 border-gray-200 hover:border-[#0A1128] rounded-xl p-4 flex items-center justify-between transition-colors">
+              <div>
+                <span class="block font-montserrat font-bold text-sm text-[#0A1128]">Digital Ebook</span>
+                <span class="block font-inter text-xs text-[#6C757D]">Instant Download (PDF / EPUB)</span>
+              </div>
+              <span class="font-playfair font-bold text-2xl text-[#0A1128]">${book.priceEbook}</span>
+            </label>
+          </div>
+
+          <!-- Primary & Secondary Buy Buttons -->
+          <div class="space-y-3">
+            <a
+              href={book.directBuyUrl}
+              class={`w-full min-h-[52px] flex items-center justify-center rounded-full font-montserrat font-bold text-base transition-colors shadow-md ${primaryBtnClass}`}
+            >
+              Buy on Our Website (Direct &amp; Ministry Support)
+            </a>
+
+            <div class="grid sm:grid-cols-2 gap-3 pt-1">
+              <a
+                href={book.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="min-h-[48px] flex items-center justify-center rounded-full border-2 border-[#0A1128] text-[#0A1128] font-montserrat text-sm font-bold hover:bg-[#0A1128] hover:text-white transition-colors"
+              >
+                Buy on Amazon &nearr;
+              </a>
+              <a
+                href={book.googleBooksUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="min-h-[48px] flex items-center justify-center rounded-full border-2 border-[#6C757D] text-[#0A1128] font-montserrat text-sm font-bold hover:bg-[#0A1128] hover:text-white hover:border-[#0A1128] transition-colors"
+              >
+                Buy on Google Books &nearr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book Description -->
+        <div class="space-y-4 font-inter text-gray-700 leading-relaxed mb-8">
+          {book.fullDescription.map((paragraph) => (
+            <p>{paragraph}</p>
+          ))}
+        </div>
+
+        <!-- What You'll Discover -->
+        <div class="bg-white p-6 rounded-2xl border border-gray-100">
+          <h2 class="font-playfair text-xl font-bold text-[#0A1128] mb-4">
+            What You Will Discover in This 30-Day Journey:
+          </h2>
+          <ul class="space-y-2.5 font-inter text-sm text-gray-700">
+            {book.keyTakeaways.map((item) => (
+              <li class="flex items-start gap-2.5">
+                <span class="text-[#D4AF37] font-bold mt-0.5">&#10003;</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Look Inside / Sample Day Excerpt -->
+  <section class="py-16 px-6 bg-white border-y border-gray-100">
+    <div class="max-w-4xl mx-auto">
+      <div class="bg-[#0A1128] text-white rounded-3xl p-8 md:p-12 shadow-xl">
+        <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block mb-2">
+          Look Inside &bull; Free Sample Day
+        </span>
+        <h2 class="font-playfair text-2xl md:text-3xl font-bold mb-2">
+          {book.sampleDayTitle}
+        </h2>
+        <p class="font-inter text-xs text-[#D4AF37] mb-6">{book.sampleScripture}</p>
+        <p class="font-inter text-gray-200 leading-relaxed mb-6 italic">
+          "{book.sampleExcerpt}"
+        </p>
+        <div class="bg-white/10 p-5 rounded-2xl text-sm text-gray-100">
+          <strong>{book.sampleReflectionOrActivity}</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- More Books in This Same Path -->
+  <section class="py-20 px-6 max-w-7xl mx-auto">
+    <div class="flex flex-col sm:flex-row justify-between items-center mb-10 gap-4">
+      <div>
+        <h2 class="font-playfair text-3xl font-bold text-[#0A1128]">
+          More in {book.audienceLabel}
+        </h2>
+        <p class="font-inter text-sm text-[#6C757D]">
+          Continue your 30-day journey with the other books in this path.
+        </p>
+      </div>
+      <a
+        href={audienceLink}
+        class="font-montserrat text-sm font-bold text-[#0A1128] underline hover:text-[#D4AF37]"
+      >
+        View All 5 Books in This Collection &rarr;
+      </a>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      {relatedBooks.map((rel) => (
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-4">
+          <a href={`/books/${rel.slug}/`} class="shrink-0 w-20 h-28">
+            <img
+              src={rel.coverImage}
+              alt={`Book cover for ${rel.title} by ${AUTHOR_NAME}`}
+              class="w-full h-full object-contain drop-shadow"
+              loading="lazy"
+            />
+          </a>
+          <div>
+            <h3 class="font-playfair font-bold text-lg text-[#0A1128] mb-1">
+              <a href={`/books/${rel.slug}/`} class="hover:text-[#D4AF37]">{rel.title}</a>
+            </h3>
+            <p class="font-inter text-xs text-gray-500 mb-3 line-clamp-2">{rel.subtitle}</p>
+            <a
+              href={`/books/${rel.slug}/`}
+              class="font-montserrat text-xs font-bold text-[#0A1128] underline hover:text-[#D4AF37]"
+            >
+              View Book &rarr;
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

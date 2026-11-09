@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CONTACT_EMAIL } from '../data/books';
+---
+<BaseLayout
+  title="Privacy Policy"
+  description="Privacy Policy for CSASHOPONLINE (csashoponline.com)."
+>
+  <section class="py-20 px-6 max-w-3xl mx-auto">
+    <h1 class="font-playfair text-4xl font-bold text-[#0A1128] mb-6">Privacy Policy</h1>
+    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 space-y-6 font-inter text-gray-700 leading-relaxed">
+      <p>
+        At <strong>CSASHOPONLINE (csashoponline.com)</strong>, we respect your privacy and are committed to protecting any personal information you share with us.
+      </p>
+      <h2 class="font-playfair text-2xl font-bold text-[#0A1128]">Information We Collect</h2>
+      <p>
+        We only collect information that you voluntarily provide when contacting us, requesting a book, or subscribing to updates (such as your name and email address).
+      </p>
+      <h2 class="font-playfair text-2xl font-bold text-[#0A1128]">How We Use Your Information</h2>
+      <p>
+        We never sell, rent, or trade your email address or personal details to third parties. Your information is used strictly to fulfill your book requests, reply to your questions, or send ministry updates you explicitly requested.
+      </p>
+      <p>
+        Questions? Contact us anytime at <a href={`mailto:${CONTACT_EMAIL}`} class="underline font-semibold">{CONTACT_EMAIL}</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

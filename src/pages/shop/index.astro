@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TargetGroupCard from '../../components/TargetGroupCard.astro';
+---
+<BaseLayout
+  title="Shop the Divine Blueprint Series"
+  description="Choose your path in the Divine Blueprint Series by Christine A. Explore 5 books for Spiritual Seekers, 5 books for New Believers, or 5 clean activity books for Children (Ages 4-8)."
+>
+  <!-- Hero Section -->
+  <section class="bg-[#0A1128] text-white py-20 px-6 text-center">
+    <div class="max-w-4xl mx-auto">
+      <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block mb-3">
+        15 Books &bull; 3 Tailored Reading Experiences
+      </span>
+      <h1 class="font-playfair text-4xl md:text-6xl font-bold mb-6">
+        Choose Your Path First
+      </h1>
+      <p class="font-inter text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
+        To keep you from ever feeling overwhelmed, we never mix all 15 books into one giant wall. Select the collection below that matches who you are buying for today.
+      </p>
+    </div>
+  </section>
+
+  <!-- Three Path Selector (Strict Adherence to Three-Path Rule) -->
+  <section class="py-24 px-6 max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-3 gap-8">
+      <TargetGroupCard
+        title="The Spiritual Seeker"
+        subtitle="5 Investigative 30-Day Journeys"
+        vibe="Show me the hidden code. Prove it to me."
+        description="Messianic prophecy books, ancient Hebrew festival codes, and historical evidence for skeptics and curious thinkers."
+        color="border-[#D4AF37]"
+        badgeBg="bg-[#D4AF37]/20 text-[#0A1128]"
+        btnColor="bg-[#D4AF37]"
+        btnTextColor="text-[#0A1128]"
+        buttonText="Shop the 5 Seeker Books"
+        link="/shop/seekers/"
+        coverPreview="/images/covers/the-prophecy-code.svg"
+      />
+
+      <TargetGroupCard
+        title="The New Believer"
+        subtitle="5 Grace-Filled 30-Day Foundations"
+        vibe="Help me understand. Make it simple and full of grace."
+        description="Warm 5-minute daily readings that explain the Old Testament without Christian jargon - focusing on grace over rules."
+        color="border-[#6B8E7B]"
+        badgeBg="bg-[#6B8E7B]/20 text-[#0A1128]"
+        btnColor="bg-[#6B8E7B]"
+        buttonText="Shop the 5 New Believer Books"
+        link="/shop/believers/"
+        coverPreview="/images/covers/you-can-trust-the-bible.svg"
+      />
+
+      <TargetGroupCard
+        title="The Children's Edition"
+        subtitle="5 Clean Activity Books (Ages 4-8)"
+        vibe="Fun, interactive, and safe for my child's imagination."
+        description="Pure biblical truth paired with detective clues, coloring prompts, and kitchen-table object lessons for little ones."
+        color="border-[#4A90E2]"
+        badgeBg="bg-[#4A90E2]/20 text-[#0A1128]"
+        btnColor="bg-[#4A90E2]"
+        buttonText="Shop the 5 Children's Books"
+        link="/shop/kids/"
+        coverPreview="/images/covers/the-great-prophecy-hunt.svg"
+      />
+    </div>
+
+    <!-- Jesus First Reminder -->
+    <div class="mt-20 bg-white rounded-2xl p-8 md:p-12 shadow-sm border border-gray-100 text-center max-w-4xl mx-auto">
+      <h2 class="font-playfair text-2xl md:text-3xl font-bold text-[#0A1128] mb-3">
+        Why We Price Our Books Fairly &amp; Accessible
+      </h2>
+      <p class="font-inter text-gray-600 leading-relaxed mb-4">
+        Our ultimate goal is not to sell books - it is to point you to a deeper relationship with Jesus. Every purchase directly supports keeping this ministry and domain online so more seekers, new believers, and families can discover the Savior in Scripture.
+      </p>
+      <p class="font-montserrat text-xs font-bold uppercase tracking-wider text-[#6C757D]">
+        Available in Paperback &amp; Instant Ebook &bull; Direct, Amazon Books &amp; Google Books
+      </p>
+    </div>
+  </section>
+</BaseLayout>
