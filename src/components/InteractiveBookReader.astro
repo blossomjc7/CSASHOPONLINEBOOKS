@@ -19,7 +19,7 @@ const initialPages = [
   {
     dayNum: 0,
     isFree: true,
-    badge: `Concept ${book.conceptNumber} • ${book.conceptTitle}`,
+    badge: `Concept ${book.conceptNumber} - ${book.conceptTitle}`,
     title: book.title,
     subtitle: book.subtitle,
     body: book.shortDescription,
@@ -88,7 +88,7 @@ const initialPages = [
           <div class="bg-[#FAF9F6] border border-gray-200 rounded-2xl p-5">
             <div class="flex items-center justify-between mb-3">
               <h3 class="font-montserrat text-xs font-bold uppercase tracking-wider text-[#0A1128] flex items-center gap-1.5">
-                <span>🔊</span> <span>Storyteller Audio</span>
+                <span>🔊</span> <span id="idr-voice-box-title">Storyteller Audio</span>
               </h3>
               <span class="text-[10px] font-montserrat font-bold uppercase px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
                 6 Languages 🌟
@@ -115,7 +115,7 @@ const initialPages = [
             </button>
 
             <p id="idr-audio-status" class="text-[11px] font-inter text-gray-500 text-center mt-3">
-              Click "Listen to This Day" to hear fluent narration.
+              Click "Listen to This Day" or "Tap to Listen" to hear narration in your chosen language!
             </p>
           </div>
 
@@ -191,8 +191,8 @@ const initialPages = [
             <!-- Footer Bar inside Flipbook -->
             <div class="flex items-center justify-between border-t border-white/15 pt-4 text-xs font-montserrat text-gray-300">
               <span id="idr-page-footer">Days 1–3 Free Preview</span>
-              <button type="button" id="idr-card-speak-btn" class="text-[#D4AF37] hover:underline font-bold uppercase tracking-wider flex items-center gap-1">
-                <span>🔊</span> <span>Tap to Listen</span>
+              <button type="button" id="idr-card-speak-btn" class="bg-[#D4AF37] text-[#0A1128] hover:bg-white px-4 py-1.5 rounded-full font-bold uppercase tracking-wider flex items-center gap-1.5 shadow transition-colors">
+                <span id="idr-card-speak-icon">🔊</span> <span id="idr-card-speak-lbl">Tap to Listen</span>
               </button>
             </div>
           </div>
@@ -350,6 +350,8 @@ const initialPages = [
     let isUnlocked = false;
     let pdfDownloadUrl = `/manuscripts/pdfs/${bookSlug}.pdf`;
     const audioPlayer = new Audio();
+    let sentenceQueue = [];
+    let sentenceIndex = 0;
 
     const storageKey = `csa_unlocked_${bookSlug}`;
     const masterStorageKey = `csa_unlocked_all`;
@@ -364,6 +366,8 @@ const initialPages = [
     const nextBtn = document.getElementById('idr-next-btn');
     const card = document.getElementById('idr-card');
     const cardSpeakBtn = document.getElementById('idr-card-speak-btn');
+    const cardSpeakIcon = document.getElementById('idr-card-speak-icon');
+    const cardSpeakLbl = document.getElementById('idr-card-speak-lbl');
     const lockCard = document.getElementById('idr-lock-card');
     const translatingIndicator = document.getElementById('idr-translating-indicator');
     const accessBadge = document.getElementById('idr-access-badge');
@@ -387,12 +391,12 @@ const initialPages = [
     const backFreeBtn = document.getElementById('idr-back-free-btn');
 
     const uiLabels = {
-      en: { listen: 'Listen to This Day', stop: 'Stop Audio', speaking: 'Narrator is reading...', ended: 'Finished reading. Click Next Day to continue!' },
-      sv: { listen: 'Lyssna på denna dag', stop: 'Stoppa ljud', speaking: 'Berättaren läser...', ended: 'Uppläsning klar. Klicka på Nästa dag!' },
-      de: { listen: 'Diesen Tag anhören', stop: 'Audio stoppen', speaking: 'Erzähler spricht...', ended: 'Fertig gesprochen. Nächster Tag!' },
-      es: { listen: 'Escuchar este día', stop: 'Detener audio', speaking: 'El narrador está leyendo...', ended: 'Lectura terminada. ¡Siguiente día!' },
-      sw: { listen: 'Sikiliza Siku Hii', stop: 'Simamisha Sauti', speaking: 'Msimulizi anasoma...', ended: 'Amemaliza kusoma. Siku inayofuata!' },
-      fr: { listen: 'Écouter ce jour', stop: 'Arrêter l\'audio', speaking: 'Le narrateur lit...', ended: 'Lecture terminée. Jour suivant !' },
+      en: { listen: 'Listen to This Day', tap: 'Tap to Listen', stop: 'Stop Audio', speaking: 'Narrator is reading in English...', ended: 'Finished reading. Click Next Day to continue!', prev: '← Previous Day', next: 'Next Day →' },
+      sv: { listen: 'Lyssna på denna dag', tap: 'Klicka för att lyssna', stop: 'Stoppa ljud', speaking: 'Berättaren läser på svenska...', ended: 'Uppläsning klar. Klicka på Nästa dag!', prev: '← Föregående dag', next: 'Nästa dag →' },
+      de: { listen: 'Diesen Tag anhören', tap: 'Tippen zum Anhören', stop: 'Audio stoppen', speaking: 'Erzähler liest auf Deutsch...', ended: 'Fertig gesprochen. Nächster Tag!', prev: '← Vorheriger Tag', next: 'Nächster Tag →' },
+      es: { listen: 'Escuchar este día', tap: 'Toca para escuchar', stop: 'Detener audio', speaking: 'El narrador lee en español...', ended: 'Lectura terminada. ¡Siguiente día!', prev: '← Día anterior', next: 'Siguiente día →' },
+      sw: { listen: 'Sikiliza Siku Hii', tap: 'Gusa Kusikiliza', stop: 'Simamisha Sauti', speaking: 'Msimulizi anasoma kwa Kiswahili...', ended: 'Amemaliza kusoma. Siku inayofuata!', prev: '← Siku Iliyopita', next: 'Siku Inayofuata →' },
+      fr: { listen: 'Écouter ce jour', tap: 'Appuyez pour écouter', stop: 'Arrêter l\'audio', speaking: 'Le narrateur lit en français...', ended: 'Lecture terminée. Jour suivant !', prev: '← Jour précédent', next: 'Jour suivant →' },
     };
 
     function applyUnlockState(unlocked) {
@@ -436,7 +440,6 @@ const initialPages = [
       return false;
     }
 
-    // 1. Check URL for ?unlock=... Magic Link or stored unlock
     const urlParams = new URLSearchParams(window.location.search);
     const urlUnlockCode = urlParams.get('unlock');
     const savedCode = localStorage.getItem(storageKey) || localStorage.getItem(masterStorageKey);
@@ -447,7 +450,6 @@ const initialPages = [
       await verifyUnlockCode(savedCode, true);
     }
 
-    // 2. Fetch full 30-day manuscript JSON
     try {
       const mRes = await fetch(`/manuscripts/json/${bookSlug}.json`);
       if (mRes.ok) {
@@ -486,13 +488,24 @@ const initialPages = [
       });
     }
 
+    function updateSpeakerUI(playing) {
+      isPlaying = playing;
+      const lbl = uiLabels[currentLang] || uiLabels.en;
+      if (playIcon) playIcon.textContent = playing ? '⏹' : '🔊';
+      if (playLabel) playLabel.textContent = playing ? lbl.stop : lbl.listen;
+      if (cardSpeakIcon) cardSpeakIcon.textContent = playing ? '⏹' : '🔊';
+      if (cardSpeakLbl) cardSpeakLbl.textContent = playing ? lbl.stop : lbl.tap;
+      if (prevBtn) prevBtn.textContent = lbl.prev;
+      if (nextBtn) nextBtn.textContent = lbl.next;
+    }
+
     function stopAudio() {
+      sentenceQueue = [];
+      sentenceIndex = 0;
       if (window.speechSynthesis) window.speechSynthesis.cancel();
       audioPlayer.pause();
-      isPlaying = false;
-      const lbl = uiLabels[currentLang] || uiLabels.en;
-      if (playIcon) playIcon.textContent = '🔊';
-      if (playLabel) playLabel.textContent = lbl.listen;
+      audioPlayer.removeAttribute('src');
+      updateSpeakerUI(false);
     }
 
     function speakFallback(text) {
@@ -504,12 +517,10 @@ const initialPages = [
       const u = new SpeechSynthesisUtterance(text);
       const locales = { en: 'en-US', sv: 'sv-SE', de: 'de-DE', es: 'es-ES', sw: 'sw-TZ', fr: 'fr-FR' };
       u.lang = locales[currentLang] || 'en-US';
-      u.rate = 0.9;
+      u.rate = 0.92;
       const lbl = uiLabels[currentLang] || uiLabels.en;
       u.onstart = () => {
-        isPlaying = true;
-        if (playIcon) playIcon.textContent = '⏹';
-        if (playLabel) playLabel.textContent = lbl.stop;
+        updateSpeakerUI(true);
         if (audioStatus) audioStatus.textContent = lbl.speaking;
       };
       u.onend = () => {
@@ -518,6 +529,22 @@ const initialPages = [
       };
       u.onerror = () => stopAudio();
       window.speechSynthesis.speak(u);
+    }
+
+    // Translate an individual string via GTX or /api/translate
+    async function translateSingleField(txt, lang) {
+      if (!txt || lang === 'en') return txt;
+      try {
+        const gUrl = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${encodeURIComponent(lang)}&dt=t&q=${encodeURIComponent(txt)}`;
+        const gRes = await fetch(gUrl);
+        if (gRes.ok) {
+          const gData = await gRes.json();
+          if (Array.isArray(gData) && Array.isArray(gData[0])) {
+            return gData[0].map((part) => (part && part[0]) ? part[0] : '').join('');
+          }
+        }
+      } catch (_) {}
+      return null;
     }
 
     async function ensurePageTranslated(lang, pageIdx) {
@@ -531,22 +558,11 @@ const initialPages = [
 
       try {
         const flatStrings = [orig.badge, orig.title, orig.subtitle, orig.body, orig.footer];
-        let tr = null;
-        try {
-          const joined = flatStrings.join('\n|||\n');
-          const gUrl = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${encodeURIComponent(lang)}&dt=t&q=${encodeURIComponent(joined)}`;
-          const gRes = await fetch(gUrl);
-          if (gRes.ok) {
-            const gData = await gRes.json();
-            if (Array.isArray(gData) && Array.isArray(gData[0])) {
-              const fullTr = gData[0].map((part) => part[0] || '').join('');
-              const parts = fullTr.split(/\s*\|\|\|\s*/);
-              if (parts.length === flatStrings.length) tr = parts;
-            }
-          }
-        } catch (_) {}
+        // First try client parallel field translation
+        let tr = await Promise.all(flatStrings.map((s) => translateSingleField(s, lang)));
 
-        if (!tr) {
+        // If any failed (e.g. null), fallback to server /api/translate
+        if (tr.some((item) => !item)) {
           const res = await fetch('/api/translate', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -554,22 +570,20 @@ const initialPages = [
           });
           if (res.ok) {
             const data = await res.json();
-            tr = data.translated;
+            if (data.translated && data.translated.length === 5) {
+              tr = data.translated;
+            }
           }
         }
 
-        if (tr && tr.length === 5) {
-          translatedCache[lang][pageIdx] = {
-            ...orig,
-            badge: tr[0] || orig.badge,
-            title: tr[1] || orig.title,
-            subtitle: tr[2] || orig.subtitle,
-            body: tr[3] || orig.body,
-            footer: tr[4] || orig.footer,
-          };
-        } else {
-          translatedCache[lang][pageIdx] = orig;
-        }
+        translatedCache[lang][pageIdx] = {
+          ...orig,
+          badge: (tr && tr[0]) ? tr[0] : orig.badge,
+          title: (tr && tr[1]) ? tr[1] : orig.title,
+          subtitle: (tr && tr[2]) ? tr[2] : orig.subtitle,
+          body: (tr && tr[3]) ? tr[3] : orig.body,
+          footer: (tr && tr[4]) ? tr[4] : orig.footer,
+        };
       } catch (e) {
         translatedCache[lang][pageIdx] = orig;
       } finally {
@@ -578,27 +592,78 @@ const initialPages = [
       return translatedCache[lang][pageIdx];
     }
 
+    // Split long translated text into ~180-char sentence chunks so audio starts in <0.5 seconds and streams paragraph by paragraph in the chosen language!
+    function buildAudioChunks(fullText) {
+      const cleaned = fullText.replace(/\s+/g, ' ').trim();
+      const rawSentences = cleaned.match(/[^.!?]+[.!?]+|\S+/g) || [cleaned];
+      const chunks = [];
+      let current = '';
+      for (const s of rawSentences) {
+        if ((current + ' ' + s).trim().length <= 185) {
+          current = (current + ' ' + s).trim();
+        } else {
+          if (current) chunks.push(current);
+          if (s.length <= 185) {
+            current = s.trim();
+          } else {
+            // Split very long sentence by words
+            const words = s.trim().split(' ');
+            let wChunk = '';
+            for (const w of words) {
+              if ((wChunk + ' ' + w).trim().length <= 185) {
+                wChunk = (wChunk + ' ' + w).trim();
+              } else {
+                if (wChunk) chunks.push(wChunk);
+                wChunk = w;
+              }
+            }
+            current = wChunk;
+          }
+        }
+      }
+      if (current) chunks.push(current);
+      return chunks;
+    }
+
+    function playNextSentenceChunk(langForPlayback, fullFallbackText) {
+      if (!isPlaying || sentenceIndex >= sentenceQueue.length) {
+        const lbl = uiLabels[currentLang] || uiLabels.en;
+        stopAudio();
+        if (audioStatus) audioStatus.textContent = lbl.ended;
+        return;
+      }
+      const chunkText = sentenceQueue[sentenceIndex];
+      sentenceIndex++;
+      audioPlayer.src = `/api/swahili-tts?lang=${encodeURIComponent(langForPlayback)}&text=${encodeURIComponent(chunkText)}`;
+      audioPlayer.onended = () => {
+        playNextSentenceChunk(langForPlayback, fullFallbackText);
+      };
+      audioPlayer.onerror = () => {
+        speakFallback(fullFallbackText);
+      };
+      audioPlayer.play().catch(() => {
+        speakFallback(fullFallbackText);
+      });
+    }
+
     async function playCurrentPageAudio() {
       stopAudio();
       const orig = pagesData[currentPage];
       if (!orig || (!orig.isFree && !isUnlocked)) return;
 
+      // Read directly from the visible DOM text (which is already in the selected language!) or translate first
       const p = await ensurePageTranslated(currentLang, currentPage);
-      const textToRead = `${p.title}. ${p.body}`;
+      const visibleTitle = (titleEl && titleEl.textContent) ? titleEl.textContent.trim() : p.title;
+      const visibleBody = (bodyEl && bodyEl.textContent) ? bodyEl.textContent.trim() : p.body;
+      const textToRead = `${visibleTitle}. ${visibleBody}`;
       const lbl = uiLabels[currentLang] || uiLabels.en;
 
-      isPlaying = true;
-      if (playIcon) playIcon.textContent = '⏹';
-      if (playLabel) playLabel.textContent = lbl.stop;
+      updateSpeakerUI(true);
       if (audioStatus) audioStatus.textContent = lbl.speaking;
 
-      audioPlayer.src = `/api/swahili-tts?lang=${encodeURIComponent(currentLang)}&text=${encodeURIComponent(textToRead)}`;
-      audioPlayer.onended = () => {
-        stopAudio();
-        if (audioStatus) audioStatus.textContent = lbl.ended;
-      };
-      audioPlayer.onerror = () => speakFallback(textToRead);
-      audioPlayer.play().catch(() => speakFallback(textToRead));
+      sentenceQueue = buildAudioChunks(textToRead);
+      sentenceIndex = 0;
+      playNextSentenceChunk(currentLang, textToRead);
     }
 
     async function renderCurrentPage() {
@@ -607,8 +672,8 @@ const initialPages = [
       if (!orig) return;
 
       buildDayGrid();
+      updateSpeakerUI(false);
 
-      // Check if this page is locked (Day 4+ when not unlocked)
       if (!orig.isFree && !isUnlocked) {
         card?.classList.add('hidden');
         lockCard?.classList.remove('hidden');
@@ -626,7 +691,7 @@ const initialPages = [
 
       if (badgeEl) badgeEl.textContent = p.badge;
       if (counterEl) {
-        counterEl.textContent = orig.dayNum === 0 ? `Intro (Free)` : `Day ${orig.dayNum} of ${pagesData.length - 1}`;
+        counterEl.textContent = orig.dayNum === 0 ? `Intro` : `${orig.dayNum} / ${pagesData.length - 1}`;
       }
       if (titleEl) titleEl.textContent = p.title;
       if (subtitleEl) subtitleEl.textContent = p.subtitle;
@@ -643,8 +708,7 @@ const initialPages = [
 
     langSelect?.addEventListener('change', async () => {
       currentLang = langSelect.value;
-      const lbl = uiLabels[currentLang] || uiLabels.en;
-      if (playLabel && !isPlaying) playLabel.textContent = lbl.listen;
+      updateSpeakerUI(false);
       await renderCurrentPage();
     });
 
@@ -667,7 +731,8 @@ const initialPages = [
       else playCurrentPageAudio();
     });
 
-    cardSpeakBtn?.addEventListener('click', () => {
+    cardSpeakBtn?.addEventListener('click', (e) => {
+      e.stopPropagation();
       if (isPlaying) stopAudio();
       else playCurrentPageAudio();
     });
@@ -676,7 +741,6 @@ const initialPages = [
       if (isUnlocked) {
         window.open(pdfDownloadUrl, '_blank');
       } else {
-        // Jump to lock screen to prompt Magic Code or Purchase
         currentPage = 4;
         renderCurrentPage();
       }

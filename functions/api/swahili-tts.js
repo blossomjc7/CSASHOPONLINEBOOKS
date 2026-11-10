@@ -3,7 +3,7 @@ export async function onRequest(context) {
     const corsHeaders = {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Content-Type",
-        "Access-Control-Allow-Methods": "GET, OPTIONS",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
         "Access-Control-Max-Age": "86400"
     };
 
@@ -11,9 +11,20 @@ export async function onRequest(context) {
         return new Response("", { status: 200, headers: corsHeaders });
     }
 
-    const urlObj = new URL(request.url);
-    const text = urlObj.searchParams.get("text");
-    const lang = urlObj.searchParams.get("lang") || "sw";
+    let text = "";
+    let lang = "sw";
+
+    if (request.method === "POST") {
+        try {
+            const body = await request.json();
+            text = body.text || "";
+            lang = body.lang || "sw";
+        } catch (e) {}
+    } else {
+        const urlObj = new URL(request.url);
+        text = urlObj.searchParams.get("text") || "";
+        lang = urlObj.searchParams.get("lang") || "sw";
+    }
 
     if (!text) {
         return new Response(JSON.stringify({ error: "Missing text parameter" }), {
@@ -25,9 +36,9 @@ export async function onRequest(context) {
     try {
         const chunks = [];
         let currentChunk = "";
-        const words = text.split(" ");
+        const words = text.replace(/\s+/g, " ").trim().split(" ");
         for (const word of words) {
-            if ((currentChunk + " " + word).trim().length <= 200) {
+            if ((currentChunk + " " + word).trim().length <= 190) {
                 currentChunk = (currentChunk + " " + word).trim();
             } else {
                 if (currentChunk) chunks.push(currentChunk);
@@ -36,23 +47,25 @@ export async function onRequest(context) {
         }
         if (currentChunk) chunks.push(currentChunk);
 
-        const buffers = [];
-        let totalLength = 0;
-
-        for (const chunk of chunks) {
+        // Fetch all audio chunks in parallel for fast response!
+        const fetchPromises = chunks.map(async (chunk) => {
             const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=${encodeURIComponent(lang)}&client=tw-ob&q=${encodeURIComponent(chunk)}`;
             const res = await fetch(ttsUrl, {
                 headers: {
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
                 }
             });
             if (!res.ok) {
                 throw new Error(`TTS failed with status ${res.status}`);
             }
             const arrBuf = await res.arrayBuffer();
-            const uint8 = new Uint8Array(arrBuf);
-            buffers.push(uint8);
-            totalLength += uint8.byteLength;
+            return new Uint8Array(arrBuf);
+        });
+
+        const buffers = await Promise.all(fetchPromises);
+        let totalLength = 0;
+        for (const buf of buffers) {
+            totalLength += buf.byteLength;
         }
 
         const combined = new Uint8Array(totalLength);
