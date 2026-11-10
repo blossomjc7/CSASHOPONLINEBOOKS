@@ -15,74 +15,42 @@ const themeBg =
     ? 'from-[#233D32] to-[#345949] border-[#6B8E7B]'
     : 'from-[#1B4B82] to-[#2968B0] border-[#F5A623]';
 
-const accentColor =
-  book.audience === 'seeker'
-    ? '#D4AF37'
-    : book.audience === 'believer'
-    ? '#6B8E7B'
-    : '#F5A623';
-
-// Build 5 interactive sample pages for this book
 const initialPages = [
   {
-    type: 'cover',
+    dayNum: 0,
+    isFree: true,
     badge: `Concept ${book.conceptNumber} • ${book.conceptTitle}`,
     title: book.title,
     subtitle: book.subtitle,
-    scripture: `Written by ${AUTHOR_NAME}`,
     body: book.shortDescription,
-    footer: 'Interactive 6-Language Preview & Audio Storyteller',
-  },
-  {
-    type: 'day',
-    badge: 'Day 1 Sample • Scripture & Fulfilment',
-    title: book.sampleDayTitle,
-    subtitle: book.sampleScripture,
-    scripture: book.sampleScripture,
-    body: book.sampleExcerpt,
-    footer: 'Day 1 of 30 • Tap Speaker to Listen',
-  },
-  {
-    type: 'reflection',
-    badge: 'Day 1 Reflection & Activation',
-    title: 'Personal Reflection & Daily Walk',
-    subtitle: book.conceptFocus,
-    scripture: book.audienceLabel,
-    body: book.sampleReflectionOrActivity,
-    footer: 'Day 1 Reflection • Available in 6 Languages',
-  },
-  {
-    type: 'discover',
-    badge: '30-Day Blueprint Highlights',
-    title: 'What You Will Uncover in This Book',
-    subtitle: book.title,
-    scripture: `${book.audienceLabel} Edition`,
-    body: book.keyTakeaways.join(' • '),
-    footer: 'Full 30-Day Print & Ebook Edition Available Above',
+    footer: 'Loading 30-Day Manuscript...',
   },
 ];
 ---
 
 <section id="interactive-reader" class="py-16 px-6 bg-[#FAF9F6] border-y border-gray-200">
-  <div class="max-w-5xl mx-auto">
-    <!-- Top Header Bar with 6-Language Selector & Parent/Admin Voice Gate -->
+  <div class="max-w-6xl mx-auto">
+    <!-- Top Header Bar with 6-Language Selector & Unlock Status -->
     <div class="bg-[#0A1128] text-white rounded-t-3xl p-6 md:px-8 border-b-4 border-[#D4AF37] flex flex-col md:flex-row items-center justify-between gap-4 shadow-lg">
       <div class="text-center md:text-left">
-        <div class="flex items-center justify-center md:justify-start gap-2">
+        <div class="flex flex-wrap items-center justify-center md:justify-start gap-2.5">
           <span class="text-2xl">📖</span>
           <h2 class="font-playfair text-2xl md:text-3xl font-bold text-white" id="idr-header-title">
-            Interactive Multi-Language Reader &amp; Audio
+            30-Day Interactive Ebook Reader &amp; Audio
           </h2>
+          <span id="idr-access-badge" class="font-montserrat text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full bg-[#D4AF37] text-[#0A1128]">
+            Days 1–3 Free Preview
+          </span>
         </div>
         <p class="font-inter text-xs sm:text-sm text-gray-300 mt-1" id="idr-header-sub">
-          Read and listen to this 30-day sample in 6 languages with fluent Storyteller Voice!
+          Read &amp; listen to the Introduction + Days 1–3 FREE in 6 languages! Unlock all 30 Days + Full PDF Ebook anytime.
         </p>
       </div>
 
       <div class="flex flex-wrap items-center justify-center gap-3">
         <!-- 6-Language Selector -->
         <div class="bg-white/10 border border-[#D4AF37]/50 rounded-full px-4 py-2 flex items-center gap-2 shadow-inner">
-          <span class="font-montserrat text-[11px] font-bold uppercase tracking-wider text-[#D4AF37]" id="idr-lang-lbl">Language:</span>
+          <span class="font-montserrat text-[11px] font-bold uppercase tracking-wider text-[#D4AF37]">Language:</span>
           <select id="idr-lang-select" class="bg-transparent text-white font-montserrat font-bold text-xs focus:outline-none cursor-pointer pr-1">
             <option value="en" class="text-[#0A1128]">🇺🇸 English</option>
             <option value="sv" class="text-[#0A1128]">🇸🇪 Svenska</option>
@@ -96,37 +64,38 @@ const initialPages = [
         <!-- Auto-Read Toggle -->
         <label class="bg-white/10 border border-white/20 rounded-full px-3.5 py-2 flex items-center gap-2 cursor-pointer text-xs font-montserrat font-semibold">
           <input type="checkbox" id="idr-autoread" class="accent-[#D4AF37] w-4 h-4 cursor-pointer" />
-          <span id="idr-autoread-lbl">Auto-Read</span>
+          <span>Auto-Read</span>
         </label>
 
-        <!-- Admin/Parent Voice Gate Button -->
+        <!-- Admin/Author Magic Link Generator Gate -->
         <button
           type="button"
           id="idr-admin-btn"
           class="bg-white/10 hover:bg-white/20 text-gray-200 border border-white/20 rounded-full px-3.5 py-2 text-xs font-montserrat font-bold flex items-center gap-1.5 transition-colors"
-          title="Voice Engine Settings (Protected)"
+          title="Author / Parent Zone"
         >
-          <span>🔒</span> <span class="hidden sm:inline">Voice Admin</span>
+          <span>🔒</span> <span class="hidden sm:inline">Author / Voice Zone</span>
         </button>
       </div>
     </div>
 
     <!-- Main Reader Body -->
     <div class="bg-white rounded-b-3xl shadow-xl border border-t-0 border-gray-200 p-6 md:p-10">
-      <div class="grid lg:grid-cols-12 gap-8 items-center">
-        <!-- Left: Voice Controls & Book Info (4 cols) -->
+      <div class="grid lg:grid-cols-12 gap-8 items-start">
+        <!-- Left: Voice Controls, PDF Download & 30-Day Selector (4 cols) -->
         <div class="lg:col-span-4 space-y-5">
+          <!-- Storyteller Audio Box -->
           <div class="bg-[#FAF9F6] border border-gray-200 rounded-2xl p-5">
             <div class="flex items-center justify-between mb-3">
               <h3 class="font-montserrat text-xs font-bold uppercase tracking-wider text-[#0A1128] flex items-center gap-1.5">
-                <span>🔊</span> <span id="idr-voice-title">Storyteller Audio</span>
+                <span>🔊</span> <span>Storyteller Audio</span>
               </h3>
               <span class="text-[10px] font-montserrat font-bold uppercase px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
                 6 Languages 🌟
               </span>
             </div>
 
-            <label class="block text-[11px] font-montserrat font-semibold text-gray-500 uppercase mb-1.5" id="idr-voice-char-lbl">
+            <label class="block text-[11px] font-montserrat font-semibold text-gray-500 uppercase mb-1.5">
               Narrator Style
             </label>
             <select id="idr-voice-select" class="w-full bg-white border border-gray-300 rounded-xl px-3 py-2 text-xs font-montserrat font-semibold text-[#0A1128] mb-4 focus:outline-none focus:border-[#0A1128]">
@@ -142,92 +111,166 @@ const initialPages = [
               class="w-full min-h-[48px] bg-[#0A1128] hover:bg-[#D4AF37] text-white hover:text-[#0A1128] font-montserrat font-bold text-sm rounded-full shadow-md transition-all flex items-center justify-center gap-2"
             >
               <span id="idr-play-icon">🔊</span>
-              <span id="idr-play-label">Listen to This Page</span>
+              <span id="idr-play-label">Listen to This Day</span>
             </button>
 
             <p id="idr-audio-status" class="text-[11px] font-inter text-gray-500 text-center mt-3">
-              Click "Listen to This Page" or tap the page card to hear narration.
+              Click "Listen to This Day" to hear fluent narration.
             </p>
           </div>
 
-          <!-- Quick Page Dots / Index -->
+          <!-- Official PDF Ebook Action Card -->
           <div class="bg-[#FAF9F6] border border-gray-200 rounded-2xl p-5">
-            <span class="block font-montserrat text-[11px] font-bold uppercase tracking-wider text-gray-500 mb-3" id="idr-sections-lbl">
-              Sample Pages Inside:
-            </span>
-            <div class="space-y-2" id="idr-page-tabs">
-              <button type="button" data-page="0" class="idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-bold bg-[#0A1128] text-white transition-colors flex items-center justify-between">
-                <span>1. Book Cover &amp; Overview</span>
-                <span>&rarr;</span>
-              </button>
-              <button type="button" data-page="1" class="idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-semibold bg-white hover:bg-gray-100 text-[#0A1128] border border-gray-200 transition-colors flex items-center justify-between">
-                <span>2. Day 1 Reading &amp; Scripture</span>
-                <span>&rarr;</span>
-              </button>
-              <button type="button" data-page="2" class="idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-semibold bg-white hover:bg-gray-100 text-[#0A1128] border border-gray-200 transition-colors flex items-center justify-between">
-                <span>3. Daily Reflection / Activity</span>
-                <span>&rarr;</span>
-              </button>
-              <button type="button" data-page="3" class="idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-semibold bg-white hover:bg-gray-100 text-[#0A1128] border border-gray-200 transition-colors flex items-center justify-between">
-                <span>4. 30-Day Key Takeaways</span>
-                <span>&rarr;</span>
-              </button>
+            <div class="flex items-center justify-between mb-2">
+              <span class="font-montserrat text-xs font-bold uppercase tracking-wider text-[#0A1128] flex items-center gap-1.5">
+                <span>📄</span> Official PDF Ebook
+              </span>
+              <span id="idr-pdf-badge" class="text-[10px] font-montserrat font-bold uppercase px-2 py-0.5 rounded bg-amber-100 text-amber-800">
+                🔒 Locked
+              </span>
+            </div>
+            <p class="font-inter text-xs text-gray-600 mb-3">
+              Want to read offline or print? Unlock the complete 30-day official PDF manuscript.
+            </p>
+            <button
+              type="button"
+              id="idr-pdf-btn"
+              class="w-full min-h-[44px] bg-white hover:bg-[#0A1128] text-[#0A1128] hover:text-white border-2 border-[#0A1128] font-montserrat font-bold text-xs uppercase tracking-wider rounded-full transition-colors flex items-center justify-center gap-2"
+            >
+              <span id="idr-pdf-btn-icon">🔒</span>
+              <span id="idr-pdf-btn-text">Unlock Full PDF Edition</span>
+            </button>
+          </div>
+
+          <!-- 30-Day Chapter Navigator -->
+          <div class="bg-[#FAF9F6] border border-gray-200 rounded-2xl p-5">
+            <div class="flex items-center justify-between mb-3">
+              <span class="font-montserrat text-[11px] font-bold uppercase tracking-wider text-gray-500">
+                Jump to Any Day (30 Days):
+              </span>
+              <span class="text-[10px] font-montserrat font-semibold text-emerald-700">Days 1–3 Free</span>
+            </div>
+            <div id="idr-day-grid" class="grid grid-cols-5 gap-1.5 max-h-56 overflow-y-auto pr-1">
+              <!-- Populated dynamically with Intro + Days 1..30 -->
             </div>
           </div>
         </div>
 
-        <!-- Right: Interactive Flipbook Card (8 cols) -->
+        <!-- Right: Interactive Flipbook Stage (8 cols) -->
         <div class="lg:col-span-8 flex flex-col items-center">
+          <!-- Normal Reading View -->
           <div
             id="idr-card"
-            class={`w-full min-h-[380px] sm:min-h-[420px] rounded-3xl bg-gradient-to-br ${themeBg} border-4 p-8 md:p-10 text-white shadow-2xl flex flex-col justify-between relative cursor-pointer transition-all duration-300`}
+            class={`w-full min-h-[460px] sm:min-h-[520px] rounded-3xl bg-gradient-to-br ${themeBg} border-4 p-6 sm:p-10 text-white shadow-2xl flex flex-col justify-between relative transition-all duration-300`}
           >
             <!-- Top Badge & Page Counter -->
-            <div class="flex items-center justify-between gap-2 border-b border-white/15 pb-4">
+            <div class="flex flex-wrap items-center justify-between gap-2 border-b border-white/15 pb-4">
               <span id="idr-page-badge" class="font-montserrat text-[11px] font-bold uppercase tracking-widest text-[#D4AF37]">
-                {initialPages[0].badge}
+                Loading...
               </span>
               <span id="idr-page-counter" class="font-montserrat text-xs font-bold bg-white/15 px-3 py-1 rounded-full">
-                Page 1 of 4
+                Day 1 of 30
               </span>
             </div>
 
-            <!-- Center Content -->
-            <div class="my-auto py-6 space-y-4">
-              <h3 id="idr-page-title" class="font-playfair text-2xl sm:text-3xl md:text-4xl font-bold leading-tight text-white">
-                {initialPages[0].title}
+            <!-- Center Scrollable Manuscript Content -->
+            <div class="my-4 space-y-4 flex-grow flex flex-col justify-center">
+              <h3 id="idr-page-title" class="font-playfair text-2xl sm:text-3xl font-bold leading-tight text-white">
+                {book.title}
               </h3>
-              <p id="idr-page-subtitle" class="font-playfair italic text-base sm:text-lg text-[#D4AF37]">
-                {initialPages[0].subtitle}
+              <p id="idr-page-subtitle" class="font-playfair italic text-sm sm:text-base text-[#D4AF37]">
+                {book.subtitle}
               </p>
-              <div class="bg-white/10 backdrop-blur-sm border border-white/15 rounded-2xl p-5 sm:p-6">
-                <p id="idr-page-body" class="font-inter text-sm sm:text-base md:text-lg leading-relaxed text-gray-100">
-                  {initialPages[0].body}
-                </p>
+              <div class="bg-white/10 backdrop-blur-sm border border-white/15 rounded-2xl p-5 sm:p-6 max-h-[340px] overflow-y-auto">
+                <div id="idr-page-body" class="font-inter text-sm sm:text-base leading-relaxed text-gray-100 whitespace-pre-line">
+                  {book.shortDescription}
+                </div>
               </div>
             </div>
 
             <!-- Footer Bar inside Flipbook -->
             <div class="flex items-center justify-between border-t border-white/15 pt-4 text-xs font-montserrat text-gray-300">
-              <span id="idr-page-footer">{initialPages[0].footer}</span>
-              <span class="text-[#D4AF37] font-bold uppercase tracking-wider flex items-center gap-1">
-                <span>🔊</span> <span id="idr-tap-hint">Tap to Listen</span>
-              </span>
+              <span id="idr-page-footer">Days 1–3 Free Preview</span>
+              <button type="button" id="idr-card-speak-btn" class="text-[#D4AF37] hover:underline font-bold uppercase tracking-wider flex items-center gap-1">
+                <span>🔊</span> <span>Tap to Listen</span>
+              </button>
             </div>
           </div>
 
-          <!-- Next / Prev Page Flip Controls -->
+          <!-- Paywall / Magic Unlock View (Shown when clicking Day 4–30 or locked PDF before unlocking) -->
+          <div
+            id="idr-lock-card"
+            class="hidden w-full min-h-[460px] sm:min-h-[520px] rounded-3xl bg-[#0A1128] border-4 border-[#D4AF37] p-8 sm:p-10 text-white shadow-2xl flex-col justify-between items-center text-center"
+          >
+            <div class="max-w-lg mx-auto my-auto space-y-5">
+              <div class="w-16 h-16 rounded-full bg-[#D4AF37]/20 border-2 border-[#D4AF37] flex items-center justify-center mx-auto text-3xl">
+                🔒
+              </div>
+              <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block">
+                End of 3-Day Free Preview
+              </span>
+              <h3 class="font-playfair text-2xl sm:text-3xl font-bold text-white" id="idr-lock-heading">
+                Unlock All 30 Days + Full Official PDF Ebook
+              </h3>
+              <p class="font-inter text-sm text-gray-300 leading-relaxed">
+                You have enjoyed the free preview (Introduction + Days 1–3) of <strong>{book.title}</strong>! Purchase the Ebook ($14.99) to receive your instant <strong>Magic Unlock Link &amp; Code</strong> for Days 4–30, 6-Language Audio Narration, and the downloadable PDF Ebook.
+              </p>
+
+              <!-- Step 1: Buy Buttons -->
+              <div class="pt-2 space-y-3">
+                <a
+                  href={book.directBuyUrl}
+                  class="w-full min-h-[48px] bg-[#D4AF37] hover:bg-white text-[#0A1128] font-montserrat font-bold text-sm uppercase tracking-wider rounded-full shadow-lg transition-colors flex items-center justify-center px-6"
+                >
+                  Buy Ebook &amp; Get Instant Magic Link (${book.priceEbook}) &rarr;
+                </a>
+              </div>
+
+              <!-- Step 2: Simple Magic Code Input (Zero Passwords/Accounts Needed!) -->
+              <div class="bg-white/10 border border-white/20 rounded-2xl p-5 mt-6 text-left">
+                <label class="block font-montserrat text-xs font-bold uppercase tracking-wider text-[#D4AF37] mb-2">
+                  ✨ Have a Magic Unlock Code? Enter it once:
+                </label>
+                <div class="flex flex-col sm:flex-row gap-2">
+                  <input
+                    type="text"
+                    id="idr-unlock-input"
+                    placeholder="e.g. CSA-xxxx or Magic Code"
+                    class="flex-grow bg-white text-[#0A1128] font-montserrat font-bold text-sm rounded-xl px-4 py-2.5 focus:outline-none"
+                  />
+                  <button
+                    type="button"
+                    id="idr-unlock-submit"
+                    class="bg-emerald-600 hover:bg-emerald-500 text-white font-montserrat font-bold text-xs uppercase tracking-wider px-6 py-2.5 rounded-xl shadow transition-colors shrink-0"
+                  >
+                    Unlock Now 🔓
+                  </button>
+                </div>
+                <p id="idr-unlock-msg" class="font-inter text-xs text-red-300 mt-2 hidden"></p>
+              </div>
+
+              <button
+                type="button"
+                id="idr-back-free-btn"
+                class="font-montserrat text-xs font-semibold text-gray-400 hover:text-white underline pt-2"
+              >
+                &larr; Return to Free Sample Days (Days 1–3)
+              </button>
+            </div>
+          </div>
+
+          <!-- Next / Prev Day Flip Controls -->
           <div class="w-full flex items-center justify-between gap-4 mt-6 px-2">
             <button
               type="button"
               id="idr-prev-btn"
               class="min-h-[44px] px-5 rounded-full bg-gray-100 hover:bg-[#0A1128] text-[#0A1128] hover:text-white font-montserrat font-bold text-xs uppercase tracking-wider transition-colors disabled:opacity-40"
             >
-              &larr; Previous Page
+              &larr; Previous Day
             </button>
 
             <span id="idr-translating-indicator" class="hidden font-montserrat text-xs font-bold text-[#B38F1D] animate-pulse">
-              Translating page... 🌍
+              Translating into selected language... 🌍
             </span>
 
             <button
@@ -235,7 +278,7 @@ const initialPages = [
               id="idr-next-btn"
               class="min-h-[44px] px-5 rounded-full bg-[#D4AF37] hover:bg-[#0A1128] text-[#0A1128] hover:text-white font-montserrat font-bold text-xs uppercase tracking-wider transition-colors disabled:opacity-40"
             >
-              Next Page &rarr;
+              Next Day &rarr;
             </button>
           </div>
         </div>
@@ -243,19 +286,19 @@ const initialPages = [
     </div>
   </div>
 
-  <!-- Admin / Parent Voice Gate Modal (Hidden by default) -->
+  <!-- Author / Voice Admin Gate Modal -->
   <div id="idr-gate-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-center justify-center p-4">
     <div class="bg-white rounded-3xl max-w-md w-full p-6 md:p-8 border-4 border-[#D4AF37] shadow-2xl">
       <div class="flex items-center justify-between border-b border-gray-100 pb-3 mb-4">
         <h3 class="font-playfair font-bold text-xl text-[#0A1128] flex items-center gap-2">
-          <span>🔒</span> Voice Engine Admin Gate
+          <span>🔒</span> Author &amp; Voice Admin Gate
         </h3>
         <button type="button" id="idr-gate-close" class="text-gray-400 hover:text-gray-700 text-2xl font-bold">&times;</button>
       </div>
 
       <div id="idr-gate-step1">
         <p class="font-inter text-xs text-gray-600 mb-4">
-          Solve this quick check to unlock the Cloud Voice Engine configuration:
+          Solve this quick check to view Author Magic Links &amp; Cloud Voice Settings:
         </p>
         <div class="bg-[#FAF9F6] border border-gray-200 rounded-2xl p-4 text-center mb-4">
           <span id="idr-math-q" class="font-montserrat text-2xl font-black text-[#0A1128]">4 + 5 = ?</span>
@@ -271,47 +314,45 @@ const initialPages = [
           id="idr-math-submit"
           class="w-full bg-[#0A1128] hover:bg-[#D4AF37] text-white hover:text-[#0A1128] font-montserrat font-bold text-xs uppercase tracking-wider py-3 rounded-full transition-colors"
         >
-          Verify &amp; Unlock
+          Verify &amp; Open Admin
         </button>
       </div>
 
       <div id="idr-gate-step2" class="hidden space-y-4">
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-4 text-xs text-amber-950 space-y-2">
+          <strong class="block uppercase tracking-wider text-[#0A1128]">✨ Buyer Magic Link &amp; Code for This Book:</strong>
+          <p>Master Author Code (Unlocks any book): <code class="bg-white px-2 py-0.5 rounded font-bold">CSA2026</code></p>
+          <p>Book-Specific Code: <code id="idr-admin-book-code" class="bg-white px-2 py-0.5 rounded font-bold">Loading...</code></p>
+          <div>
+            <span class="block text-[11px] font-semibold mb-1">1-Click Magic Unlock URL (Send to Buyers):</span>
+            <input type="text" id="idr-admin-magic-url" readonly class="w-full bg-white border border-amber-300 rounded-lg px-2.5 py-1.5 text-[11px] font-mono" />
+          </div>
+          <button type="button" id="idr-admin-unlock-now" class="w-full bg-[#0A1128] text-[#D4AF37] font-montserrat font-bold text-xs py-2 rounded-xl mt-2">
+            🔓 Unlock Full 30 Days &amp; PDF on This Device Now
+          </button>
+        </div>
+
         <div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-4 text-xs text-emerald-900">
           <strong>🎙️ Cloud Voice Engine Active:</strong> Multi-language TTS is automatically powered by Cloudflare Serverless Functions (`/api/swahili-tts`) with native device fallback.
-        </div>
-        <div>
-          <label class="block font-montserrat text-[11px] font-bold uppercase text-gray-600 mb-1">
-            Optional Custom Gemini API Key:
-          </label>
-          <div class="flex gap-2">
-            <input
-              type="password"
-              id="idr-custom-key"
-              placeholder="Active via Cloud Deploy (Optional key)"
-              class="flex-grow border border-gray-300 rounded-xl px-3 py-2 text-xs"
-            />
-            <button
-              type="button"
-              id="idr-save-key"
-              class="bg-emerald-700 text-white font-montserrat font-bold text-xs px-4 py-2 rounded-xl"
-            >
-              Save
-            </button>
-          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<script define:vars={{ initialPages }}>
-  document.addEventListener('DOMContentLoaded', () => {
-    const pagesData = initialPages;
-    const translatedCache = { en: pagesData };
+<script define:vars={{ bookSlug: book.slug, initialPages }}>
+  document.addEventListener('DOMContentLoaded', async () => {
+    let pagesData = initialPages;
+    const translatedCache = {};
     let currentLang = 'en';
     let currentPage = 0;
     let isPlaying = false;
+    let isUnlocked = false;
+    let pdfDownloadUrl = `/manuscripts/pdfs/${bookSlug}.pdf`;
     const audioPlayer = new Audio();
+
+    const storageKey = `csa_unlocked_${bookSlug}`;
+    const masterStorageKey = `csa_unlocked_all`;
 
     const langSelect = document.getElementById('idr-lang-select');
     const autoReadCheck = document.getElementById('idr-autoread');
@@ -322,7 +363,15 @@ const initialPages = [
     const prevBtn = document.getElementById('idr-prev-btn');
     const nextBtn = document.getElementById('idr-next-btn');
     const card = document.getElementById('idr-card');
+    const cardSpeakBtn = document.getElementById('idr-card-speak-btn');
+    const lockCard = document.getElementById('idr-lock-card');
     const translatingIndicator = document.getElementById('idr-translating-indicator');
+    const accessBadge = document.getElementById('idr-access-badge');
+
+    const pdfBadge = document.getElementById('idr-pdf-badge');
+    const pdfBtn = document.getElementById('idr-pdf-btn');
+    const pdfBtnIcon = document.getElementById('idr-pdf-btn-icon');
+    const pdfBtnText = document.getElementById('idr-pdf-btn-text');
 
     const badgeEl = document.getElementById('idr-page-badge');
     const counterEl = document.getElementById('idr-page-counter');
@@ -330,16 +379,112 @@ const initialPages = [
     const subtitleEl = document.getElementById('idr-page-subtitle');
     const bodyEl = document.getElementById('idr-page-body');
     const footerEl = document.getElementById('idr-page-footer');
-    const tabBtns = document.querySelectorAll('.idr-tab-btn');
+    const dayGrid = document.getElementById('idr-day-grid');
+
+    const unlockInput = document.getElementById('idr-unlock-input');
+    const unlockSubmit = document.getElementById('idr-unlock-submit');
+    const unlockMsg = document.getElementById('idr-unlock-msg');
+    const backFreeBtn = document.getElementById('idr-back-free-btn');
 
     const uiLabels = {
-      en: { listen: 'Listen to This Page', stop: 'Stop Audio', speaking: 'Narrator is speaking...', ended: 'Finished speaking. Flip to the next page!' },
-      sv: { listen: 'Lyssna på denna sida', stop: 'Stoppa ljud', speaking: 'Berättaren läser...', ended: 'Uppläsning klar. Vänd blad!' },
-      de: { listen: 'Diese Seite anhören', stop: 'Audio stoppen', speaking: 'Erzähler spricht...', ended: 'Fertig gesprochen. Nächste Seite!' },
-      es: { listen: 'Escuchar esta página', stop: 'Detener audio', speaking: 'El narrador está hablando...', ended: 'Lectura terminada. ¡Siguiente página!' },
-      sw: { listen: 'Sikiliza Ukurasa Huu', stop: 'Simamisha Sauti', speaking: 'Msimulizi anasoma...', ended: 'Amemaliza kusoma. Geuza ukurasa!' },
-      fr: { listen: 'Écouter cette page', stop: 'Arrêter l\'audio', speaking: 'Le narrateur parle...', ended: 'Lecture terminée. Page suivante !' },
+      en: { listen: 'Listen to This Day', stop: 'Stop Audio', speaking: 'Narrator is reading...', ended: 'Finished reading. Click Next Day to continue!' },
+      sv: { listen: 'Lyssna på denna dag', stop: 'Stoppa ljud', speaking: 'Berättaren läser...', ended: 'Uppläsning klar. Klicka på Nästa dag!' },
+      de: { listen: 'Diesen Tag anhören', stop: 'Audio stoppen', speaking: 'Erzähler spricht...', ended: 'Fertig gesprochen. Nächster Tag!' },
+      es: { listen: 'Escuchar este día', stop: 'Detener audio', speaking: 'El narrador está leyendo...', ended: 'Lectura terminada. ¡Siguiente día!' },
+      sw: { listen: 'Sikiliza Siku Hii', stop: 'Simamisha Sauti', speaking: 'Msimulizi anasoma...', ended: 'Amemaliza kusoma. Siku inayofuata!' },
+      fr: { listen: 'Écouter ce jour', stop: 'Arrêter l\'audio', speaking: 'Le narrateur lit...', ended: 'Lecture terminée. Jour suivant !' },
     };
+
+    function applyUnlockState(unlocked) {
+      isUnlocked = unlocked;
+      if (unlocked) {
+        if (accessBadge) {
+          accessBadge.textContent = '🔓 Full 30-Day Edition Unlocked';
+          accessBadge.className = 'font-montserrat text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full bg-emerald-400 text-[#0A1128]';
+        }
+        if (pdfBadge) {
+          pdfBadge.textContent = '🔓 Ready';
+          pdfBadge.className = 'text-[10px] font-montserrat font-bold uppercase px-2 py-0.5 rounded bg-emerald-100 text-emerald-800';
+        }
+        if (pdfBtnIcon) pdfBtnIcon.textContent = '📥';
+        if (pdfBtnText) pdfBtnText.textContent = 'Open / Download Full PDF Ebook';
+      }
+      buildDayGrid();
+    }
+
+    async function verifyUnlockCode(codeToTry, silent = false) {
+      try {
+        const res = await fetch(`/api/ebook?slug=${encodeURIComponent(bookSlug)}&code=${encodeURIComponent(codeToTry)}`);
+        const data = await res.json();
+        if (res.ok && data.unlocked) {
+          localStorage.setItem(storageKey, codeToTry);
+          if (codeToTry.toUpperCase() === 'CSA2026') localStorage.setItem(masterStorageKey, 'CSA2026');
+          pdfDownloadUrl = data.pdfUrl || pdfDownloadUrl;
+          applyUnlockState(true);
+          renderCurrentPage();
+          return true;
+        } else if (!silent && unlockMsg) {
+          unlockMsg.textContent = data.error || 'Invalid unlock code.';
+          unlockMsg.classList.remove('hidden');
+        }
+      } catch (e) {
+        if (!silent && unlockMsg) {
+          unlockMsg.textContent = 'Could not verify code. Please try again.';
+          unlockMsg.classList.remove('hidden');
+        }
+      }
+      return false;
+    }
+
+    // 1. Check URL for ?unlock=... Magic Link or stored unlock
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlUnlockCode = urlParams.get('unlock');
+    const savedCode = localStorage.getItem(storageKey) || localStorage.getItem(masterStorageKey);
+
+    if (urlUnlockCode) {
+      await verifyUnlockCode(urlUnlockCode, true);
+    } else if (savedCode) {
+      await verifyUnlockCode(savedCode, true);
+    }
+
+    // 2. Fetch full 30-day manuscript JSON
+    try {
+      const mRes = await fetch(`/manuscripts/json/${bookSlug}.json`);
+      if (mRes.ok) {
+        const mData = await mRes.json();
+        if (mData && Array.isArray(mData.pages) && mData.pages.length > 0) {
+          pagesData = mData.pages;
+          translatedCache.en = pagesData;
+        }
+      }
+    } catch (e) {}
+
+    function buildDayGrid() {
+      if (!dayGrid) return;
+      dayGrid.innerHTML = '';
+      pagesData.forEach((p, idx) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        const locked = !p.isFree && !isUnlocked;
+        const label = p.dayNum === 0 ? 'Intro' : `D${p.dayNum}`;
+        btn.textContent = locked ? `${label}🔒` : label;
+
+        let cls = 'px-1.5 py-2 rounded-lg font-montserrat text-[11px] font-bold transition-all text-center ';
+        if (idx === currentPage) {
+          cls += 'bg-[#0A1128] text-[#D4AF37] ring-2 ring-[#D4AF37]';
+        } else if (locked) {
+          cls += 'bg-gray-100 text-gray-400 hover:bg-gray-200';
+        } else {
+          cls += 'bg-emerald-50 text-emerald-900 border border-emerald-200 hover:bg-emerald-100';
+        }
+        btn.className = cls;
+        btn.addEventListener('click', () => {
+          currentPage = idx;
+          renderCurrentPage();
+        });
+        dayGrid.appendChild(btn);
+      });
+    }
 
     function stopAudio() {
       if (window.speechSynthesis) window.speechSynthesis.cancel();
@@ -375,40 +520,17 @@ const initialPages = [
       window.speechSynthesis.speak(u);
     }
 
-    function playCurrentPageAudio() {
-      stopAudio();
-      const activePages = translatedCache[currentLang] || pagesData;
-      const p = activePages[currentPage];
-      if (!p) return;
-      const textToRead = `${p.title}. ${p.subtitle}. ${p.body}`;
-      const lbl = uiLabels[currentLang] || uiLabels.en;
+    async function ensurePageTranslated(lang, pageIdx) {
+      if (lang === 'en') return pagesData[pageIdx];
+      if (!translatedCache[lang]) translatedCache[lang] = {};
+      if (translatedCache[lang][pageIdx]) return translatedCache[lang][pageIdx];
 
-      isPlaying = true;
-      if (playIcon) playIcon.textContent = '⏹';
-      if (playLabel) playLabel.textContent = lbl.stop;
-      if (audioStatus) audioStatus.textContent = lbl.speaking;
-
-      audioPlayer.src = `/api/swahili-tts?lang=${encodeURIComponent(currentLang)}&text=${encodeURIComponent(textToRead)}`;
-      audioPlayer.onended = () => {
-        stopAudio();
-        if (audioStatus) audioStatus.textContent = lbl.ended;
-      };
-      audioPlayer.onerror = () => {
-        speakFallback(textToRead);
-      };
-      audioPlayer.play().catch(() => {
-        speakFallback(textToRead);
-      });
-    }
-
-    async function ensureLanguageTranslated(lang) {
-      if (translatedCache[lang]) return translatedCache[lang];
+      const orig = pagesData[pageIdx];
+      if (!orig) return orig;
       if (translatingIndicator) translatingIndicator.classList.remove('hidden');
+
       try {
-        const flatStrings = [];
-        pagesData.forEach((p) => {
-          flatStrings.push(p.badge, p.title, p.subtitle, p.body, p.footer);
-        });
+        const flatStrings = [orig.badge, orig.title, orig.subtitle, orig.body, orig.footer];
         let tr = null;
         try {
           const joined = flatStrings.join('\n|||\n');
@@ -435,50 +557,84 @@ const initialPages = [
             tr = data.translated;
           }
         }
-        tr = tr || flatStrings;
-        const rebuilt = pagesData.map((p, idx) => {
-          const base = idx * 5;
-          return {
-            ...p,
-            badge: tr[base] || p.badge,
-            title: tr[base + 1] || p.title,
-            subtitle: tr[base + 2] || p.subtitle,
-            body: tr[base + 3] || p.body,
-            footer: tr[base + 4] || p.footer,
+
+        if (tr && tr.length === 5) {
+          translatedCache[lang][pageIdx] = {
+            ...orig,
+            badge: tr[0] || orig.badge,
+            title: tr[1] || orig.title,
+            subtitle: tr[2] || orig.subtitle,
+            body: tr[3] || orig.body,
+            footer: tr[4] || orig.footer,
           };
-        });
-        translatedCache[lang] = rebuilt;
+        } else {
+          translatedCache[lang][pageIdx] = orig;
+        }
       } catch (e) {
-        translatedCache[lang] = pagesData;
+        translatedCache[lang][pageIdx] = orig;
       } finally {
         if (translatingIndicator) translatingIndicator.classList.add('hidden');
       }
-      return translatedCache[lang];
+      return translatedCache[lang][pageIdx];
     }
 
-    function renderCurrentPage() {
+    async function playCurrentPageAudio() {
       stopAudio();
-      const activePages = translatedCache[currentLang] || pagesData;
-      const p = activePages[currentPage];
-      if (!p) return;
+      const orig = pagesData[currentPage];
+      if (!orig || (!orig.isFree && !isUnlocked)) return;
+
+      const p = await ensurePageTranslated(currentLang, currentPage);
+      const textToRead = `${p.title}. ${p.body}`;
+      const lbl = uiLabels[currentLang] || uiLabels.en;
+
+      isPlaying = true;
+      if (playIcon) playIcon.textContent = '⏹';
+      if (playLabel) playLabel.textContent = lbl.stop;
+      if (audioStatus) audioStatus.textContent = lbl.speaking;
+
+      audioPlayer.src = `/api/swahili-tts?lang=${encodeURIComponent(currentLang)}&text=${encodeURIComponent(textToRead)}`;
+      audioPlayer.onended = () => {
+        stopAudio();
+        if (audioStatus) audioStatus.textContent = lbl.ended;
+      };
+      audioPlayer.onerror = () => speakFallback(textToRead);
+      audioPlayer.play().catch(() => speakFallback(textToRead));
+    }
+
+    async function renderCurrentPage() {
+      stopAudio();
+      const orig = pagesData[currentPage];
+      if (!orig) return;
+
+      buildDayGrid();
+
+      // Check if this page is locked (Day 4+ when not unlocked)
+      if (!orig.isFree && !isUnlocked) {
+        card?.classList.add('hidden');
+        lockCard?.classList.remove('hidden');
+        lockCard?.classList.add('flex');
+        if (prevBtn) prevBtn.disabled = currentPage === 0;
+        if (nextBtn) nextBtn.disabled = currentPage === pagesData.length - 1;
+        return;
+      }
+
+      lockCard?.classList.add('hidden');
+      lockCard?.classList.remove('flex');
+      card?.classList.remove('hidden');
+
+      const p = await ensurePageTranslated(currentLang, currentPage);
 
       if (badgeEl) badgeEl.textContent = p.badge;
-      if (counterEl) counterEl.textContent = `Page ${currentPage + 1} of ${activePages.length}`;
+      if (counterEl) {
+        counterEl.textContent = orig.dayNum === 0 ? `Intro (Free)` : `Day ${orig.dayNum} of ${pagesData.length - 1}`;
+      }
       if (titleEl) titleEl.textContent = p.title;
       if (subtitleEl) subtitleEl.textContent = p.subtitle;
       if (bodyEl) bodyEl.textContent = p.body;
       if (footerEl) footerEl.textContent = p.footer;
 
       if (prevBtn) prevBtn.disabled = currentPage === 0;
-      if (nextBtn) nextBtn.disabled = currentPage === activePages.length - 1;
-
-      tabBtns.forEach((btn, idx) => {
-        if (idx === currentPage) {
-          btn.className = 'idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-bold bg-[#0A1128] text-white transition-colors flex items-center justify-between';
-        } else {
-          btn.className = 'idr-tab-btn w-full text-left px-3.5 py-2 rounded-xl text-xs font-montserrat font-semibold bg-white hover:bg-gray-100 text-[#0A1128] border border-gray-200 transition-colors flex items-center justify-between';
-        }
-      });
+      if (nextBtn) nextBtn.disabled = currentPage === pagesData.length - 1;
 
       if (autoReadCheck && autoReadCheck.checked) {
         playCurrentPageAudio();
@@ -489,8 +645,7 @@ const initialPages = [
       currentLang = langSelect.value;
       const lbl = uiLabels[currentLang] || uiLabels.en;
       if (playLabel && !isPlaying) playLabel.textContent = lbl.listen;
-      await ensureLanguageTranslated(currentLang);
-      renderCurrentPage();
+      await renderCurrentPage();
     });
 
     prevBtn?.addEventListener('click', () => {
@@ -507,31 +662,38 @@ const initialPages = [
       }
     });
 
-    tabBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const idx = parseInt(btn.getAttribute('data-page') || '0', 10);
-        currentPage = idx;
-        renderCurrentPage();
-      });
-    });
-
     playBtn?.addEventListener('click', () => {
-      if (isPlaying) {
-        stopAudio();
+      if (isPlaying) stopAudio();
+      else playCurrentPageAudio();
+    });
+
+    cardSpeakBtn?.addEventListener('click', () => {
+      if (isPlaying) stopAudio();
+      else playCurrentPageAudio();
+    });
+
+    pdfBtn?.addEventListener('click', () => {
+      if (isUnlocked) {
+        window.open(pdfDownloadUrl, '_blank');
       } else {
-        playCurrentPageAudio();
+        // Jump to lock screen to prompt Magic Code or Purchase
+        currentPage = 4;
+        renderCurrentPage();
       }
     });
 
-    card?.addEventListener('click', () => {
-      if (isPlaying) {
-        stopAudio();
-      } else {
-        playCurrentPageAudio();
-      }
+    unlockSubmit?.addEventListener('click', async () => {
+      const codeVal = (unlockInput?.value || '').trim();
+      if (!codeVal) return;
+      await verifyUnlockCode(codeVal, false);
     });
 
-    // Admin Gate Modal logic
+    backFreeBtn?.addEventListener('click', () => {
+      currentPage = 1;
+      renderCurrentPage();
+    });
+
+    // Admin / Author Gate Modal logic
     const adminBtn = document.getElementById('idr-admin-btn');
     const gateModal = document.getElementById('idr-gate-modal');
     const gateClose = document.getElementById('idr-gate-close');
@@ -540,6 +702,9 @@ const initialPages = [
     const mathSubmit = document.getElementById('idr-math-submit');
     const step1 = document.getElementById('idr-gate-step1');
     const step2 = document.getElementById('idr-gate-step2');
+    const adminBookCode = document.getElementById('idr-admin-book-code');
+    const adminMagicUrl = document.getElementById('idr-admin-magic-url');
+    const adminUnlockNow = document.getElementById('idr-admin-unlock-now');
     let expectedAns = 9;
 
     adminBtn?.addEventListener('click', () => {
@@ -559,16 +724,28 @@ const initialPages = [
       gateModal?.classList.remove('flex');
     });
 
-    mathSubmit?.addEventListener('click', () => {
+    mathSubmit?.addEventListener('click', async () => {
       if (parseInt(mathAns?.value || '0', 10) === expectedAns) {
         step1?.classList.add('hidden');
         step2?.classList.remove('hidden');
+        try {
+          const r = await fetch(`/api/ebook?slug=${encodeURIComponent(bookSlug)}&code=CSA2026`);
+          const d = await r.json();
+          if (adminBookCode) adminBookCode.textContent = d.bookCode || 'CSA2026';
+          if (adminMagicUrl) adminMagicUrl.value = d.magicLink || `${window.location.origin}/books/${bookSlug}/?unlock=CSA2026#interactive-reader`;
+        } catch (e) {}
       } else if (mathAns) {
         mathAns.value = '';
         mathAns.placeholder = 'Try again!';
       }
     });
 
-    renderCurrentPage();
+    adminUnlockNow?.addEventListener('click', async () => {
+      await verifyUnlockCode('CSA2026', true);
+      gateModal?.classList.add('hidden');
+      gateModal?.classList.remove('flex');
+    });
+
+    await renderCurrentPage();
   });
 </script>
