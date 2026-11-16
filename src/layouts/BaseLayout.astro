@@ -73,5 +73,78 @@ const socialImageURL = new URL(ogImage, Astro.site || 'https://spiritualbooks.cs
       <slot />
     </main>
     <Footer />
+      <!-- AI Transparency & Author Statement Pop-up Modal -->
+    <div id="author-transparency-modal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 transition-opacity duration-300 hidden" aria-hidden="true" role="dialog">
+      <div class="bg-[#0A1128] text-white border-2 border-[#D4AF37] rounded-3xl max-w-2xl w-full p-6 md:p-8 shadow-2xl relative max-h-[90vh] overflow-y-auto">
+        <button id="close-transparency-modal-btn" type="button" class="absolute top-5 right-5 text-gray-400 hover:text-white bg-white/10 hover:bg-white/20 rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl transition-colors" aria-label="Close Pop-up">
+          &times;
+        </button>
+
+        <div class="flex items-center gap-3 mb-4">
+          <span class="text-3xl">✍️</span>
+          <div>
+            <span class="font-montserrat text-xs font-bold uppercase tracking-widest text-[#D4AF37] block">A Message From the Author</span>
+            <h2 class="font-playfair text-2xl md:text-3xl font-bold">About Our Process &amp; Experience</h2>
+          </div>
+        </div>
+
+        <div class="font-inter text-sm md:text-base text-gray-200 space-y-4 leading-relaxed border-t border-white/10 pt-4">
+          <p>
+            Welcome to <strong>CSA Online Shop</strong> and the <em>Divine Blueprint Series</em>. We believe in 100% transparency with our readers.
+          </p>
+          <div class="bg-white/5 border border-[#D4AF37]/30 rounded-2xl p-4 space-y-2 text-xs md:text-sm">
+            <p>
+              <strong>The Author's Heart &amp; Experience:</strong> The author, <strong>Christine A.</strong>, is a trained writer, former journalist, and currently an active blogger on current affairs and spiritual matters.
+            </p>
+            <p>
+              The core value of every book is the distillation of <strong>more than 30 years of personal spiritual experiences, research, and biblical investigation</strong> into concrete, practical guides—saving spiritual seekers, new believers, and children from wasting time on unnecessary academic complexity.
+            </p>
+            <p>
+              <strong>Fact-Checked:</strong> All biblical texts, prophecies, timelines, and insights are personally researched and fact-checked by the author.
+            </p>
+            <p>
+              <strong>Use of AI Assistants:</strong> Because English is not our first language, modern AI tools are used ethically as productivity assistants to speed up proofreading, editing, language refinement, and cover illustrations. The heart, doctrine, life lessons, and vision originate completely from the author.
+            </p>
+          </div>
+          <p class="text-xs text-gray-400 italic">
+            This popup appears on your first visit to ensure our methodology and heart are crystal clear. You can dismiss it anytime.
+          </p>
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-end">
+          <button id="confirm-transparency-modal-btn" type="button" class="bg-[#D4AF37] hover:bg-[#b8952b] text-[#0A1128] font-montserrat font-bold text-sm px-6 py-2.5 rounded-full transition-colors">
+            Got It, Continue to Site &rarr;
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script is:inline>
+      (function() {
+        const modal = document.getElementById('author-transparency-modal');
+        const closeBtn = document.getElementById('close-transparency-modal-btn');
+        const confirmBtn = document.getElementById('confirm-transparency-modal-btn');
+
+        if (!modal) return;
+
+        const hasSeen = localStorage.getItem('csa_transparency_popup_seen');
+        if (!hasSeen) {
+          setTimeout(() => {
+            modal.classList.remove('hidden');
+          }, 800);
+        }
+
+        function closeModal() {
+          modal.classList.add('hidden');
+          localStorage.setItem('csa_transparency_popup_seen', 'true');
+        }
+
+        if (closeBtn) closeBtn.addEventListener('click', closeModal);
+        if (confirmBtn) confirmBtn.addEventListener('click', closeModal);
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) closeModal();
+        });
+      })();
+    </script>
   </body>
 </html>
