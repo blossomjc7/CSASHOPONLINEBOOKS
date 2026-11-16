@@ -3,7 +3,7 @@
 <</Type /Catalog /Pages 2 0 R>>
 endobj
 2 0 obj
-<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R] /Count 67>>
+<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R 139 0 R] /Count 68>>
 endobj
 3 0 obj
 <</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>
@@ -15,27 +15,36 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 6 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 6 0 obj
-<</Length 910>>
+<</Length 1176>>
 stream
 q
 0.98 0.98 0.98 rg 0 0 595 842 re f
-0.18 0.35 0.26 rg 20 20 555 802 re 3.5 w S
+0.18 0.35 0.26 rg 20 20 555 802 re 3 w S
 0.039 0.066 0.156 rg 28 28 539 786 re 1 w S
 
 % Inner Arch Panel matching website
 0.95 0.97 0.96 rg 80 140 435 480 re f
-0.18 0.35 0.26 rg 80 140 435 480 re 2 w S
+0.18 0.35 0.26 rg 80 140 435 480 re 1.5 w S
 
-% Tap Root Emblem
-0.88 0.93 0.90 rg 297 530 45 45 re f
-0.18 0.35 0.26 rg 297 530 45 45 re 2 w S
-% Root lines
+% Clean Delicate Spiritual Seedling Emblem (Round, peaceful, zero fraternity lines)
+0.89 0.94 0.91 rg 297 530 46 46 re f
+0.18 0.35 0.26 rg 297 530 46 46 re 1.5 w S
+
+% Ground soil line
+0.35 0.25 0.18 rg 280 545 80 1.5 re f
+
+% Deep Tap Root driving deep into soil
 0.18 0.35 0.26 rg
-320 530 4 35 re f
-305 540 15 2.5 re f
-324 540 15 2.5 re f
-310 555 10 2 re f
-324 555 10 2 re f
+320 522 3 23 re f
+312 528 10 1.8 re f
+321 528 10 1.8 re f
+315 536 7 1.4 re f
+321 536 7 1.4 re f
+
+% Sprouting Seedling Stem & Tender Leaves rising upward
+320 545 3 20 re f
+308 558 13 4 re f
+322 562 13 4 re f
 
 0.18 0.35 0.26 rg
 BT /F2 11 Tf 165 750 Td (THE NEW BELIEVER COLLECTION) Tj ET
@@ -120,7 +129,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 12 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 12 0 obj
-<</Length 2186>>
+<</Length 2122>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -132,40 +141,40 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (=================) Tj
 0 -15 Td () Tj
 0 -15 Td (Front Matter:) Tj
-0 -15 Td (• Copyright & Author Transparency Note) Tj
-0 -15 Td (• Introduction & Reading Guide) Tj
+0 -15 Td (- Copyright & Author Transparency Note) Tj
+0 -15 Td (- Introduction & Reading Guide) Tj
 0 -15 Td () Tj
 0 -15 Td (The 30-Day Devotional Journey:) Tj
-0 -15 Td (• Day 1: The Angel Who Found a Runaway) Tj
-0 -15 Td (• Day 2: The Angel Who Stopped a Wrong Path) Tj
-0 -15 Td (• Day 3: The Angel in the Burning Bush) Tj
-0 -15 Td (• Day 4: The Angel Who Went Before Israel) Tj
-0 -15 Td (• Day 5: The Angel Who Called a Scared Man a Warrior) Tj
-0 -15 Td (• Day 6: The Angel Who Ascended in the Flame) Tj
-0 -15 Td (• Day 7: The Angel Who Commands the Army) Tj
-0 -15 Td (• Day 8: The Angel Who Spoke to the Parents of Samson) Tj
-0 -15 Td (• Day 9: The Angel Who Guards the Way) Tj
-0 -15 Td (• Day 10: The Angel Who Confronted Balaam) Tj
-0 -15 Td (• Day 11: The Angel in the Fire) Tj
-0 -15 Td (• Day 12: The Angel Who Gave Water) Tj
-0 -15 Td (• Day 13: The Angel Who Spoke from the Bush) Tj
-0 -15 Td (• Day 14: The Angel Who Led the Way) Tj
-0 -15 Td (• Day 15: The Angel Who Protected the Israelites) Tj
-0 -15 Td (• Day 16: The Angel Who Gave the Law) Tj
-0 -15 Td (• Day 17: The Angel Who Fought for Israel) Tj
-0 -15 Td (• Day 18: The Angel Who Spoke to Elijah) Tj
-0 -15 Td (• Day 19: The Angel Who Stood with Shadrach, Meshach, and Abednego) Tj
-0 -15 Td (• Day 20: The Angel Who Watches Over You) Tj
-0 -15 Td (• Day 21: The Angel Who Spoke to Zechariah) Tj
-0 -15 Td (• Day 22: The Angel Who Spoke to Joseph) Tj
-0 -15 Td (• Day 23: The Angel Who Spoke to the Shepherds) Tj
-0 -15 Td (• Day 24: The Angel Who Appeared to Mary) Tj
-0 -15 Td (• Day 25: The Angel Who Appeared in the Temple) Tj
-0 -15 Td (• Day 26: The Angel Who Confirmed the Birth) Tj
-0 -15 Td (• Day 27: The Angel Who Opened the Prison) Tj
-0 -15 Td (• Day 28: The Angel Who Stood in the Fire) Tj
-0 -15 Td (• Day 29: The Angel Who Spoke of the Savior) Tj
-0 -15 Td (• Day 30: The Angel Who Is With You) Tj
+0 -15 Td (- Day 1: The Angel Who Found a Runaway) Tj
+0 -15 Td (- Day 2: The Angel Who Stopped a Wrong Path) Tj
+0 -15 Td (- Day 3: The Angel in the Burning Bush) Tj
+0 -15 Td (- Day 4: The Angel Who Went Before Israel) Tj
+0 -15 Td (- Day 5: The Angel Who Called a Scared Man a Warrior) Tj
+0 -15 Td (- Day 6: The Angel Who Ascended in the Flame) Tj
+0 -15 Td (- Day 7: The Angel Who Commands the Army) Tj
+0 -15 Td (- Day 8: The Angel Who Spoke to the Parents of Samson) Tj
+0 -15 Td (- Day 9: The Angel Who Guards the Way) Tj
+0 -15 Td (- Day 10: The Angel Who Confronted Balaam) Tj
+0 -15 Td (- Day 11: The Angel in the Fire) Tj
+0 -15 Td (- Day 12: The Angel Who Gave Water) Tj
+0 -15 Td (- Day 13: The Angel Who Spoke from the Bush) Tj
+0 -15 Td (- Day 14: The Angel Who Led the Way) Tj
+0 -15 Td (- Day 15: The Angel Who Protected the Israelites) Tj
+0 -15 Td (- Day 16: The Angel Who Gave the Law) Tj
+0 -15 Td (- Day 17: The Angel Who Fought for Israel) Tj
+0 -15 Td (- Day 18: The Angel Who Spoke to Elijah) Tj
+0 -15 Td (- Day 19: The Angel Who Stood with Shadrach, Meshach, and Abednego) Tj
+0 -15 Td (- Day 20: The Angel Who Watches Over You) Tj
+0 -15 Td (- Day 21: The Angel Who Spoke to Zechariah) Tj
+0 -15 Td (- Day 22: The Angel Who Spoke to Joseph) Tj
+0 -15 Td (- Day 23: The Angel Who Spoke to the Shepherds) Tj
+0 -15 Td (- Day 24: The Angel Who Appeared to Mary) Tj
+0 -15 Td (- Day 25: The Angel Who Appeared in the Temple) Tj
+0 -15 Td (- Day 26: The Angel Who Confirmed the Birth) Tj
+0 -15 Td (- Day 27: The Angel Who Opened the Prison) Tj
+0 -15 Td (- Day 28: The Angel Who Stood in the Fire) Tj
+0 -15 Td (- Day 29: The Angel Who Spoke of the Savior) Tj
+0 -15 Td (- Day 30: The Angel Who Is With You) Tj
 ET
 Q
 endstream
@@ -1845,7 +1854,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 98 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 98 0 obj
-<</Length 1750>>
+<</Length 1744>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1857,10 +1866,10 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td ("But the angel said to him, 'Do not) Tj
-0 -15 Td (….) Tj
+0 -15 Td (.) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
-0 -15 Td (CONTINUED — DAY 21 \(FINISHED\)) Tj
+0 -15 Td (CONTINUED  DAY 21 \(FINISHED\)) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (The Old Appearance \(continued\)) Tj
@@ -2642,11 +2651,52 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 138 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 138 0 obj
-<</Length 1963>>
+<</Length 1524>>
 stream
 q
 0.039 0.066 0.156 rg
-BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES • CATALOG) Tj ET
+BT /F2 14 Tf 50 780 Td (END MATTER & DEVOTIONAL CHALLENGE) Tj ET
+0.83 0.68 0.21 rg 50 770 495 1 re f
+0 0 0 rg
+BT /F1 10 Tf 50 740 Td
+(END MATTER) Tj
+0 -15 Td () Tj
+0 -15 Td (The 30-Day Follow-Up Challenge) Tj
+0 -15 Td (You have journeyed through 30 days in the Old Testament seeing Jesus. Now) Tj
+0 -15 Td (what? I challenge you to read the book of Galatians and Romans. See how the) Tj
+0 -15 Td (law was our schoolmaster leading us to Christ, and how Jesus is our true) Tj
+0 -15 Td (substance.) Tj
+0 -15 Td () Tj
+0 -15 Td (A Note on Faith) Tj
+0 -15 Td (The scriptures are evidence of a divine rescue plan. But evidence does not) Tj
+0 -15 Td (save youknowing Jesus personally saves you. Jesus said, "Here I am! I stand) Tj
+0 -15 Td (at the door and knock." The door is open. Walk in relationship with Him.) Tj
+0 -15 Td () Tj
+0 -15 Td (About the Author) Tj
+0 -15 Td (Christine A. writes for the spiritually curious. She is passionate about) Tj
+0 -15 Td (showing people the hidden wisdom of the Bible. She distills more than 30 years) Tj
+0 -15 Td (of firsthand spiritual experience into accessible devotionals.) Tj
+0 -15 Td () Tj
+0 -15 Td (Coming Next: The Next Believer Journey) Tj
+0 -15 Td (Continue deeper into our Old Testament foundations.) Tj
+0 -15 Td () Tj
+0 -15 Td (Final Call to Action) Tj
+0 -15 Td (Listen to the 100% audio edition in 6 languages at) Tj
+0 -15 Td (https://spiritualbooks.csaonlineshop.com and visit) Tj
+0 -15 Td (https://csaonlineshop.gumroad.com for bundle downloads.) Tj
+ET
+Q
+endstream
+endobj
+139 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 140 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+endobj
+140 0 obj
+<</Length 1949>>
+stream
+q
+0.039 0.066 0.156 rg
+BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES - CATALOG) Tj ET
 0.83 0.68 0.21 rg 50 745 495 1.5 re f
 
 0 0 0 rg
@@ -2671,10 +2721,10 @@ BT /F1 9.5 Tf 50 495 Td (For families and little detectives. Fun object lessons,
 0.039 0.066 0.156 rg
 BT /F2 12 Tf 50 435 Td (WHERE TO FIND & UNLOCK THE BOOKS:) Tj ET
 0 0 0 rg
-BT /F1 10 Tf 50 410 Td (• Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
-0 -18 Td (• Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
-0 -18 Td (• Ministry Store: https://csaonlineshop.com) Tj ET
-0 -18 Td (• Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
+BT /F1 10 Tf 50 410 Td (- Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
+0 -18 Td (- Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
+0 -18 Td (- Ministry Store: https://csaonlineshop.com) Tj ET
+0 -18 Td (- Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
 
 0.83 0.68 0.21 rg
 BT /F2 10.5 Tf 50 300 Td (100% Audio Enabled for Real, Busy Lives:) Tj ET
@@ -2683,153 +2733,155 @@ BT /F1 9.5 Tf 50 280 Td (Every day of every book can be listened to in 6 languag
 0 -15 Td (or feeding the baby. You never have to fall behind on your journey with Jesus.) Tj ET
 
 0.4 0.4 0.4 rg
-BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing • Stockholm, Sweden • Author: Christine A.) Tj ET
+BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing - Stockholm, Sweden - Author: Christine A.) Tj ET
 Q
 endstream
 endobj
 xref
-0 139
+0 141
 0000000000 65535 f 
 0000000009 00000 n 
 0000000056 00000 n 
-0000000591 00000 n 
-0000000659 00000 n 
-0000000732 00000 n 
-0000000862 00000 n 
-0000001821 00000 n 
-0000001951 00000 n 
-0000002821 00000 n 
-0000002952 00000 n 
-0000004736 00000 n 
-0000004868 00000 n 
-0000007105 00000 n 
-0000007237 00000 n 
-0000009584 00000 n 
-0000009716 00000 n 
-0000010203 00000 n 
-0000010335 00000 n 
-0000012412 00000 n 
-0000012544 00000 n 
-0000013217 00000 n 
-0000013349 00000 n 
-0000015494 00000 n 
-0000015626 00000 n 
-0000016313 00000 n 
-0000016445 00000 n 
-0000018576 00000 n 
-0000018708 00000 n 
-0000019381 00000 n 
-0000019513 00000 n 
-0000021568 00000 n 
-0000021700 00000 n 
-0000022309 00000 n 
-0000022441 00000 n 
-0000024535 00000 n 
-0000024667 00000 n 
-0000025240 00000 n 
-0000025372 00000 n 
-0000027511 00000 n 
-0000027643 00000 n 
-0000028379 00000 n 
-0000028511 00000 n 
-0000030510 00000 n 
-0000030642 00000 n 
-0000031285 00000 n 
-0000031417 00000 n 
-0000033445 00000 n 
-0000033577 00000 n 
-0000034172 00000 n 
-0000034304 00000 n 
-0000036223 00000 n 
-0000036355 00000 n 
-0000036829 00000 n 
-0000036961 00000 n 
-0000038989 00000 n 
-0000039121 00000 n 
-0000039713 00000 n 
-0000039845 00000 n 
-0000041829 00000 n 
-0000041961 00000 n 
-0000042478 00000 n 
-0000042610 00000 n 
-0000044542 00000 n 
-0000044674 00000 n 
-0000045194 00000 n 
-0000045326 00000 n 
-0000047222 00000 n 
-0000047354 00000 n 
-0000047829 00000 n 
-0000047961 00000 n 
-0000049983 00000 n 
-0000050115 00000 n 
-0000050590 00000 n 
-0000050722 00000 n 
-0000052700 00000 n 
-0000052832 00000 n 
-0000053356 00000 n 
-0000053488 00000 n 
-0000055423 00000 n 
-0000055555 00000 n 
-0000056007 00000 n 
-0000056139 00000 n 
-0000057998 00000 n 
-0000058130 00000 n 
-0000058589 00000 n 
-0000058721 00000 n 
-0000060584 00000 n 
-0000060716 00000 n 
-0000061143 00000 n 
-0000061275 00000 n 
-0000063213 00000 n 
-0000063345 00000 n 
-0000063820 00000 n 
-0000063952 00000 n 
-0000065735 00000 n 
-0000065867 00000 n 
-0000066319 00000 n 
-0000066451 00000 n 
-0000068252 00000 n 
-0000068385 00000 n 
-0000069381 00000 n 
-0000069515 00000 n 
-0000071589 00000 n 
-0000071723 00000 n 
-0000072194 00000 n 
-0000072328 00000 n 
-0000074345 00000 n 
-0000074479 00000 n 
-0000075062 00000 n 
-0000075196 00000 n 
-0000077141 00000 n 
-0000077275 00000 n 
-0000077740 00000 n 
-0000077874 00000 n 
-0000079844 00000 n 
-0000079978 00000 n 
-0000080479 00000 n 
-0000080613 00000 n 
-0000082437 00000 n 
-0000082571 00000 n 
-0000082993 00000 n 
-0000083127 00000 n 
-0000085128 00000 n 
-0000085262 00000 n 
-0000085719 00000 n 
-0000085853 00000 n 
-0000087756 00000 n 
-0000087890 00000 n 
-0000088341 00000 n 
-0000088475 00000 n 
-0000090305 00000 n 
-0000090439 00000 n 
-0000090894 00000 n 
-0000091028 00000 n 
-0000093043 00000 n 
-0000093177 00000 n 
-0000093784 00000 n 
-0000093918 00000 n 
+0000000599 00000 n 
+0000000667 00000 n 
+0000000740 00000 n 
+0000000870 00000 n 
+0000002096 00000 n 
+0000002226 00000 n 
+0000003096 00000 n 
+0000003227 00000 n 
+0000005011 00000 n 
+0000005143 00000 n 
+0000007316 00000 n 
+0000007448 00000 n 
+0000009795 00000 n 
+0000009927 00000 n 
+0000010414 00000 n 
+0000010546 00000 n 
+0000012623 00000 n 
+0000012755 00000 n 
+0000013428 00000 n 
+0000013560 00000 n 
+0000015705 00000 n 
+0000015837 00000 n 
+0000016524 00000 n 
+0000016656 00000 n 
+0000018787 00000 n 
+0000018919 00000 n 
+0000019592 00000 n 
+0000019724 00000 n 
+0000021779 00000 n 
+0000021911 00000 n 
+0000022520 00000 n 
+0000022652 00000 n 
+0000024746 00000 n 
+0000024878 00000 n 
+0000025451 00000 n 
+0000025583 00000 n 
+0000027722 00000 n 
+0000027854 00000 n 
+0000028590 00000 n 
+0000028722 00000 n 
+0000030721 00000 n 
+0000030853 00000 n 
+0000031496 00000 n 
+0000031628 00000 n 
+0000033656 00000 n 
+0000033788 00000 n 
+0000034383 00000 n 
+0000034515 00000 n 
+0000036434 00000 n 
+0000036566 00000 n 
+0000037040 00000 n 
+0000037172 00000 n 
+0000039200 00000 n 
+0000039332 00000 n 
+0000039924 00000 n 
+0000040056 00000 n 
+0000042040 00000 n 
+0000042172 00000 n 
+0000042689 00000 n 
+0000042821 00000 n 
+0000044753 00000 n 
+0000044885 00000 n 
+0000045405 00000 n 
+0000045537 00000 n 
+0000047433 00000 n 
+0000047565 00000 n 
+0000048040 00000 n 
+0000048172 00000 n 
+0000050194 00000 n 
+0000050326 00000 n 
+0000050801 00000 n 
+0000050933 00000 n 
+0000052911 00000 n 
+0000053043 00000 n 
+0000053567 00000 n 
+0000053699 00000 n 
+0000055634 00000 n 
+0000055766 00000 n 
+0000056218 00000 n 
+0000056350 00000 n 
+0000058209 00000 n 
+0000058341 00000 n 
+0000058800 00000 n 
+0000058932 00000 n 
+0000060795 00000 n 
+0000060927 00000 n 
+0000061354 00000 n 
+0000061486 00000 n 
+0000063424 00000 n 
+0000063556 00000 n 
+0000064031 00000 n 
+0000064163 00000 n 
+0000065946 00000 n 
+0000066078 00000 n 
+0000066530 00000 n 
+0000066662 00000 n 
+0000068457 00000 n 
+0000068590 00000 n 
+0000069586 00000 n 
+0000069720 00000 n 
+0000071794 00000 n 
+0000071928 00000 n 
+0000072399 00000 n 
+0000072533 00000 n 
+0000074550 00000 n 
+0000074684 00000 n 
+0000075267 00000 n 
+0000075401 00000 n 
+0000077346 00000 n 
+0000077480 00000 n 
+0000077945 00000 n 
+0000078079 00000 n 
+0000080049 00000 n 
+0000080183 00000 n 
+0000080684 00000 n 
+0000080818 00000 n 
+0000082642 00000 n 
+0000082776 00000 n 
+0000083198 00000 n 
+0000083332 00000 n 
+0000085333 00000 n 
+0000085467 00000 n 
+0000085924 00000 n 
+0000086058 00000 n 
+0000087961 00000 n 
+0000088095 00000 n 
+0000088546 00000 n 
+0000088680 00000 n 
+0000090510 00000 n 
+0000090644 00000 n 
+0000091099 00000 n 
+0000091233 00000 n 
+0000093248 00000 n 
+0000093382 00000 n 
+0000093989 00000 n 
+0000094123 00000 n 
+0000095699 00000 n 
+0000095833 00000 n 
 trailer
-<</Size 139 /Root 1 0 R>>
+<</Size 141 /Root 1 0 R>>
 startxref
-95933
+97834
 %%EOF

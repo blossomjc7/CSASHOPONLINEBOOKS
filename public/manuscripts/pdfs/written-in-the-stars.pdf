@@ -3,7 +3,7 @@
 <</Type /Catalog /Pages 2 0 R>>
 endobj
 2 0 obj
-<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R] /Count 66>>
+<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R] /Count 67>>
 endobj
 3 0 obj
 <</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>
@@ -15,27 +15,36 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 6 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 6 0 obj
-<</Length 915>>
+<</Length 1181>>
 stream
 q
 0.98 0.98 0.98 rg 0 0 595 842 re f
-0.83 0.68 0.21 rg 20 20 555 802 re 3.5 w S
+0.83 0.68 0.21 rg 20 20 555 802 re 3 w S
 0.039 0.066 0.156 rg 28 28 539 786 re 1 w S
 
 % Inner Arch Panel matching website
 0.95 0.97 0.96 rg 80 140 435 480 re f
-0.83 0.68 0.21 rg 80 140 435 480 re 2 w S
+0.83 0.68 0.21 rg 80 140 435 480 re 1.5 w S
 
-% Tap Root Emblem
-0.88 0.93 0.90 rg 297 530 45 45 re f
-0.83 0.68 0.21 rg 297 530 45 45 re 2 w S
-% Root lines
+% Clean Delicate Spiritual Seedling Emblem (Round, peaceful, zero fraternity lines)
+0.89 0.94 0.91 rg 297 530 46 46 re f
+0.83 0.68 0.21 rg 297 530 46 46 re 1.5 w S
+
+% Ground soil line
+0.35 0.25 0.18 rg 280 545 80 1.5 re f
+
+% Deep Tap Root driving deep into soil
 0.83 0.68 0.21 rg
-320 530 4 35 re f
-305 540 15 2.5 re f
-324 540 15 2.5 re f
-310 555 10 2 re f
-324 555 10 2 re f
+320 522 3 23 re f
+312 528 10 1.8 re f
+321 528 10 1.8 re f
+315 536 7 1.4 re f
+321 536 7 1.4 re f
+
+% Sprouting Seedling Stem & Tender Leaves rising upward
+320 545 3 20 re f
+308 558 13 4 re f
+322 562 13 4 re f
 
 0.83 0.68 0.21 rg
 BT /F2 11 Tf 165 750 Td (THE SPIRITUAL SEEKER COLLECTION) Tj ET
@@ -120,7 +129,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 12 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 12 0 obj
-<</Length 1949>>
+<</Length 1883>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -132,41 +141,41 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (=================) Tj
 0 -15 Td () Tj
 0 -15 Td (Front Matter:) Tj
-0 -15 Td (• Copyright & Author Transparency Note) Tj
-0 -15 Td (• Introduction & Reading Guide) Tj
+0 -15 Td (- Copyright & Author Transparency Note) Tj
+0 -15 Td (- Introduction & Reading Guide) Tj
 0 -15 Td () Tj
 0 -15 Td (The 30-Day Devotional Journey:) Tj
-0 -15 Td (• Day 1: The Star Out of Jacob) Tj
-0 -15 Td (• Day 2: Born of a Virgin) Tj
-0 -15 Td (• Day 3: Born in Bethlehem) Tj
-0 -15 Td (• Day 4: The Scepter of Judah) Tj
-0 -15 Td (• Day 5: The Prophet Like Moses) Tj
-0 -15 Td (• Day 6: The Root of Jesse) Tj
-0 -15 Td (• Day 7: The Everlasting Father) Tj
-0 -15 Td (• Day 8: The Son Called out of Egypt) Tj
-0 -15 Td (• Day 9: The Weeping of Rachel) Tj
-0 -15 Td (• Day 10: The Voice in the Wilderness) Tj
-0 -15 Td (• Day 11: The Spirit of the Lord) Tj
-0 -15 Td (• Day 12: The Light in Galilee) Tj
-0 -15 Td (• Day 13: The Rejected Stone) Tj
-0 -15 Td (• Day 14: Hated Without a Cause) Tj
-0 -15 Td (• Day 15: The Betrayal of a Friend) Tj
-0 -15 Td (• Day 15: The Betrayal of a Friend \(Continued\)) Tj
-0 -15 Td (• Day 16: Sold for Thirty Pieces of Silver) Tj
-0 -15 Td (• Day 17: The Silence Before the Slaughter) Tj
-0 -15 Td (• Day 18: The Smitten Shepherd) Tj
-0 -15 Td (• Day 19: Crucified with Sinners) Tj
-0 -15 Td (• Day 20: Hands and Feet Pierced) Tj
-0 -15 Td (• Day 21: Mocked and Shaken Heads) Tj
-0 -15 Td (• Day 22: Given Gall and Vinegar) Tj
-0 -15 Td (• Day 23: Garments Divided by Lot) Tj
-0 -15 Td (• Day 24: The Cry of Forsakenness) Tj
-0 -15 Td (• Day 25: Buried in a Rich Man's Tomb) Tj
-0 -15 Td (• Day 26: Not Left in the Grave) Tj
-0 -15 Td (• Day 27: The Ascension and Victory) Tj
-0 -15 Td (• Day 28: The Eternal Throne) Tj
-0 -15 Td (• Day 29: The New Covenant) Tj
-0 -15 Td (• Day 30: The Real Constellation) Tj
+0 -15 Td (- Day 1: The Star Out of Jacob) Tj
+0 -15 Td (- Day 2: Born of a Virgin) Tj
+0 -15 Td (- Day 3: Born in Bethlehem) Tj
+0 -15 Td (- Day 4: The Scepter of Judah) Tj
+0 -15 Td (- Day 5: The Prophet Like Moses) Tj
+0 -15 Td (- Day 6: The Root of Jesse) Tj
+0 -15 Td (- Day 7: The Everlasting Father) Tj
+0 -15 Td (- Day 8: The Son Called out of Egypt) Tj
+0 -15 Td (- Day 9: The Weeping of Rachel) Tj
+0 -15 Td (- Day 10: The Voice in the Wilderness) Tj
+0 -15 Td (- Day 11: The Spirit of the Lord) Tj
+0 -15 Td (- Day 12: The Light in Galilee) Tj
+0 -15 Td (- Day 13: The Rejected Stone) Tj
+0 -15 Td (- Day 14: Hated Without a Cause) Tj
+0 -15 Td (- Day 15: The Betrayal of a Friend) Tj
+0 -15 Td (- Day 15: The Betrayal of a Friend \(Continued\)) Tj
+0 -15 Td (- Day 16: Sold for Thirty Pieces of Silver) Tj
+0 -15 Td (- Day 17: The Silence Before the Slaughter) Tj
+0 -15 Td (- Day 18: The Smitten Shepherd) Tj
+0 -15 Td (- Day 19: Crucified with Sinners) Tj
+0 -15 Td (- Day 20: Hands and Feet Pierced) Tj
+0 -15 Td (- Day 21: Mocked and Shaken Heads) Tj
+0 -15 Td (- Day 22: Given Gall and Vinegar) Tj
+0 -15 Td (- Day 23: Garments Divided by Lot) Tj
+0 -15 Td (- Day 24: The Cry of Forsakenness) Tj
+0 -15 Td (- Day 25: Buried in a Rich Man's Tomb) Tj
+0 -15 Td (- Day 26: Not Left in the Grave) Tj
+0 -15 Td (- Day 27: The Ascension and Victory) Tj
+0 -15 Td (- Day 28: The Eternal Throne) Tj
+0 -15 Td (- Day 29: The New Covenant) Tj
+0 -15 Td (- Day 30: The Real Constellation) Tj
 ET
 Q
 endstream
@@ -1392,7 +1401,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 72 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 72 0 obj
-<</Length 2190>>
+<</Length 2187>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1439,7 +1448,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (someone) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
-0 -15 Td (…..) Tj
+0 -15 Td (..) Tj
 ET
 Q
 endstream
@@ -1481,7 +1490,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 76 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 76 0 obj
-<</Length 2616>>
+<</Length 2607>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1500,7 +1509,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (The Ancient Text \(OT\)) Tj
 0 -15 Td ("I told them, 'If you think it best, give me my pay; but if not, keep it.' So) Tj
 0 -15 Td (they paid me thirty pieces of silver. And the LORD said to me, 'Throw it to) Tj
-0 -15 Td (the potter'—the handsome price at which they valued me! So I took the thirty) Tj
+0 -15 Td (the potter'the handsome price at which they valued me! So I took the thirty) Tj
 0 -15 Td (pieces of silver and threw them to the potter at the house of the LORD." -) Tj
 0 -15 Td (Zechariah 11:12-13 \(Written around 500 B.C.\)) Tj
 0 -15 Td () Tj
@@ -1514,7 +1523,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (The Fulfillment \(NT\)) Tj
-0 -15 Td ("Then one of the Twelve—the one called Judas Iscariot—went to the chief) Tj
+0 -15 Td ("Then one of the Twelvethe one called Judas Iscariotwent to the chief) Tj
 0 -15 Td (priests and asked, 'What are you willing to give me if I deliver him over to) Tj
 0 -15 Td (you?' So they counted out for him thirty pieces of silver." - Matthew 26:14-15) Tj
 0 -15 Td () Tj
@@ -1566,7 +1575,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 80 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 80 0 obj
-<</Length 2475>>
+<</Length 2472>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1598,7 +1607,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (The Fulfillment \(NT\)) Tj
 0 -15 Td ("When he was accused by the chief priests and the elders, he gave no answer.) Tj
 0 -15 Td (Then Pilate asked him, 'Don't you hear the testimony they are bringing against) Tj
-0 -15 Td (you?' But Jesus made no reply, not even to a single charge—to the great) Tj
+0 -15 Td (you?' But Jesus made no reply, not even to a single chargeto the great) Tj
 0 -15 Td (amazement of the governor." - Matthew 27:12-14) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
@@ -1730,7 +1739,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 88 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 88 0 obj
-<</Length 2387>>
+<</Length 2384>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1761,7 +1770,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (The Fulfillment \(NT\)) Tj
 0 -15 Td ("Two other men, both criminals, were also led out with him to be executed.) Tj
 0 -15 Td (When they came to the place called the Skull, they crucified him there, along) Tj
-0 -15 Td (with the criminals—one on his right, the other on his left. Jesus said,) Tj
+0 -15 Td (with the criminalsone on his right, the other on his left. Jesus said,) Tj
 0 -15 Td ('Father, forgive them, for they do not know what they are doing.'" - Luke) Tj
 0 -15 Td (23:32-34) Tj
 0 -15 Td () Tj
@@ -2377,7 +2386,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 120 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 120 0 obj
-<</Length 2214>>
+<</Length 2211>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -2395,7 +2404,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td (The Ancient Text \(OT\)) Tj
 0 -15 Td ("When you ascended on high, you took many captives; you received gifts from) Tj
-0 -15 Td (people, even from the rebellious—that you, LORD God, might dwell there." -) Tj
+0 -15 Td (people, even from the rebelliousthat you, LORD God, might dwell there." -) Tj
 0 -15 Td (Psalm 68:18 \(Written around 1000 B.C.\)) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
@@ -2536,7 +2545,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 128 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 128 0 obj
-<</Length 2234>>
+<</Length 2231>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -2567,7 +2576,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td (The Fulfillment \(NT\)) Tj
 0 -15 Td ("For this reason Christ is the mediator of a new covenant, that those who are) Tj
-0 -15 Td (called may receive the promised eternal inheritance—now that he has died as a) Tj
+0 -15 Td (called may receive the promised eternal inheritancenow that he has died as a) Tj
 0 -15 Td (ransom to set them free from the sins committed under the first covenant." -) Tj
 0 -15 Td (Hebrews 9:15) Tj
 0 -15 Td () Tj
@@ -2689,11 +2698,49 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 136 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 136 0 obj
-<</Length 1963>>
+<</Length 1277>>
 stream
 q
 0.039 0.066 0.156 rg
-BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES • CATALOG) Tj ET
+BT /F2 14 Tf 50 780 Td (END MATTER & DEVOTIONAL CHALLENGE) Tj ET
+0.83 0.68 0.21 rg 50 770 495 1 re f
+0 0 0 rg
+BT /F1 10 Tf 50 740 Td
+(END MATTER) Tj
+0 -15 Td () Tj
+0 -15 Td (The 30-Day Investigative Challenge) Tj
+0 -15 Td (You have explored 30 ancient predictions and appearances. Now what? I) Tj
+0 -15 Td (challenge you to read the Gospel of John and Hebrews. Compare the ancient) Tj
+0 -15 Td (prophecies with the historical eyewitness accounts of Jesus.) Tj
+0 -15 Td () Tj
+0 -15 Td (A Note on Faith) Tj
+0 -15 Td (The prophecies are undeniable evidence of a divine blueprint. But evidence) Tj
+0 -15 Td (points to a Person. The invitation is for your heart. Jesus stands at the) Tj
+0 -15 Td (door.) Tj
+0 -15 Td () Tj
+0 -15 Td (About the Author) Tj
+0 -15 Td (Christine A. writes for the spiritually curious, skeptics, and seekers. She) Tj
+0 -15 Td (believes that honest questions deserve honest answers.) Tj
+0 -15 Td () Tj
+0 -15 Td (Coming Next: The New Believer Edition) Tj
+0 -15 Td (Ready to take the next step? Grow your roots deep in Christ.) Tj
+0 -15 Td () Tj
+0 -15 Td (Final Call to Action) Tj
+0 -15 Td (Explore all 25 Seeker titles and audio editions at) Tj
+0 -15 Td (https://spiritualbooks.csaonlineshop.com and https://csaonlineshop.com.) Tj
+ET
+Q
+endstream
+endobj
+137 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 138 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+endobj
+138 0 obj
+<</Length 1949>>
+stream
+q
+0.039 0.066 0.156 rg
+BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES - CATALOG) Tj ET
 0.83 0.68 0.21 rg 50 745 495 1.5 re f
 
 0 0 0 rg
@@ -2718,10 +2765,10 @@ BT /F1 9.5 Tf 50 495 Td (For families and little detectives. Fun object lessons,
 0.039 0.066 0.156 rg
 BT /F2 12 Tf 50 435 Td (WHERE TO FIND & UNLOCK THE BOOKS:) Tj ET
 0 0 0 rg
-BT /F1 10 Tf 50 410 Td (• Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
-0 -18 Td (• Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
-0 -18 Td (• Ministry Store: https://csaonlineshop.com) Tj ET
-0 -18 Td (• Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
+BT /F1 10 Tf 50 410 Td (- Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
+0 -18 Td (- Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
+0 -18 Td (- Ministry Store: https://csaonlineshop.com) Tj ET
+0 -18 Td (- Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
 
 0.83 0.68 0.21 rg
 BT /F2 10.5 Tf 50 300 Td (100% Audio Enabled for Real, Busy Lives:) Tj ET
@@ -2730,151 +2777,153 @@ BT /F1 9.5 Tf 50 280 Td (Every day of every book can be listened to in 6 languag
 0 -15 Td (or feeding the baby. You never have to fall behind on your journey with Jesus.) Tj ET
 
 0.4 0.4 0.4 rg
-BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing • Stockholm, Sweden • Author: Christine A.) Tj ET
+BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing - Stockholm, Sweden - Author: Christine A.) Tj ET
 Q
 endstream
 endobj
 xref
-0 137
+0 139
 0000000000 65535 f 
 0000000009 00000 n 
 0000000056 00000 n 
-0000000583 00000 n 
-0000000651 00000 n 
-0000000724 00000 n 
-0000000854 00000 n 
-0000001818 00000 n 
-0000001948 00000 n 
-0000002817 00000 n 
-0000002948 00000 n 
-0000004732 00000 n 
-0000004864 00000 n 
-0000006864 00000 n 
-0000006996 00000 n 
-0000009541 00000 n 
-0000009673 00000 n 
-0000012042 00000 n 
-0000012174 00000 n 
-0000012967 00000 n 
-0000013099 00000 n 
-0000015566 00000 n 
-0000015698 00000 n 
-0000016536 00000 n 
-0000016668 00000 n 
-0000019214 00000 n 
-0000019346 00000 n 
-0000020276 00000 n 
-0000020408 00000 n 
-0000022869 00000 n 
-0000023001 00000 n 
-0000023822 00000 n 
-0000023954 00000 n 
-0000026454 00000 n 
-0000026586 00000 n 
-0000027380 00000 n 
-0000027512 00000 n 
-0000030040 00000 n 
-0000030172 00000 n 
-0000031097 00000 n 
-0000031229 00000 n 
-0000033612 00000 n 
-0000033744 00000 n 
-0000034468 00000 n 
-0000034600 00000 n 
-0000036939 00000 n 
-0000037071 00000 n 
-0000037803 00000 n 
-0000037935 00000 n 
-0000040365 00000 n 
-0000040497 00000 n 
-0000041195 00000 n 
-0000041327 00000 n 
-0000043727 00000 n 
-0000043859 00000 n 
-0000044495 00000 n 
-0000044627 00000 n 
-0000047208 00000 n 
-0000047340 00000 n 
-0000048346 00000 n 
-0000048478 00000 n 
-0000051102 00000 n 
-0000051234 00000 n 
-0000052166 00000 n 
-0000052298 00000 n 
-0000054784 00000 n 
-0000054916 00000 n 
-0000055729 00000 n 
-0000055861 00000 n 
-0000058163 00000 n 
-0000058295 00000 n 
-0000059006 00000 n 
-0000059138 00000 n 
-0000061379 00000 n 
-0000061511 00000 n 
-0000062596 00000 n 
-0000062728 00000 n 
-0000065395 00000 n 
-0000065527 00000 n 
-0000066352 00000 n 
-0000066484 00000 n 
-0000069010 00000 n 
-0000069142 00000 n 
-0000069929 00000 n 
-0000070061 00000 n 
-0000072451 00000 n 
-0000072583 00000 n 
-0000073297 00000 n 
-0000073429 00000 n 
-0000075867 00000 n 
-0000075999 00000 n 
-0000076739 00000 n 
-0000076871 00000 n 
-0000079318 00000 n 
-0000079450 00000 n 
-0000080126 00000 n 
-0000080258 00000 n 
-0000082840 00000 n 
-0000082972 00000 n 
-0000083864 00000 n 
-0000083997 00000 n 
-0000086393 00000 n 
-0000086527 00000 n 
-0000087218 00000 n 
-0000087352 00000 n 
-0000089762 00000 n 
-0000089896 00000 n 
-0000090538 00000 n 
-0000090672 00000 n 
-0000092974 00000 n 
-0000093108 00000 n 
-0000093623 00000 n 
-0000093757 00000 n 
-0000096220 00000 n 
-0000096354 00000 n 
-0000097056 00000 n 
-0000097190 00000 n 
-0000099613 00000 n 
-0000099747 00000 n 
-0000100330 00000 n 
-0000100464 00000 n 
-0000102730 00000 n 
-0000102864 00000 n 
-0000103364 00000 n 
-0000103498 00000 n 
-0000105948 00000 n 
-0000106082 00000 n 
-0000106803 00000 n 
-0000106937 00000 n 
-0000109223 00000 n 
-0000109357 00000 n 
-0000110018 00000 n 
-0000110152 00000 n 
-0000112363 00000 n 
-0000112497 00000 n 
-0000112787 00000 n 
-0000112921 00000 n 
+0000000591 00000 n 
+0000000659 00000 n 
+0000000732 00000 n 
+0000000862 00000 n 
+0000002093 00000 n 
+0000002223 00000 n 
+0000003092 00000 n 
+0000003223 00000 n 
+0000005007 00000 n 
+0000005139 00000 n 
+0000007073 00000 n 
+0000007205 00000 n 
+0000009750 00000 n 
+0000009882 00000 n 
+0000012251 00000 n 
+0000012383 00000 n 
+0000013176 00000 n 
+0000013308 00000 n 
+0000015775 00000 n 
+0000015907 00000 n 
+0000016745 00000 n 
+0000016877 00000 n 
+0000019423 00000 n 
+0000019555 00000 n 
+0000020485 00000 n 
+0000020617 00000 n 
+0000023078 00000 n 
+0000023210 00000 n 
+0000024031 00000 n 
+0000024163 00000 n 
+0000026663 00000 n 
+0000026795 00000 n 
+0000027589 00000 n 
+0000027721 00000 n 
+0000030249 00000 n 
+0000030381 00000 n 
+0000031306 00000 n 
+0000031438 00000 n 
+0000033821 00000 n 
+0000033953 00000 n 
+0000034677 00000 n 
+0000034809 00000 n 
+0000037148 00000 n 
+0000037280 00000 n 
+0000038012 00000 n 
+0000038144 00000 n 
+0000040574 00000 n 
+0000040706 00000 n 
+0000041404 00000 n 
+0000041536 00000 n 
+0000043936 00000 n 
+0000044068 00000 n 
+0000044704 00000 n 
+0000044836 00000 n 
+0000047417 00000 n 
+0000047549 00000 n 
+0000048555 00000 n 
+0000048687 00000 n 
+0000051311 00000 n 
+0000051443 00000 n 
+0000052375 00000 n 
+0000052507 00000 n 
+0000054993 00000 n 
+0000055125 00000 n 
+0000055938 00000 n 
+0000056070 00000 n 
+0000058372 00000 n 
+0000058504 00000 n 
+0000059215 00000 n 
+0000059347 00000 n 
+0000061585 00000 n 
+0000061717 00000 n 
+0000062802 00000 n 
+0000062934 00000 n 
+0000065592 00000 n 
+0000065724 00000 n 
+0000066549 00000 n 
+0000066681 00000 n 
+0000069204 00000 n 
+0000069336 00000 n 
+0000070123 00000 n 
+0000070255 00000 n 
+0000072645 00000 n 
+0000072777 00000 n 
+0000073491 00000 n 
+0000073623 00000 n 
+0000076058 00000 n 
+0000076190 00000 n 
+0000076930 00000 n 
+0000077062 00000 n 
+0000079509 00000 n 
+0000079641 00000 n 
+0000080317 00000 n 
+0000080449 00000 n 
+0000083031 00000 n 
+0000083163 00000 n 
+0000084055 00000 n 
+0000084188 00000 n 
+0000086584 00000 n 
+0000086718 00000 n 
+0000087409 00000 n 
+0000087543 00000 n 
+0000089953 00000 n 
+0000090087 00000 n 
+0000090729 00000 n 
+0000090863 00000 n 
+0000093165 00000 n 
+0000093299 00000 n 
+0000093814 00000 n 
+0000093948 00000 n 
+0000096411 00000 n 
+0000096545 00000 n 
+0000097247 00000 n 
+0000097381 00000 n 
+0000099804 00000 n 
+0000099938 00000 n 
+0000100521 00000 n 
+0000100655 00000 n 
+0000102918 00000 n 
+0000103052 00000 n 
+0000103552 00000 n 
+0000103686 00000 n 
+0000106136 00000 n 
+0000106270 00000 n 
+0000106991 00000 n 
+0000107125 00000 n 
+0000109408 00000 n 
+0000109542 00000 n 
+0000110203 00000 n 
+0000110337 00000 n 
+0000112548 00000 n 
+0000112682 00000 n 
+0000112972 00000 n 
+0000113106 00000 n 
+0000114435 00000 n 
+0000114569 00000 n 
 trailer
-<</Size 137 /Root 1 0 R>>
+<</Size 139 /Root 1 0 R>>
 startxref
-114936
+116570
 %%EOF

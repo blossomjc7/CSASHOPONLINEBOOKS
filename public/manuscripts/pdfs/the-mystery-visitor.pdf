@@ -3,7 +3,7 @@
 <</Type /Catalog /Pages 2 0 R>>
 endobj
 2 0 obj
-<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R 139 0 R] /Count 68>>
+<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R 139 0 R 141 0 R] /Count 69>>
 endobj
 3 0 obj
 <</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>
@@ -15,27 +15,36 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 6 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 6 0 obj
-<</Length 917>>
+<</Length 1183>>
 stream
 q
 0.98 0.98 0.98 rg 0 0 595 842 re f
-0.17 0.35 0.65 rg 20 20 555 802 re 3.5 w S
+0.17 0.35 0.65 rg 20 20 555 802 re 3 w S
 0.039 0.066 0.156 rg 28 28 539 786 re 1 w S
 
 % Inner Arch Panel matching website
 0.95 0.97 0.96 rg 80 140 435 480 re f
-0.17 0.35 0.65 rg 80 140 435 480 re 2 w S
+0.17 0.35 0.65 rg 80 140 435 480 re 1.5 w S
 
-% Tap Root Emblem
-0.88 0.93 0.90 rg 297 530 45 45 re f
-0.17 0.35 0.65 rg 297 530 45 45 re 2 w S
-% Root lines
+% Clean Delicate Spiritual Seedling Emblem (Round, peaceful, zero fraternity lines)
+0.89 0.94 0.91 rg 297 530 46 46 re f
+0.17 0.35 0.65 rg 297 530 46 46 re 1.5 w S
+
+% Ground soil line
+0.35 0.25 0.18 rg 280 545 80 1.5 re f
+
+% Deep Tap Root driving deep into soil
 0.17 0.35 0.65 rg
-320 530 4 35 re f
-305 540 15 2.5 re f
-324 540 15 2.5 re f
-310 555 10 2 re f
-324 555 10 2 re f
+320 522 3 23 re f
+312 528 10 1.8 re f
+321 528 10 1.8 re f
+315 536 7 1.4 re f
+321 536 7 1.4 re f
+
+% Sprouting Seedling Stem & Tender Leaves rising upward
+320 545 3 20 re f
+308 558 13 4 re f
+322 562 13 4 re f
 
 0.17 0.35 0.65 rg
 BT /F2 11 Tf 165 750 Td (THE CHILDREN'S EDITION \(AGES 4-8\)) Tj ET
@@ -120,7 +129,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 12 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 12 0 obj
-<</Length 1937>>
+<</Length 1873>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -132,40 +141,40 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (=================) Tj
 0 -15 Td () Tj
 0 -15 Td (Front Matter:) Tj
-0 -15 Td (• Copyright & Author Transparency Note) Tj
-0 -15 Td (• Introduction & Reading Guide) Tj
+0 -15 Td (- Copyright & Author Transparency Note) Tj
+0 -15 Td (- Introduction & Reading Guide) Tj
 0 -15 Td () Tj
 0 -15 Td (The 30-Day Devotional Journey:) Tj
-0 -15 Td (• Day 1: The Mystery in the Garden) Tj
-0 -15 Td (• Day 2: The Mystery at the Tent) Tj
-0 -15 Td (• Day 3: The Mystery in the Bush) Tj
-0 -15 Td (• Day 4: The Mystery in the Sea) Tj
-0 -15 Td (• Day 5: The Mystery in the Fire) Tj
-0 -15 Td (• Day 6: The Mystery in the Whisper) Tj
-0 -15 Td (• Day 7: The Mystery in the Rock) Tj
-0 -15 Td (• Day 8: The Mystery in the Ladder) Tj
-0 -15 Td (• Day 9: The Mystery in the Donkey) Tj
-0 -15 Td (• Day 10: The Mystery in the Star) Tj
-0 -15 Td (• Day 11: The Mystery in the Cloud) Tj
-0 -15 Td (• Day 12: The Mystery in the Hand) Tj
-0 -15 Td (• Day 13: The Mystery in the Cave) Tj
-0 -15 Td (• Day 14: The Mystery in the Storm) Tj
-0 -15 Td (• Day 15: The Mystery in the Well) Tj
-0 -15 Td (• Day 16: The Mystery in the Dream) Tj
-0 -15 Td (• Day 17: The Mystery in the Prayer) Tj
-0 -15 Td (• Day 18: The Mystery in the Meal) Tj
-0 -15 Td (• Day 19: The Mystery in the Angel) Tj
-0 -15 Td (• Day 20: The Mystery in the Baby) Tj
-0 -15 Td (• Day 21: The Mystery in the Shepherd) Tj
-0 -15 Td (• Day 22: The Mystery in the Lamb) Tj
-0 -15 Td (• Day 23: The Mystery in the Door) Tj
-0 -15 Td (• Day 24: The Mystery in the Battle) Tj
-0 -15 Td (• Day 25: The Mystery in the Garden) Tj
-0 -15 Td (• Day 26: The Mystery in the Promise) Tj
-0 -15 Td (• Day 27: The Mystery in the Rescue) Tj
-0 -15 Td (• Day 28: The Mystery in the Feast) Tj
-0 -15 Td (• Day 29: The Mystery in the Rainbow) Tj
-0 -15 Td (• Day 30: The Mystery Solved) Tj
+0 -15 Td (- Day 1: The Mystery in the Garden) Tj
+0 -15 Td (- Day 2: The Mystery at the Tent) Tj
+0 -15 Td (- Day 3: The Mystery in the Bush) Tj
+0 -15 Td (- Day 4: The Mystery in the Sea) Tj
+0 -15 Td (- Day 5: The Mystery in the Fire) Tj
+0 -15 Td (- Day 6: The Mystery in the Whisper) Tj
+0 -15 Td (- Day 7: The Mystery in the Rock) Tj
+0 -15 Td (- Day 8: The Mystery in the Ladder) Tj
+0 -15 Td (- Day 9: The Mystery in the Donkey) Tj
+0 -15 Td (- Day 10: The Mystery in the Star) Tj
+0 -15 Td (- Day 11: The Mystery in the Cloud) Tj
+0 -15 Td (- Day 12: The Mystery in the Hand) Tj
+0 -15 Td (- Day 13: The Mystery in the Cave) Tj
+0 -15 Td (- Day 14: The Mystery in the Storm) Tj
+0 -15 Td (- Day 15: The Mystery in the Well) Tj
+0 -15 Td (- Day 16: The Mystery in the Dream) Tj
+0 -15 Td (- Day 17: The Mystery in the Prayer) Tj
+0 -15 Td (- Day 18: The Mystery in the Meal) Tj
+0 -15 Td (- Day 19: The Mystery in the Angel) Tj
+0 -15 Td (- Day 20: The Mystery in the Baby) Tj
+0 -15 Td (- Day 21: The Mystery in the Shepherd) Tj
+0 -15 Td (- Day 22: The Mystery in the Lamb) Tj
+0 -15 Td (- Day 23: The Mystery in the Door) Tj
+0 -15 Td (- Day 24: The Mystery in the Battle) Tj
+0 -15 Td (- Day 25: The Mystery in the Garden) Tj
+0 -15 Td (- Day 26: The Mystery in the Promise) Tj
+0 -15 Td (- Day 27: The Mystery in the Rescue) Tj
+0 -15 Td (- Day 28: The Mystery in the Feast) Tj
+0 -15 Td (- Day 29: The Mystery in the Rainbow) Tj
+0 -15 Td (- Day 30: The Mystery Solved) Tj
 ET
 Q
 endstream
@@ -174,7 +183,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 14 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 14 0 obj
-<</Length 1773>>
+<</Length 1771>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -199,7 +208,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (Illustrated by Christine A.) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
-0 -15 Td (Copyright © 2026 Christine A. All rights reserved. This printable is for) Tj
+0 -15 Td (Copyright  2026 Christine A. All rights reserved. This printable is for) Tj
 0 -15 Td (personal family use only. Not for resale. No part of this book may be) Tj
 0 -15 Td (reproduced in any form without permission from the author.) Tj
 0 -15 Td () Tj
@@ -2538,7 +2547,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 128 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 128 0 obj
-<</Length 1022>>
+<</Length 1016>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -2555,10 +2564,10 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (Visitor. One day we will feast with Him in heaven.) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
-0 -15 Td (….) Tj
+0 -15 Td (.) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
-0 -15 Td (CONTINUED — DAY 28 \(FINISHED\)) Tj
+0 -15 Td (CONTINUED  DAY 28 \(FINISHED\)) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (The Kid's Prayer) Tj
@@ -2799,11 +2808,57 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 140 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 140 0 obj
-<</Length 1963>>
+<</Length 1806>>
 stream
 q
 0.039 0.066 0.156 rg
-BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES • CATALOG) Tj ET
+BT /F2 14 Tf 50 780 Td (END MATTER & DEVOTIONAL CHALLENGE) Tj ET
+0.83 0.68 0.21 rg 50 770 495 1 re f
+0 0 0 rg
+BT /F1 10 Tf 50 740 Td
+(END MATTER) Tj
+0 -15 Td () Tj
+0 -15 Td (Family Discussion Cards) Tj
+0 -15 Td () Tj
+0 -15 Td (Card 1: What was the coolest clue you found in this book?) Tj
+0 -15 Td (Card 2: What is your favorite Bible story from these 30 days?) Tj
+0 -15 Td (Card 3: Why do you think God gives us so many clues about Jesus?) Tj
+0 -15 Td (Card 4: How does it feel to know Jesus is always with you?) Tj
+0 -15 Td (Card 5: Who is someone you can tell about Jesus this week?) Tj
+0 -15 Td (Card 6: What is your favorite prayer from this book?) Tj
+0 -15 Td (Card 7: If you could ask Jesus one question, what would it be?) Tj
+0 -15 Td (Card 8: What is one way you can show Jesus' love today?) Tj
+0 -15 Td (Card 9: What is your favorite coloring page from this book?) Tj
+0 -15 Td (Card 10: What is one thing you want to remember about Jesus forever?) Tj
+0 -15 Td () Tj
+0 -15 Td (A Note for the Parent: Building on the Foundation) Tj
+0 -15 Td () Tj
+0 -15 Td (You did it! You spent 30 days walking your children through the scriptures.) Tj
+0 -15 Td (Here are tips to keep going:) Tj
+0 -15 Td (1. Make it a habit, not a chore \(5 minutes before bed\).) Tj
+0 -15 Td (2. Let them see you reading your Bible.) Tj
+0 -15 Td (3. Ask "Where is Jesus in this story?") Tj
+0 -15 Td (4. Recommended next steps: Continue with our Divine Blueprint Series.) Tj
+0 -15 Td () Tj
+0 -15 Td (Sneak Peek: The Next Children's Adventure) Tj
+0 -15 Td (Join us for the next 30 clues discovering our Savior!) Tj
+0 -15 Td () Tj
+0 -15 Td (Final Call to Action) Tj
+0 -15 Td (Visit https://spiritualbooks.csaonlineshop.com to listen to audio editions and) Tj
+0 -15 Td (download family reading guides.) Tj
+ET
+Q
+endstream
+endobj
+141 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 142 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+endobj
+142 0 obj
+<</Length 1949>>
+stream
+q
+0.039 0.066 0.156 rg
+BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES - CATALOG) Tj ET
 0.83 0.68 0.21 rg 50 745 495 1.5 re f
 
 0 0 0 rg
@@ -2828,10 +2883,10 @@ BT /F1 9.5 Tf 50 495 Td (For families and little detectives. Fun object lessons,
 0.039 0.066 0.156 rg
 BT /F2 12 Tf 50 435 Td (WHERE TO FIND & UNLOCK THE BOOKS:) Tj ET
 0 0 0 rg
-BT /F1 10 Tf 50 410 Td (• Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
-0 -18 Td (• Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
-0 -18 Td (• Ministry Store: https://csaonlineshop.com) Tj ET
-0 -18 Td (• Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
+BT /F1 10 Tf 50 410 Td (- Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
+0 -18 Td (- Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
+0 -18 Td (- Ministry Store: https://csaonlineshop.com) Tj ET
+0 -18 Td (- Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
 
 0.83 0.68 0.21 rg
 BT /F2 10.5 Tf 50 300 Td (100% Audio Enabled for Real, Busy Lives:) Tj ET
@@ -2840,155 +2895,157 @@ BT /F1 9.5 Tf 50 280 Td (Every day of every book can be listened to in 6 languag
 0 -15 Td (or feeding the baby. You never have to fall behind on your journey with Jesus.) Tj ET
 
 0.4 0.4 0.4 rg
-BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing • Stockholm, Sweden • Author: Christine A.) Tj ET
+BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing - Stockholm, Sweden - Author: Christine A.) Tj ET
 Q
 endstream
 endobj
 xref
-0 141
+0 143
 0000000000 65535 f 
 0000000009 00000 n 
 0000000056 00000 n 
-0000000599 00000 n 
-0000000667 00000 n 
-0000000740 00000 n 
-0000000870 00000 n 
-0000001836 00000 n 
-0000001966 00000 n 
-0000002834 00000 n 
-0000002965 00000 n 
-0000004749 00000 n 
-0000004881 00000 n 
-0000006869 00000 n 
-0000007001 00000 n 
-0000008825 00000 n 
-0000008957 00000 n 
-0000010038 00000 n 
-0000010170 00000 n 
-0000011709 00000 n 
-0000011841 00000 n 
-0000012901 00000 n 
-0000013033 00000 n 
-0000014513 00000 n 
-0000014645 00000 n 
-0000015781 00000 n 
-0000015913 00000 n 
-0000017406 00000 n 
-0000017538 00000 n 
-0000018578 00000 n 
-0000018710 00000 n 
-0000020162 00000 n 
-0000020294 00000 n 
-0000021314 00000 n 
-0000021446 00000 n 
-0000022851 00000 n 
-0000022983 00000 n 
-0000023951 00000 n 
-0000024083 00000 n 
-0000025534 00000 n 
-0000025666 00000 n 
-0000026611 00000 n 
-0000026743 00000 n 
-0000028120 00000 n 
-0000028252 00000 n 
-0000029250 00000 n 
-0000029382 00000 n 
-0000030881 00000 n 
-0000031013 00000 n 
-0000031971 00000 n 
-0000032103 00000 n 
-0000033572 00000 n 
-0000033704 00000 n 
-0000034641 00000 n 
-0000034773 00000 n 
-0000036252 00000 n 
-0000036384 00000 n 
-0000037400 00000 n 
-0000037532 00000 n 
-0000038998 00000 n 
-0000039130 00000 n 
-0000040054 00000 n 
-0000040186 00000 n 
-0000041580 00000 n 
-0000041712 00000 n 
-0000042664 00000 n 
-0000042796 00000 n 
-0000044236 00000 n 
-0000044368 00000 n 
-0000045283 00000 n 
-0000045415 00000 n 
-0000046774 00000 n 
-0000046906 00000 n 
-0000047823 00000 n 
-0000047955 00000 n 
-0000049413 00000 n 
-0000049545 00000 n 
-0000050485 00000 n 
-0000050617 00000 n 
-0000052072 00000 n 
-0000052204 00000 n 
-0000053146 00000 n 
-0000053278 00000 n 
-0000054707 00000 n 
-0000054839 00000 n 
-0000055784 00000 n 
-0000055916 00000 n 
-0000057393 00000 n 
-0000057525 00000 n 
-0000058476 00000 n 
-0000058608 00000 n 
-0000060077 00000 n 
-0000060209 00000 n 
-0000061216 00000 n 
-0000061348 00000 n 
-0000062812 00000 n 
-0000062944 00000 n 
-0000063859 00000 n 
-0000063991 00000 n 
-0000065374 00000 n 
-0000065507 00000 n 
-0000066498 00000 n 
-0000066632 00000 n 
-0000067927 00000 n 
-0000068061 00000 n 
-0000068934 00000 n 
-0000069068 00000 n 
-0000070380 00000 n 
-0000070514 00000 n 
-0000071415 00000 n 
-0000071549 00000 n 
-0000072941 00000 n 
-0000073075 00000 n 
-0000074035 00000 n 
-0000074169 00000 n 
-0000075546 00000 n 
-0000075680 00000 n 
-0000076594 00000 n 
-0000076728 00000 n 
-0000078074 00000 n 
-0000078208 00000 n 
-0000079122 00000 n 
-0000079256 00000 n 
-0000080729 00000 n 
-0000080863 00000 n 
-0000081803 00000 n 
-0000081937 00000 n 
-0000083361 00000 n 
-0000083495 00000 n 
-0000084569 00000 n 
-0000084703 00000 n 
-0000086105 00000 n 
-0000086239 00000 n 
-0000087178 00000 n 
-0000087312 00000 n 
-0000088970 00000 n 
-0000089104 00000 n 
-0000090464 00000 n 
-0000090598 00000 n 
-0000091953 00000 n 
-0000092087 00000 n 
+0000000607 00000 n 
+0000000675 00000 n 
+0000000748 00000 n 
+0000000878 00000 n 
+0000002111 00000 n 
+0000002241 00000 n 
+0000003109 00000 n 
+0000003240 00000 n 
+0000005024 00000 n 
+0000005156 00000 n 
+0000007080 00000 n 
+0000007212 00000 n 
+0000009034 00000 n 
+0000009166 00000 n 
+0000010247 00000 n 
+0000010379 00000 n 
+0000011918 00000 n 
+0000012050 00000 n 
+0000013110 00000 n 
+0000013242 00000 n 
+0000014722 00000 n 
+0000014854 00000 n 
+0000015990 00000 n 
+0000016122 00000 n 
+0000017615 00000 n 
+0000017747 00000 n 
+0000018787 00000 n 
+0000018919 00000 n 
+0000020371 00000 n 
+0000020503 00000 n 
+0000021523 00000 n 
+0000021655 00000 n 
+0000023060 00000 n 
+0000023192 00000 n 
+0000024160 00000 n 
+0000024292 00000 n 
+0000025743 00000 n 
+0000025875 00000 n 
+0000026820 00000 n 
+0000026952 00000 n 
+0000028329 00000 n 
+0000028461 00000 n 
+0000029459 00000 n 
+0000029591 00000 n 
+0000031090 00000 n 
+0000031222 00000 n 
+0000032180 00000 n 
+0000032312 00000 n 
+0000033781 00000 n 
+0000033913 00000 n 
+0000034850 00000 n 
+0000034982 00000 n 
+0000036461 00000 n 
+0000036593 00000 n 
+0000037609 00000 n 
+0000037741 00000 n 
+0000039207 00000 n 
+0000039339 00000 n 
+0000040263 00000 n 
+0000040395 00000 n 
+0000041789 00000 n 
+0000041921 00000 n 
+0000042873 00000 n 
+0000043005 00000 n 
+0000044445 00000 n 
+0000044577 00000 n 
+0000045492 00000 n 
+0000045624 00000 n 
+0000046983 00000 n 
+0000047115 00000 n 
+0000048032 00000 n 
+0000048164 00000 n 
+0000049622 00000 n 
+0000049754 00000 n 
+0000050694 00000 n 
+0000050826 00000 n 
+0000052281 00000 n 
+0000052413 00000 n 
+0000053355 00000 n 
+0000053487 00000 n 
+0000054916 00000 n 
+0000055048 00000 n 
+0000055993 00000 n 
+0000056125 00000 n 
+0000057602 00000 n 
+0000057734 00000 n 
+0000058685 00000 n 
+0000058817 00000 n 
+0000060286 00000 n 
+0000060418 00000 n 
+0000061425 00000 n 
+0000061557 00000 n 
+0000063021 00000 n 
+0000063153 00000 n 
+0000064068 00000 n 
+0000064200 00000 n 
+0000065583 00000 n 
+0000065716 00000 n 
+0000066707 00000 n 
+0000066841 00000 n 
+0000068136 00000 n 
+0000068270 00000 n 
+0000069143 00000 n 
+0000069277 00000 n 
+0000070589 00000 n 
+0000070723 00000 n 
+0000071624 00000 n 
+0000071758 00000 n 
+0000073150 00000 n 
+0000073284 00000 n 
+0000074244 00000 n 
+0000074378 00000 n 
+0000075755 00000 n 
+0000075889 00000 n 
+0000076803 00000 n 
+0000076937 00000 n 
+0000078283 00000 n 
+0000078417 00000 n 
+0000079331 00000 n 
+0000079465 00000 n 
+0000080938 00000 n 
+0000081072 00000 n 
+0000082012 00000 n 
+0000082146 00000 n 
+0000083570 00000 n 
+0000083704 00000 n 
+0000084772 00000 n 
+0000084906 00000 n 
+0000086308 00000 n 
+0000086442 00000 n 
+0000087381 00000 n 
+0000087515 00000 n 
+0000089173 00000 n 
+0000089307 00000 n 
+0000090667 00000 n 
+0000090801 00000 n 
+0000092156 00000 n 
+0000092290 00000 n 
+0000094148 00000 n 
+0000094282 00000 n 
 trailer
-<</Size 141 /Root 1 0 R>>
+<</Size 143 /Root 1 0 R>>
 startxref
-94102
+96283
 %%EOF

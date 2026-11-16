@@ -3,7 +3,7 @@
 <</Type /Catalog /Pages 2 0 R>>
 endobj
 2 0 obj
-<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R 139 0 R 141 0 R] /Count 69>>
+<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R 139 0 R 141 0 R 143 0 R] /Count 70>>
 endobj
 3 0 obj
 <</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>
@@ -15,27 +15,36 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 6 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 6 0 obj
-<</Length 915>>
+<</Length 1181>>
 stream
 q
 0.98 0.98 0.98 rg 0 0 595 842 re f
-0.17 0.35 0.65 rg 20 20 555 802 re 3.5 w S
+0.17 0.35 0.65 rg 20 20 555 802 re 3 w S
 0.039 0.066 0.156 rg 28 28 539 786 re 1 w S
 
 % Inner Arch Panel matching website
 0.95 0.97 0.96 rg 80 140 435 480 re f
-0.17 0.35 0.65 rg 80 140 435 480 re 2 w S
+0.17 0.35 0.65 rg 80 140 435 480 re 1.5 w S
 
-% Tap Root Emblem
-0.88 0.93 0.90 rg 297 530 45 45 re f
-0.17 0.35 0.65 rg 297 530 45 45 re 2 w S
-% Root lines
+% Clean Delicate Spiritual Seedling Emblem (Round, peaceful, zero fraternity lines)
+0.89 0.94 0.91 rg 297 530 46 46 re f
+0.17 0.35 0.65 rg 297 530 46 46 re 1.5 w S
+
+% Ground soil line
+0.35 0.25 0.18 rg 280 545 80 1.5 re f
+
+% Deep Tap Root driving deep into soil
 0.17 0.35 0.65 rg
-320 530 4 35 re f
-305 540 15 2.5 re f
-324 540 15 2.5 re f
-310 555 10 2 re f
-324 555 10 2 re f
+320 522 3 23 re f
+312 528 10 1.8 re f
+321 528 10 1.8 re f
+315 536 7 1.4 re f
+321 536 7 1.4 re f
+
+% Sprouting Seedling Stem & Tender Leaves rising upward
+320 545 3 20 re f
+308 558 13 4 re f
+322 562 13 4 re f
 
 0.17 0.35 0.65 rg
 BT /F2 11 Tf 165 750 Td (THE CHILDREN'S EDITION \(AGES 4-8\)) Tj ET
@@ -120,7 +129,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 12 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 12 0 obj
-<</Length 2253>>
+<</Length 2187>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -132,41 +141,41 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (=================) Tj
 0 -15 Td () Tj
 0 -15 Td (Front Matter:) Tj
-0 -15 Td (• Copyright & Author Transparency Note) Tj
-0 -15 Td (• Introduction & Reading Guide) Tj
+0 -15 Td (- Copyright & Author Transparency Note) Tj
+0 -15 Td (- Introduction & Reading Guide) Tj
 0 -15 Td () Tj
 0 -15 Td (The 30-Day Devotional Journey:) Tj
-0 -15 Td (• Day 1: The Adventure of Faith) Tj
-0 -15 Td (• Day 2: The Adventure of Sacrifice) Tj
-0 -15 Td (• Day 3: The Adventure of the Promise) Tj
-0 -15 Td (• Day 4: The Adventure of the Test) Tj
-0 -15 Td (• Day 5: The Adventure of the Mountain) Tj
-0 -15 Td (• Day 6: The Adventure of the Altar) Tj
-0 -15 Td (• Day 7: The Adventure of the Covenant) Tj
-0 -15 Td (• Day 8: The Adventure of the Stars) Tj
-0 -15 Td (• Day 9: The Adventure of Faith Again) Tj
-0 -15 Td (• Day 10: The Adventure of Obedience) Tj
-0 -15 Td (• Day 11: The Adventure of Trust) Tj
-0 -15 Td (• Day 12: The Adventure of Provision) Tj
-0 -15 Td (• Day 13: The Adventure of the Son) Tj
-0 -15 Td (• Day 14: The Adventure of the Mountain Again) Tj
-0 -15 Td (• Day 15: The Adventure of the Altar Again) Tj
-0 -15 Td (• Day 16: The Adventure of the Covenant Again) Tj
-0 -15 Td (• Day 17: The Adventure of the Stars Again) Tj
-0 -15 Td (• Day 18: The Adventure of Faith Again and Again) Tj
-0 -15 Td (• Day 19: The Adventure of Obedience Again and Again) Tj
-0 -15 Td (• Day 20: The Adventure of Trust Again and Again) Tj
-0 -15 Td (• Day 21: The Adventure of Provision Again and Again) Tj
-0 -15 Td (• Day 22: The Adventure of the Son Again and Again) Tj
-0 -15 Td (• Day 23: The Adventure of the Mountain Again and Again) Tj
-0 -15 Td (• Day 24: The Adventure of the Altar Again and Again) Tj
-0 -15 Td (• Day 25: The Adventure of the Covenant Again and Again) Tj
-0 -15 Td (• Day 26: The Adventure of the Stars Again and Again) Tj
-0 -15 Td (• Day 27: The Adventure of Faith Forever) Tj
-0 -15 Td (• Day 27: The Adventure of Faith Forever \(Continued\)) Tj
-0 -15 Td (• Day 28: The Adventure of Obedience Forever) Tj
-0 -15 Td (• Day 29: The Adventure of Trust Forever) Tj
-0 -15 Td (• Day 30: The Greatest Adventure) Tj
+0 -15 Td (- Day 1: The Adventure of Faith) Tj
+0 -15 Td (- Day 2: The Adventure of Sacrifice) Tj
+0 -15 Td (- Day 3: The Adventure of the Promise) Tj
+0 -15 Td (- Day 4: The Adventure of the Test) Tj
+0 -15 Td (- Day 5: The Adventure of the Mountain) Tj
+0 -15 Td (- Day 6: The Adventure of the Altar) Tj
+0 -15 Td (- Day 7: The Adventure of the Covenant) Tj
+0 -15 Td (- Day 8: The Adventure of the Stars) Tj
+0 -15 Td (- Day 9: The Adventure of Faith Again) Tj
+0 -15 Td (- Day 10: The Adventure of Obedience) Tj
+0 -15 Td (- Day 11: The Adventure of Trust) Tj
+0 -15 Td (- Day 12: The Adventure of Provision) Tj
+0 -15 Td (- Day 13: The Adventure of the Son) Tj
+0 -15 Td (- Day 14: The Adventure of the Mountain Again) Tj
+0 -15 Td (- Day 15: The Adventure of the Altar Again) Tj
+0 -15 Td (- Day 16: The Adventure of the Covenant Again) Tj
+0 -15 Td (- Day 17: The Adventure of the Stars Again) Tj
+0 -15 Td (- Day 18: The Adventure of Faith Again and Again) Tj
+0 -15 Td (- Day 19: The Adventure of Obedience Again and Again) Tj
+0 -15 Td (- Day 20: The Adventure of Trust Again and Again) Tj
+0 -15 Td (- Day 21: The Adventure of Provision Again and Again) Tj
+0 -15 Td (- Day 22: The Adventure of the Son Again and Again) Tj
+0 -15 Td (- Day 23: The Adventure of the Mountain Again and Again) Tj
+0 -15 Td (- Day 24: The Adventure of the Altar Again and Again) Tj
+0 -15 Td (- Day 25: The Adventure of the Covenant Again and Again) Tj
+0 -15 Td (- Day 26: The Adventure of the Stars Again and Again) Tj
+0 -15 Td (- Day 27: The Adventure of Faith Forever) Tj
+0 -15 Td (- Day 27: The Adventure of Faith Forever \(Continued\)) Tj
+0 -15 Td (- Day 28: The Adventure of Obedience Forever) Tj
+0 -15 Td (- Day 29: The Adventure of Trust Forever) Tj
+0 -15 Td (- Day 30: The Greatest Adventure) Tj
 ET
 Q
 endstream
@@ -175,7 +184,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 14 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 14 0 obj
-<</Length 1940>>
+<</Length 1938>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -199,7 +208,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (Illustrated by Christine A.) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
-0 -15 Td (Copyright © 2026 Christine A. All rights reserved. This printable is for) Tj
+0 -15 Td (Copyright  2026 Christine A. All rights reserved. This printable is for) Tj
 0 -15 Td (personal family use only. Not for resale. No part of this book may be) Tj
 0 -15 Td (reproduced in any form without permission from the author.) Tj
 0 -15 Td () Tj
@@ -335,7 +344,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 22 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 22 0 obj
-<</Length 1611>>
+<</Length 1605>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -344,7 +353,7 @@ BT /F2 13 Tf 50 780 Td (Day 2: The Adventure of Sacrifice) Tj ET
 0 0 0 rg
 BT /F1 10 Tf 50 740 Td
 (The Secret Clue \(OT\)) Tj
-0 -15 Td ("Then God said, 'Take your son, your only son, whom you love—Isaac—and go to) Tj
+0 -15 Td ("Then God said, 'Take your son, your only son, whom you loveIsaacand go to) Tj
 0 -15 Td (the region of Moriah. Sacrifice him there as a burnt offering on a mountain I) Tj
 0 -15 Td (will show you.'" - Genesis 22:2) Tj
 0 -15 Td () Tj
@@ -485,7 +494,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 30 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 30 0 obj
-<</Length 1489>>
+<</Length 1486>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -506,7 +515,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (The Big Reveal \(NT\)) Tj
 0 -15 Td ("For we do not have a high priest who is unable to empathize with our) Tj
 0 -15 Td (weaknesses, but we have one who has been tempted in every way, just as we) Tj
-0 -15 Td (are—yet he did not sin." - Hebrews 4:15) Tj
+0 -15 Td (areyet he did not sin." - Hebrews 4:15) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (Jesus is the greater hero. Abraham was tested and passed. Jesus was tempted) Tj
@@ -776,7 +785,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 46 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 46 0 obj
-<</Length 1557>>
+<</Length 1554>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -785,7 +794,7 @@ BT /F2 13 Tf 50 780 Td (Day 8: The Adventure of the Stars) Tj ET
 0 0 0 rg
 BT /F1 10 Tf 50 740 Td
 (The Secret Clue \(OT\)) Tj
-0 -15 Td ("He took him outside and said, 'Look up at the sky and count the stars—if) Tj
+0 -15 Td ("He took him outside and said, 'Look up at the sky and count the starsif) Tj
 0 -15 Td (indeed you can count them.' Then he said to him, 'So shall your offspring) Tj
 0 -15 Td (be.'" - Genesis 15:5) Tj
 0 -15 Td () Tj
@@ -924,7 +933,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 54 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 54 0 obj
-<</Length 1553>>
+<</Length 1550>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -944,7 +953,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td (The Big Reveal \(NT\)) Tj
 0 -15 Td ("And being found in appearance as a man, he humbled himself by becoming) Tj
-0 -15 Td (obedient to death—even death on a cross!" - Philippians 2:8) Tj
+0 -15 Td (obedient to deatheven death on a cross!" - Philippians 2:8) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (Jesus is the greater hero. Abraham obeyed God. Jesus obeyed the Father.) Tj
@@ -1141,7 +1150,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 66 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 66 0 obj
-<</Length 1582>>
+<</Length 1576>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1150,7 +1159,7 @@ BT /F2 13 Tf 50 780 Td (Day 13: The Adventure of the Son) Tj ET
 0 0 0 rg
 BT /F1 10 Tf 50 740 Td
 (The Secret Clue \(OT\)) Tj
-0 -15 Td ("Then God said, 'Take your son, your only son, whom you love—Isaac—and go to) Tj
+0 -15 Td ("Then God said, 'Take your son, your only son, whom you loveIsaacand go to) Tj
 0 -15 Td (the region of Moriah. Sacrifice him there as a burnt offering on a mountain I) Tj
 0 -15 Td (will show you.'" - Genesis 22:2) Tj
 0 -15 Td () Tj
@@ -1434,7 +1443,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 82 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 82 0 obj
-<</Length 1564>>
+<</Length 1561>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1443,7 +1452,7 @@ BT /F2 13 Tf 50 780 Td (Day 17: The Adventure of the Stars Again) Tj ET
 0 0 0 rg
 BT /F1 10 Tf 50 740 Td
 (The Secret Clue \(OT\)) Tj
-0 -15 Td ("He took him outside and said, 'Look up at the sky and count the stars—if) Tj
+0 -15 Td ("He took him outside and said, 'Look up at the sky and count the starsif) Tj
 0 -15 Td (indeed you can count them.' Then he said to him, 'So shall your offspring) Tj
 0 -15 Td (be.'" - Genesis 15:5) Tj
 0 -15 Td () Tj
@@ -1582,7 +1591,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 90 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 90 0 obj
-<</Length 1569>>
+<</Length 1566>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1602,7 +1611,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td (The Big Reveal \(NT\)) Tj
 0 -15 Td ("And being found in appearance as a man, he humbled himself by becoming) Tj
-0 -15 Td (obedient to death—even death on a cross!" - Philippians 2:8) Tj
+0 -15 Td (obedient to deatheven death on a cross!" - Philippians 2:8) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (Jesus is the greater hero. Abraham obeyed God. Jesus obeyed the Father.) Tj
@@ -1799,7 +1808,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 102 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 102 0 obj
-<</Length 1598>>
+<</Length 1592>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1808,7 +1817,7 @@ BT /F2 13 Tf 50 780 Td (Day 22: The Adventure of the Son Again and Again) Tj ET
 0 0 0 rg
 BT /F1 10 Tf 50 740 Td
 (The Secret Clue \(OT\)) Tj
-0 -15 Td ("Then God said, 'Take your son, your only son, whom you love—Isaac—and go to) Tj
+0 -15 Td ("Then God said, 'Take your son, your only son, whom you loveIsaacand go to) Tj
 0 -15 Td (the region of Moriah. Sacrifice him there as a burnt offering on a mountain I) Tj
 0 -15 Td (will show you.'" - Genesis 22:2) Tj
 0 -15 Td () Tj
@@ -2092,7 +2101,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 118 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 118 0 obj
-<</Length 1574>>
+<</Length 1571>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -2101,7 +2110,7 @@ BT /F2 13 Tf 50 780 Td (Day 26: The Adventure of the Stars Again and Again) Tj E
 0 0 0 rg
 BT /F1 10 Tf 50 740 Td
 (The Secret Clue \(OT\)) Tj
-0 -15 Td ("He took him outside and said, 'Look up at the sky and count the stars—if) Tj
+0 -15 Td ("He took him outside and said, 'Look up at the sky and count the starsif) Tj
 0 -15 Td (indeed you can count them.' Then he said to him, 'So shall your offspring) Tj
 0 -15 Td (be.'" - Genesis 15:5) Tj
 0 -15 Td () Tj
@@ -2167,7 +2176,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 122 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 122 0 obj
-<</Length 895>>
+<</Length 889>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -2193,7 +2202,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (Jesus is) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
-0 -15 Td (……) Tj
+0 -15 Td () Tj
 ET
 Q
 endstream
@@ -2265,7 +2274,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 128 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 128 0 obj
-<</Length 1561>>
+<</Length 1558>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -2285,7 +2294,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td (The Big Reveal \(NT\)) Tj
 0 -15 Td ("And being found in appearance as a man, he humbled himself by becoming) Tj
-0 -15 Td (obedient to death—even death on a cross!" - Philippians 2:8) Tj
+0 -15 Td (obedient to deatheven death on a cross!" - Philippians 2:8) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (Jesus is the greater hero. Abraham obeyed God. Jesus obeyed the Father.) Tj
@@ -2533,11 +2542,57 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 142 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 142 0 obj
-<</Length 1963>>
+<</Length 1806>>
 stream
 q
 0.039 0.066 0.156 rg
-BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES • CATALOG) Tj ET
+BT /F2 14 Tf 50 780 Td (END MATTER & DEVOTIONAL CHALLENGE) Tj ET
+0.83 0.68 0.21 rg 50 770 495 1 re f
+0 0 0 rg
+BT /F1 10 Tf 50 740 Td
+(END MATTER) Tj
+0 -15 Td () Tj
+0 -15 Td (Family Discussion Cards) Tj
+0 -15 Td () Tj
+0 -15 Td (Card 1: What was the coolest clue you found in this book?) Tj
+0 -15 Td (Card 2: What is your favorite Bible story from these 30 days?) Tj
+0 -15 Td (Card 3: Why do you think God gives us so many clues about Jesus?) Tj
+0 -15 Td (Card 4: How does it feel to know Jesus is always with you?) Tj
+0 -15 Td (Card 5: Who is someone you can tell about Jesus this week?) Tj
+0 -15 Td (Card 6: What is your favorite prayer from this book?) Tj
+0 -15 Td (Card 7: If you could ask Jesus one question, what would it be?) Tj
+0 -15 Td (Card 8: What is one way you can show Jesus' love today?) Tj
+0 -15 Td (Card 9: What is your favorite coloring page from this book?) Tj
+0 -15 Td (Card 10: What is one thing you want to remember about Jesus forever?) Tj
+0 -15 Td () Tj
+0 -15 Td (A Note for the Parent: Building on the Foundation) Tj
+0 -15 Td () Tj
+0 -15 Td (You did it! You spent 30 days walking your children through the scriptures.) Tj
+0 -15 Td (Here are tips to keep going:) Tj
+0 -15 Td (1. Make it a habit, not a chore \(5 minutes before bed\).) Tj
+0 -15 Td (2. Let them see you reading your Bible.) Tj
+0 -15 Td (3. Ask "Where is Jesus in this story?") Tj
+0 -15 Td (4. Recommended next steps: Continue with our Divine Blueprint Series.) Tj
+0 -15 Td () Tj
+0 -15 Td (Sneak Peek: The Next Children's Adventure) Tj
+0 -15 Td (Join us for the next 30 clues discovering our Savior!) Tj
+0 -15 Td () Tj
+0 -15 Td (Final Call to Action) Tj
+0 -15 Td (Visit https://spiritualbooks.csaonlineshop.com to listen to audio editions and) Tj
+0 -15 Td (download family reading guides.) Tj
+ET
+Q
+endstream
+endobj
+143 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 144 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+endobj
+144 0 obj
+<</Length 1949>>
+stream
+q
+0.039 0.066 0.156 rg
+BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES - CATALOG) Tj ET
 0.83 0.68 0.21 rg 50 745 495 1.5 re f
 
 0 0 0 rg
@@ -2562,10 +2617,10 @@ BT /F1 9.5 Tf 50 495 Td (For families and little detectives. Fun object lessons,
 0.039 0.066 0.156 rg
 BT /F2 12 Tf 50 435 Td (WHERE TO FIND & UNLOCK THE BOOKS:) Tj ET
 0 0 0 rg
-BT /F1 10 Tf 50 410 Td (• Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
-0 -18 Td (• Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
-0 -18 Td (• Ministry Store: https://csaonlineshop.com) Tj ET
-0 -18 Td (• Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
+BT /F1 10 Tf 50 410 Td (- Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
+0 -18 Td (- Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
+0 -18 Td (- Ministry Store: https://csaonlineshop.com) Tj ET
+0 -18 Td (- Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
 
 0.83 0.68 0.21 rg
 BT /F2 10.5 Tf 50 300 Td (100% Audio Enabled for Real, Busy Lives:) Tj ET
@@ -2574,157 +2629,159 @@ BT /F1 9.5 Tf 50 280 Td (Every day of every book can be listened to in 6 languag
 0 -15 Td (or feeding the baby. You never have to fall behind on your journey with Jesus.) Tj ET
 
 0.4 0.4 0.4 rg
-BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing • Stockholm, Sweden • Author: Christine A.) Tj ET
+BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing - Stockholm, Sweden - Author: Christine A.) Tj ET
 Q
 endstream
 endobj
 xref
-0 143
+0 145
 0000000000 65535 f 
 0000000009 00000 n 
 0000000056 00000 n 
-0000000607 00000 n 
-0000000675 00000 n 
-0000000748 00000 n 
-0000000878 00000 n 
-0000001842 00000 n 
-0000001972 00000 n 
-0000002840 00000 n 
-0000002971 00000 n 
-0000004755 00000 n 
-0000004887 00000 n 
-0000007191 00000 n 
-0000007323 00000 n 
-0000009314 00000 n 
-0000009446 00000 n 
-0000010202 00000 n 
-0000010334 00000 n 
-0000012056 00000 n 
-0000012188 00000 n 
-0000013085 00000 n 
-0000013217 00000 n 
-0000014879 00000 n 
-0000015011 00000 n 
-0000015765 00000 n 
-0000015897 00000 n 
-0000017496 00000 n 
-0000017628 00000 n 
-0000018433 00000 n 
-0000018565 00000 n 
-0000020105 00000 n 
-0000020237 00000 n 
-0000020904 00000 n 
-0000021036 00000 n 
-0000022559 00000 n 
-0000022691 00000 n 
-0000023413 00000 n 
-0000023545 00000 n 
-0000025141 00000 n 
-0000025273 00000 n 
-0000025863 00000 n 
-0000025995 00000 n 
-0000027569 00000 n 
-0000027701 00000 n 
-0000028375 00000 n 
-0000028507 00000 n 
-0000030115 00000 n 
-0000030247 00000 n 
-0000030977 00000 n 
-0000031109 00000 n 
-0000032607 00000 n 
-0000032739 00000 n 
-0000033444 00000 n 
-0000033576 00000 n 
-0000035180 00000 n 
-0000035312 00000 n 
-0000035871 00000 n 
-0000036003 00000 n 
-0000037593 00000 n 
-0000037725 00000 n 
-0000038324 00000 n 
-0000038456 00000 n 
-0000039999 00000 n 
-0000040131 00000 n 
-0000040787 00000 n 
-0000040919 00000 n 
-0000042552 00000 n 
-0000042684 00000 n 
-0000043395 00000 n 
-0000043527 00000 n 
-0000045173 00000 n 
-0000045305 00000 n 
-0000046049 00000 n 
-0000046181 00000 n 
-0000047784 00000 n 
-0000047916 00000 n 
-0000048532 00000 n 
-0000048664 00000 n 
-0000050245 00000 n 
-0000050377 00000 n 
-0000051106 00000 n 
-0000051238 00000 n 
-0000052853 00000 n 
-0000052985 00000 n 
-0000053722 00000 n 
-0000053854 00000 n 
-0000055363 00000 n 
-0000055495 00000 n 
-0000056211 00000 n 
-0000056343 00000 n 
-0000057963 00000 n 
-0000058095 00000 n 
-0000058670 00000 n 
-0000058802 00000 n 
-0000060408 00000 n 
-0000060540 00000 n 
-0000061155 00000 n 
-0000061287 00000 n 
-0000062846 00000 n 
-0000062979 00000 n 
-0000063652 00000 n 
-0000063786 00000 n 
-0000065436 00000 n 
-0000065570 00000 n 
-0000066298 00000 n 
-0000066432 00000 n 
-0000068089 00000 n 
-0000068223 00000 n 
-0000068978 00000 n 
-0000069112 00000 n 
-0000070730 00000 n 
-0000070864 00000 n 
-0000071444 00000 n 
-0000071578 00000 n 
-0000073170 00000 n 
-0000073304 00000 n 
-0000074007 00000 n 
-0000074141 00000 n 
-0000075767 00000 n 
-0000075901 00000 n 
-0000076649 00000 n 
-0000076783 00000 n 
-0000077729 00000 n 
-0000077863 00000 n 
-0000079370 00000 n 
-0000079504 00000 n 
-0000079802 00000 n 
-0000079936 00000 n 
-0000081549 00000 n 
-0000081683 00000 n 
-0000082251 00000 n 
-0000082385 00000 n 
-0000083984 00000 n 
-0000084118 00000 n 
-0000084726 00000 n 
-0000084860 00000 n 
-0000086636 00000 n 
-0000086770 00000 n 
-0000087689 00000 n 
-0000087823 00000 n 
-0000089178 00000 n 
-0000089312 00000 n 
+0000000615 00000 n 
+0000000683 00000 n 
+0000000756 00000 n 
+0000000886 00000 n 
+0000002117 00000 n 
+0000002247 00000 n 
+0000003115 00000 n 
+0000003246 00000 n 
+0000005030 00000 n 
+0000005162 00000 n 
+0000007400 00000 n 
+0000007532 00000 n 
+0000009521 00000 n 
+0000009653 00000 n 
+0000010409 00000 n 
+0000010541 00000 n 
+0000012263 00000 n 
+0000012395 00000 n 
+0000013292 00000 n 
+0000013424 00000 n 
+0000015080 00000 n 
+0000015212 00000 n 
+0000015966 00000 n 
+0000016098 00000 n 
+0000017697 00000 n 
+0000017829 00000 n 
+0000018634 00000 n 
+0000018766 00000 n 
+0000020303 00000 n 
+0000020435 00000 n 
+0000021102 00000 n 
+0000021234 00000 n 
+0000022757 00000 n 
+0000022889 00000 n 
+0000023611 00000 n 
+0000023743 00000 n 
+0000025339 00000 n 
+0000025471 00000 n 
+0000026061 00000 n 
+0000026193 00000 n 
+0000027767 00000 n 
+0000027899 00000 n 
+0000028573 00000 n 
+0000028705 00000 n 
+0000030310 00000 n 
+0000030442 00000 n 
+0000031172 00000 n 
+0000031304 00000 n 
+0000032802 00000 n 
+0000032934 00000 n 
+0000033639 00000 n 
+0000033771 00000 n 
+0000035372 00000 n 
+0000035504 00000 n 
+0000036063 00000 n 
+0000036195 00000 n 
+0000037785 00000 n 
+0000037917 00000 n 
+0000038516 00000 n 
+0000038648 00000 n 
+0000040191 00000 n 
+0000040323 00000 n 
+0000040979 00000 n 
+0000041111 00000 n 
+0000042738 00000 n 
+0000042870 00000 n 
+0000043581 00000 n 
+0000043713 00000 n 
+0000045359 00000 n 
+0000045491 00000 n 
+0000046235 00000 n 
+0000046367 00000 n 
+0000047970 00000 n 
+0000048102 00000 n 
+0000048718 00000 n 
+0000048850 00000 n 
+0000050431 00000 n 
+0000050563 00000 n 
+0000051292 00000 n 
+0000051424 00000 n 
+0000053036 00000 n 
+0000053168 00000 n 
+0000053905 00000 n 
+0000054037 00000 n 
+0000055546 00000 n 
+0000055678 00000 n 
+0000056394 00000 n 
+0000056526 00000 n 
+0000058143 00000 n 
+0000058275 00000 n 
+0000058850 00000 n 
+0000058982 00000 n 
+0000060588 00000 n 
+0000060720 00000 n 
+0000061335 00000 n 
+0000061467 00000 n 
+0000063026 00000 n 
+0000063159 00000 n 
+0000063832 00000 n 
+0000063966 00000 n 
+0000065610 00000 n 
+0000065744 00000 n 
+0000066472 00000 n 
+0000066606 00000 n 
+0000068263 00000 n 
+0000068397 00000 n 
+0000069152 00000 n 
+0000069286 00000 n 
+0000070904 00000 n 
+0000071038 00000 n 
+0000071618 00000 n 
+0000071752 00000 n 
+0000073344 00000 n 
+0000073478 00000 n 
+0000074181 00000 n 
+0000074315 00000 n 
+0000075938 00000 n 
+0000076072 00000 n 
+0000076820 00000 n 
+0000076954 00000 n 
+0000077894 00000 n 
+0000078028 00000 n 
+0000079535 00000 n 
+0000079669 00000 n 
+0000079967 00000 n 
+0000080101 00000 n 
+0000081711 00000 n 
+0000081845 00000 n 
+0000082413 00000 n 
+0000082547 00000 n 
+0000084146 00000 n 
+0000084280 00000 n 
+0000084888 00000 n 
+0000085022 00000 n 
+0000086798 00000 n 
+0000086932 00000 n 
+0000087851 00000 n 
+0000087985 00000 n 
+0000089340 00000 n 
+0000089474 00000 n 
+0000091332 00000 n 
+0000091466 00000 n 
 trailer
-<</Size 143 /Root 1 0 R>>
+<</Size 145 /Root 1 0 R>>
 startxref
-91327
+93467
 %%EOF

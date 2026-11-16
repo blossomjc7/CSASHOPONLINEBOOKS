@@ -3,7 +3,7 @@
 <</Type /Catalog /Pages 2 0 R>>
 endobj
 2 0 obj
-<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R] /Count 64>>
+<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R] /Count 65>>
 endobj
 3 0 obj
 <</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>
@@ -15,27 +15,36 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 6 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 6 0 obj
-<</Length 924>>
+<</Length 1190>>
 stream
 q
 0.98 0.98 0.98 rg 0 0 595 842 re f
-0.83 0.68 0.21 rg 20 20 555 802 re 3.5 w S
+0.83 0.68 0.21 rg 20 20 555 802 re 3 w S
 0.039 0.066 0.156 rg 28 28 539 786 re 1 w S
 
 % Inner Arch Panel matching website
 0.95 0.97 0.96 rg 80 140 435 480 re f
-0.83 0.68 0.21 rg 80 140 435 480 re 2 w S
+0.83 0.68 0.21 rg 80 140 435 480 re 1.5 w S
 
-% Tap Root Emblem
-0.88 0.93 0.90 rg 297 530 45 45 re f
-0.83 0.68 0.21 rg 297 530 45 45 re 2 w S
-% Root lines
+% Clean Delicate Spiritual Seedling Emblem (Round, peaceful, zero fraternity lines)
+0.89 0.94 0.91 rg 297 530 46 46 re f
+0.83 0.68 0.21 rg 297 530 46 46 re 1.5 w S
+
+% Ground soil line
+0.35 0.25 0.18 rg 280 545 80 1.5 re f
+
+% Deep Tap Root driving deep into soil
 0.83 0.68 0.21 rg
-320 530 4 35 re f
-305 540 15 2.5 re f
-324 540 15 2.5 re f
-310 555 10 2 re f
-324 555 10 2 re f
+320 522 3 23 re f
+312 528 10 1.8 re f
+321 528 10 1.8 re f
+315 536 7 1.4 re f
+321 536 7 1.4 re f
+
+% Sprouting Seedling Stem & Tender Leaves rising upward
+320 545 3 20 re f
+308 558 13 4 re f
+322 562 13 4 re f
 
 0.83 0.68 0.21 rg
 BT /F2 11 Tf 165 750 Td (THE SPIRITUAL SEEKER COLLECTION) Tj ET
@@ -120,7 +129,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 12 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 12 0 obj
-<</Length 1859>>
+<</Length 1795>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -132,40 +141,40 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (=================) Tj
 0 -15 Td () Tj
 0 -15 Td (Front Matter:) Tj
-0 -15 Td (• Copyright & Author Transparency Note) Tj
-0 -15 Td (• Introduction & Reading Guide) Tj
+0 -15 Td (- Copyright & Author Transparency Note) Tj
+0 -15 Td (- Introduction & Reading Guide) Tj
 0 -15 Td () Tj
 0 -15 Td (The 30-Day Devotional Journey:) Tj
-0 -15 Td (• Day 1: The Festival of Passover) Tj
-0 -15 Td (• Day 2: The Festival of Unleavened Bread) Tj
-0 -15 Td (• Day 3: The Festival of Firstfruits) Tj
-0 -15 Td (• Day 4: The Feast of Weeks \(Pentecost\)) Tj
-0 -15 Td (• Day 5: The Feast of Trumpets) Tj
-0 -15 Td (• Day 6: The Day of Atonement \(Yom Kippur\)) Tj
-0 -15 Td (• Day 7: The Feast of Tabernacles) Tj
-0 -15 Td (• Day 8: The Sabbath) Tj
-0 -15 Td (• Day 9: The Year of Jubilee) Tj
-0 -15 Td (• Day 10: The Passover Lamb) Tj
-0 -15 Td (• Day 11: The Feast of Dedication \(Hanukkah\)) Tj
-0 -15 Td (• Day 12: The Feast of Purim) Tj
-0 -15 Td (• Day 13: The Feast of New Moon) Tj
-0 -15 Td (• Day 14: The Feast of Booths) Tj
-0 -15 Td (• Day 15: The Water Libation) Tj
-0 -15 Td (• Day 16: The Light Ceremony) Tj
-0 -15 Td (• Day 17: The Jubilee Trumpet) Tj
-0 -15 Td (• Day 18: The Shewbread) Tj
-0 -15 Td (• Day 19: The Incense Offering) Tj
-0 -15 Td (• Day 20: The Altar of Burnt Offering) Tj
-0 -15 Td (• Day 21: The Altar of Incense) Tj
-0 -15 Td (• Day 22: The Laver) Tj
-0 -15 Td (• Day 23: The Golden Lampstand) Tj
-0 -15 Td (• Day 24: The Table of Showbread) Tj
-0 -15 Td (• Day 25: The Ark of the Covenant) Tj
-0 -15 Td (• Day 26: The Mercy Seat) Tj
-0 -15 Td (• Day 27: The Two Cherubim) Tj
-0 -15 Td (• Day 28: The Feast of Weeks) Tj
-0 -15 Td (• Day 29: The Feast of Trumpets) Tj
-0 -15 Td (• Day 30: The Ultimate Celebration) Tj
+0 -15 Td (- Day 1: The Festival of Passover) Tj
+0 -15 Td (- Day 2: The Festival of Unleavened Bread) Tj
+0 -15 Td (- Day 3: The Festival of Firstfruits) Tj
+0 -15 Td (- Day 4: The Feast of Weeks \(Pentecost\)) Tj
+0 -15 Td (- Day 5: The Feast of Trumpets) Tj
+0 -15 Td (- Day 6: The Day of Atonement \(Yom Kippur\)) Tj
+0 -15 Td (- Day 7: The Feast of Tabernacles) Tj
+0 -15 Td (- Day 8: The Sabbath) Tj
+0 -15 Td (- Day 9: The Year of Jubilee) Tj
+0 -15 Td (- Day 10: The Passover Lamb) Tj
+0 -15 Td (- Day 11: The Feast of Dedication \(Hanukkah\)) Tj
+0 -15 Td (- Day 12: The Feast of Purim) Tj
+0 -15 Td (- Day 13: The Feast of New Moon) Tj
+0 -15 Td (- Day 14: The Feast of Booths) Tj
+0 -15 Td (- Day 15: The Water Libation) Tj
+0 -15 Td (- Day 16: The Light Ceremony) Tj
+0 -15 Td (- Day 17: The Jubilee Trumpet) Tj
+0 -15 Td (- Day 18: The Shewbread) Tj
+0 -15 Td (- Day 19: The Incense Offering) Tj
+0 -15 Td (- Day 20: The Altar of Burnt Offering) Tj
+0 -15 Td (- Day 21: The Altar of Incense) Tj
+0 -15 Td (- Day 22: The Laver) Tj
+0 -15 Td (- Day 23: The Golden Lampstand) Tj
+0 -15 Td (- Day 24: The Table of Showbread) Tj
+0 -15 Td (- Day 25: The Ark of the Covenant) Tj
+0 -15 Td (- Day 26: The Mercy Seat) Tj
+0 -15 Td (- Day 27: The Two Cherubim) Tj
+0 -15 Td (- Day 28: The Feast of Weeks) Tj
+0 -15 Td (- Day 29: The Feast of Trumpets) Tj
+0 -15 Td (- Day 30: The Ultimate Celebration) Tj
 ET
 Q
 endstream
@@ -247,7 +256,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 18 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 18 0 obj
-<</Length 2304>>
+<</Length 2301>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -266,7 +275,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td (The Ancient Text \(OT\)) Tj
 0 -15 Td ("This is a day you are to commemorate; for the generations to come you shall) Tj
-0 -15 Td (celebrate it as a festival to the LORD—a lasting ordinance." - Exodus 12:14) Tj
+0 -15 Td (celebrate it as a festival to the LORDa lasting ordinance." - Exodus 12:14) Tj
 0 -15 Td (\(Written around 1400 B.C.\)) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
@@ -642,7 +651,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 38 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 38 0 obj
-<</Length 2327>>
+<</Length 2321>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -658,8 +667,8 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td (The Ancient Text \(OT\)) Tj
 0 -15 Td ("This is to be a lasting ordinance for you: On the tenth day of the seventh) Tj
-0 -15 Td (month you must deny yourselves and not do any work—whether native-born or a) Tj
-0 -15 Td (foreigner residing among you—because on this day atonement will be made for) Tj
+0 -15 Td (month you must deny yourselves and not do any workwhether native-born or a) Tj
+0 -15 Td (foreigner residing among youbecause on this day atonement will be made for) Tj
 0 -15 Td (you, to cleanse you." - Leviticus 16:29-30 \(Written around 1400 B.C.\)) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
@@ -1156,7 +1165,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 64 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 64 0 obj
-<</Length 2108>>
+<</Length 2102>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1171,8 +1180,8 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (The Ancient Text \(OT\)) Tj
-0 -15 Td ("Also at your times of rejoicing—your appointed festivals and New Moon) Tj
-0 -15 Td (feasts—you are to sound the trumpets over your burnt offerings and fellowship) Tj
+0 -15 Td ("Also at your times of rejoicingyour appointed festivals and New Moon) Tj
+0 -15 Td (feastsyou are to sound the trumpets over your burnt offerings and fellowship) Tj
 0 -15 Td (offerings, and they will be a memorial for you before your God. I am the LORD) Tj
 0 -15 Td (your God." - Numbers 10:10 \(Written around 1400 B.C.\)) Tj
 0 -15 Td () Tj
@@ -1728,7 +1737,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 94 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 94 0 obj
-<</Length 2072>>
+<</Length 2066>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1744,8 +1753,8 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td (The Ancient Text \(OT\)) Tj
 0 -15 Td ("Put the altar in front of the curtain that shields the ark of the covenant) Tj
-0 -15 Td (law—before the atonement cover that is over the tablets of the covenant) Tj
-0 -15 Td (law—where I will meet with you." - Exodus 30:6 \(Written around 1400 B.C.\)) Tj
+0 -15 Td (lawbefore the atonement cover that is over the tablets of the covenant) Tj
+0 -15 Td (lawwhere I will meet with you." - Exodus 30:6 \(Written around 1400 B.C.\)) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (The altar of incense was in the Holy Place. It was where the priest burned) Tj
@@ -1948,7 +1957,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 106 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 106 0 obj
-<</Length 1950>>
+<</Length 1947>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -1963,7 +1972,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (The Ancient Text \(OT\)) Tj
-0 -15 Td ("Make a table of acacia wood—two cubits long, a cubit wide and a cubit and a) Tj
+0 -15 Td ("Make a table of acacia woodtwo cubits long, a cubit wide and a cubit and a) Tj
 0 -15 Td (half high." - Exodus 25:23 \(Written around 1400 B.C.\)) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
@@ -2003,7 +2012,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 108 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 108 0 obj
-<</Length 2102>>
+<</Length 2099>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -2018,7 +2027,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (The Ancient Text \(OT\)) Tj
-0 -15 Td ("Have them make an ark of acacia wood—two and a half cubits long, a cubit and) Tj
+0 -15 Td ("Have them make an ark of acacia woodtwo and a half cubits long, a cubit and) Tj
 0 -15 Td (a half wide, and a cubit and a half high. Overlay it with pure gold, both) Tj
 0 -15 Td (inside and out, and make a gold molding around it." - Exodus 25:10-11 \(Written) Tj
 0 -15 Td (around 1400 B.C.\)) Tj
@@ -2079,7 +2088,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 112 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 112 0 obj
-<</Length 2053>>
+<</Length 2047>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -2094,7 +2103,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (The Ancient Text \(OT\)) Tj
-0 -15 Td ("Make an atonement cover of pure gold—two and a half cubits long and a cubit) Tj
+0 -15 Td ("Make an atonement cover of pure goldtwo and a half cubits long and a cubit) Tj
 0 -15 Td (and a half wide." - Exodus 25:17 \(Written around 1400 B.C.\)) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
@@ -2106,7 +2115,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td (The Fulfillment \(NT\)) Tj
 0 -15 Td ("God presented Christ as a sacrifice of atonement, through the shedding of his) Tj
-0 -15 Td (blood—to be received by faith." - Romans 3:25) Tj
+0 -15 Td (bloodto be received by faith." - Romans 3:25) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (Jesus is the mercy seat. He is the atonement. He is the place of mercy. He is) Tj
@@ -2152,7 +2161,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 116 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 116 0 obj
-<</Length 2072>>
+<</Length 2069>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -2179,7 +2188,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td (The Fulfillment \(NT\)) Tj
 0 -15 Td ("And he made known to us the mystery of his will according to his good) Tj
 0 -15 Td (pleasure, which he purposed in Christ, to be put into effect when the times) Tj
-0 -15 Td (reach their fulfillment—to bring unity to all things in heaven and on earth) Tj
+0 -15 Td (reach their fulfillmentto bring unity to all things in heaven and on earth) Tj
 0 -15 Td (under Christ." - Ephesians 1:9-10) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
@@ -2377,7 +2386,7 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 128 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 128 0 obj
-<</Length 2277>>
+<</Length 2274>>
 stream
 q
 0.039 0.066 0.156 rg
@@ -2392,7 +2401,7 @@ BT /F1 10 Tf 50 740 Td
 0 -15 Td () Tj
 0 -15 Td () Tj
 0 -15 Td (The Ancient Text \(OT\)) Tj
-0 -15 Td ("The law is only a shadow of the good things that are coming—not the realities) Tj
+0 -15 Td ("The law is only a shadow of the good things that are comingnot the realities) Tj
 0 -15 Td (themselves." - Hebrews 10:1 \(Written around 60 A.D.\)) Tj
 0 -15 Td () Tj
 0 -15 Td () Tj
@@ -2456,11 +2465,49 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 132 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 132 0 obj
-<</Length 1963>>
+<</Length 1277>>
 stream
 q
 0.039 0.066 0.156 rg
-BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES • CATALOG) Tj ET
+BT /F2 14 Tf 50 780 Td (END MATTER & DEVOTIONAL CHALLENGE) Tj ET
+0.83 0.68 0.21 rg 50 770 495 1 re f
+0 0 0 rg
+BT /F1 10 Tf 50 740 Td
+(END MATTER) Tj
+0 -15 Td () Tj
+0 -15 Td (The 30-Day Investigative Challenge) Tj
+0 -15 Td (You have explored 30 ancient predictions and appearances. Now what? I) Tj
+0 -15 Td (challenge you to read the Gospel of John and Hebrews. Compare the ancient) Tj
+0 -15 Td (prophecies with the historical eyewitness accounts of Jesus.) Tj
+0 -15 Td () Tj
+0 -15 Td (A Note on Faith) Tj
+0 -15 Td (The prophecies are undeniable evidence of a divine blueprint. But evidence) Tj
+0 -15 Td (points to a Person. The invitation is for your heart. Jesus stands at the) Tj
+0 -15 Td (door.) Tj
+0 -15 Td () Tj
+0 -15 Td (About the Author) Tj
+0 -15 Td (Christine A. writes for the spiritually curious, skeptics, and seekers. She) Tj
+0 -15 Td (believes that honest questions deserve honest answers.) Tj
+0 -15 Td () Tj
+0 -15 Td (Coming Next: The New Believer Edition) Tj
+0 -15 Td (Ready to take the next step? Grow your roots deep in Christ.) Tj
+0 -15 Td () Tj
+0 -15 Td (Final Call to Action) Tj
+0 -15 Td (Explore all 25 Seeker titles and audio editions at) Tj
+0 -15 Td (https://spiritualbooks.csaonlineshop.com and https://csaonlineshop.com.) Tj
+ET
+Q
+endstream
+endobj
+133 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 134 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+endobj
+134 0 obj
+<</Length 1949>>
+stream
+q
+0.039 0.066 0.156 rg
+BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES - CATALOG) Tj ET
 0.83 0.68 0.21 rg 50 745 495 1.5 re f
 
 0 0 0 rg
@@ -2485,10 +2532,10 @@ BT /F1 9.5 Tf 50 495 Td (For families and little detectives. Fun object lessons,
 0.039 0.066 0.156 rg
 BT /F2 12 Tf 50 435 Td (WHERE TO FIND & UNLOCK THE BOOKS:) Tj ET
 0 0 0 rg
-BT /F1 10 Tf 50 410 Td (• Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
-0 -18 Td (• Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
-0 -18 Td (• Ministry Store: https://csaonlineshop.com) Tj ET
-0 -18 Td (• Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
+BT /F1 10 Tf 50 410 Td (- Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
+0 -18 Td (- Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
+0 -18 Td (- Ministry Store: https://csaonlineshop.com) Tj ET
+0 -18 Td (- Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
 
 0.83 0.68 0.21 rg
 BT /F2 10.5 Tf 50 300 Td (100% Audio Enabled for Real, Busy Lives:) Tj ET
@@ -2497,147 +2544,149 @@ BT /F1 9.5 Tf 50 280 Td (Every day of every book can be listened to in 6 languag
 0 -15 Td (or feeding the baby. You never have to fall behind on your journey with Jesus.) Tj ET
 
 0.4 0.4 0.4 rg
-BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing • Stockholm, Sweden • Author: Christine A.) Tj ET
+BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing - Stockholm, Sweden - Author: Christine A.) Tj ET
 Q
 endstream
 endobj
 xref
-0 133
+0 135
 0000000000 65535 f 
 0000000009 00000 n 
 0000000056 00000 n 
-0000000567 00000 n 
-0000000635 00000 n 
-0000000708 00000 n 
-0000000838 00000 n 
-0000001811 00000 n 
-0000001941 00000 n 
-0000002813 00000 n 
-0000002944 00000 n 
-0000004728 00000 n 
-0000004860 00000 n 
-0000006770 00000 n 
-0000006902 00000 n 
-0000009435 00000 n 
-0000009567 00000 n 
-0000009830 00000 n 
-0000009962 00000 n 
-0000012317 00000 n 
-0000012449 00000 n 
-0000013110 00000 n 
-0000013242 00000 n 
-0000015592 00000 n 
-0000015724 00000 n 
-0000016433 00000 n 
-0000016565 00000 n 
-0000018737 00000 n 
-0000018869 00000 n 
-0000019302 00000 n 
-0000019434 00000 n 
-0000021831 00000 n 
-0000021963 00000 n 
-0000022566 00000 n 
-0000022698 00000 n 
-0000024941 00000 n 
-0000025073 00000 n 
-0000025531 00000 n 
-0000025663 00000 n 
-0000028041 00000 n 
-0000028173 00000 n 
-0000028649 00000 n 
-0000028781 00000 n 
-0000031071 00000 n 
-0000031203 00000 n 
-0000031690 00000 n 
-0000031822 00000 n 
-0000033845 00000 n 
-0000033977 00000 n 
-0000034353 00000 n 
-0000034485 00000 n 
-0000036837 00000 n 
-0000036969 00000 n 
-0000037434 00000 n 
-0000037566 00000 n 
-0000039702 00000 n 
-0000039834 00000 n 
-0000040161 00000 n 
-0000040293 00000 n 
-0000042476 00000 n 
-0000042608 00000 n 
-0000044923 00000 n 
-0000045055 00000 n 
-0000045543 00000 n 
-0000045675 00000 n 
-0000047834 00000 n 
-0000047966 00000 n 
-0000048262 00000 n 
-0000048394 00000 n 
-0000050609 00000 n 
-0000050741 00000 n 
-0000051156 00000 n 
-0000051288 00000 n 
-0000053371 00000 n 
-0000053503 00000 n 
-0000053821 00000 n 
-0000053953 00000 n 
-0000056010 00000 n 
-0000056142 00000 n 
-0000056465 00000 n 
-0000056597 00000 n 
-0000058739 00000 n 
-0000058871 00000 n 
-0000059153 00000 n 
-0000059285 00000 n 
-0000061408 00000 n 
-0000061540 00000 n 
-0000063681 00000 n 
-0000063813 00000 n 
-0000064133 00000 n 
-0000064265 00000 n 
-0000066423 00000 n 
-0000066555 00000 n 
-0000066792 00000 n 
-0000066924 00000 n 
-0000069047 00000 n 
-0000069179 00000 n 
-0000069480 00000 n 
-0000069612 00000 n 
-0000071712 00000 n 
-0000071845 00000 n 
-0000072125 00000 n 
-0000072259 00000 n 
-0000074293 00000 n 
-0000074427 00000 n 
-0000074753 00000 n 
-0000074887 00000 n 
-0000076889 00000 n 
-0000077023 00000 n 
-0000079177 00000 n 
-0000079311 00000 n 
-0000079756 00000 n 
-0000079890 00000 n 
-0000081995 00000 n 
-0000082129 00000 n 
-0000082365 00000 n 
-0000082499 00000 n 
-0000084623 00000 n 
-0000084757 00000 n 
-0000085050 00000 n 
-0000085184 00000 n 
-0000087384 00000 n 
-0000087518 00000 n 
-0000087957 00000 n 
-0000088091 00000 n 
-0000090266 00000 n 
-0000090400 00000 n 
-0000090845 00000 n 
-0000090979 00000 n 
-0000093308 00000 n 
-0000093442 00000 n 
-0000094060 00000 n 
-0000094194 00000 n 
+0000000575 00000 n 
+0000000643 00000 n 
+0000000716 00000 n 
+0000000846 00000 n 
+0000002086 00000 n 
+0000002216 00000 n 
+0000003088 00000 n 
+0000003219 00000 n 
+0000005003 00000 n 
+0000005135 00000 n 
+0000006981 00000 n 
+0000007113 00000 n 
+0000009646 00000 n 
+0000009778 00000 n 
+0000010041 00000 n 
+0000010173 00000 n 
+0000012525 00000 n 
+0000012657 00000 n 
+0000013318 00000 n 
+0000013450 00000 n 
+0000015800 00000 n 
+0000015932 00000 n 
+0000016641 00000 n 
+0000016773 00000 n 
+0000018945 00000 n 
+0000019077 00000 n 
+0000019510 00000 n 
+0000019642 00000 n 
+0000022039 00000 n 
+0000022171 00000 n 
+0000022774 00000 n 
+0000022906 00000 n 
+0000025149 00000 n 
+0000025281 00000 n 
+0000025739 00000 n 
+0000025871 00000 n 
+0000028243 00000 n 
+0000028375 00000 n 
+0000028851 00000 n 
+0000028983 00000 n 
+0000031273 00000 n 
+0000031405 00000 n 
+0000031892 00000 n 
+0000032024 00000 n 
+0000034047 00000 n 
+0000034179 00000 n 
+0000034555 00000 n 
+0000034687 00000 n 
+0000037039 00000 n 
+0000037171 00000 n 
+0000037636 00000 n 
+0000037768 00000 n 
+0000039904 00000 n 
+0000040036 00000 n 
+0000040363 00000 n 
+0000040495 00000 n 
+0000042678 00000 n 
+0000042810 00000 n 
+0000045125 00000 n 
+0000045257 00000 n 
+0000045745 00000 n 
+0000045877 00000 n 
+0000048030 00000 n 
+0000048162 00000 n 
+0000048458 00000 n 
+0000048590 00000 n 
+0000050805 00000 n 
+0000050937 00000 n 
+0000051352 00000 n 
+0000051484 00000 n 
+0000053567 00000 n 
+0000053699 00000 n 
+0000054017 00000 n 
+0000054149 00000 n 
+0000056206 00000 n 
+0000056338 00000 n 
+0000056661 00000 n 
+0000056793 00000 n 
+0000058935 00000 n 
+0000059067 00000 n 
+0000059349 00000 n 
+0000059481 00000 n 
+0000061604 00000 n 
+0000061736 00000 n 
+0000063877 00000 n 
+0000064009 00000 n 
+0000064329 00000 n 
+0000064461 00000 n 
+0000066619 00000 n 
+0000066751 00000 n 
+0000066988 00000 n 
+0000067120 00000 n 
+0000069237 00000 n 
+0000069369 00000 n 
+0000069670 00000 n 
+0000069802 00000 n 
+0000071902 00000 n 
+0000072035 00000 n 
+0000072315 00000 n 
+0000072449 00000 n 
+0000074483 00000 n 
+0000074617 00000 n 
+0000074943 00000 n 
+0000075077 00000 n 
+0000077076 00000 n 
+0000077210 00000 n 
+0000079361 00000 n 
+0000079495 00000 n 
+0000079940 00000 n 
+0000080074 00000 n 
+0000082173 00000 n 
+0000082307 00000 n 
+0000082543 00000 n 
+0000082677 00000 n 
+0000084798 00000 n 
+0000084932 00000 n 
+0000085225 00000 n 
+0000085359 00000 n 
+0000087559 00000 n 
+0000087693 00000 n 
+0000088132 00000 n 
+0000088266 00000 n 
+0000090441 00000 n 
+0000090575 00000 n 
+0000091020 00000 n 
+0000091154 00000 n 
+0000093480 00000 n 
+0000093614 00000 n 
+0000094232 00000 n 
+0000094366 00000 n 
+0000095695 00000 n 
+0000095829 00000 n 
 trailer
-<</Size 133 /Root 1 0 R>>
+<</Size 135 /Root 1 0 R>>
 startxref
-96209
+97830
 %%EOF
