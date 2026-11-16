@@ -15,20 +15,42 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 6 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 6 0 obj
-<</Length 427>>
+<</Length 907>>
 stream
 q
-0.039 0.066 0.156 rg 0 0 595 842 re f
-0.98 0.98 0.98 rg 20 20 555 802 re 3 w S
-0.83 0.68 0.21 rg 28 28 539 786 re 1 w S
+0.98 0.98 0.98 rg 0 0 595 842 re f
+0.18 0.35 0.26 rg 20 20 555 802 re 3.5 w S
+0.039 0.066 0.156 rg 28 28 539 786 re 1 w S
+
+% Inner Arch Panel matching website
+0.95 0.97 0.96 rg 80 140 435 480 re f
+0.18 0.35 0.26 rg 80 140 435 480 re 2 w S
+
+% Tap Root Emblem
+0.88 0.93 0.90 rg 297 530 45 45 re f
+0.18 0.35 0.26 rg 297 530 45 45 re 2 w S
+% Root lines
+0.18 0.35 0.26 rg
+320 530 4 35 re f
+305 540 15 2.5 re f
+324 540 15 2.5 re f
+310 555 10 2 re f
+324 555 10 2 re f
+
+0.18 0.35 0.26 rg
+BT /F2 11 Tf 165 750 Td (THE NEW BELIEVER COLLECTION) Tj ET
+
+0.18 0.35 0.26 rg 130 460 335 30 re f
 1 1 1 rg
-BT /F2 11 Tf 160 760 Td (THE NEW BELIEVER COLLECTION) Tj ET
-0.83 0.68 0.21 rg
-BT /F2 26 Tf 50 480 Td (THE PROMISE IN THE GARDEN) Tj ET
-1 1 1 rg
-BT /F1 11 Tf 50 440 Td (Discovering the First Clues About Your Savior) Tj ET
-0.83 0.68 0.21 rg
-BT /F2 14 Tf 220 100 Td (WRITTEN BY CHRISTINE A.) Tj ET
+BT /F2 10 Tf 145 478 Td (CONCEPT 4: THE GOSPEL IN GENESIS) Tj ET
+
+0.039 0.066 0.156 rg
+BT /F2 26 Tf 95 380 Td (THE PROMISE IN THE GARDEN) Tj ET
+0.18 0.35 0.26 rg
+BT /F1 11 Tf 95 340 Td (Discovering the First Clues About Your Savior) Tj ET
+
+0.039 0.066 0.156 rg
+BT /F2 15 Tf 220 70 Td (WRITTEN BY CHRISTINE A.) Tj ET
 Q
 endstream
 endobj
@@ -36,23 +58,24 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 8 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 8 0 obj
-<</Length 841>>
+<</Length 825>>
 stream
 q
 0.039 0.066 0.156 rg
 BT /F2 22 Tf 50 750 Td (The Promise in the Garden) Tj ET
-BT /F1 12 Tf 50 720 Td (Discovering the First Clues About Your Savior) Tj ET
-BT /F2 11 Tf 50 695 Td (By Christine A.) Tj ET
-0 0 0 rg 50 680 495 1 re f
+BT /F1 12 Tf 50 720 Td (Written by Christine A.) Tj ET
+0.83 0.68 0.21 rg 50 700 495 1.5 re f
+
 0.83 0.68 0.21 rg
-BT /F2 15 Tf 50 610 Td (DEDICATION) Tj ET
+BT /F2 15 Tf 50 620 Td (DEDICATION) Tj ET
 0 0 0 rg
-BT /F1 11 Tf 50 575 Td (Dedicated to every spiritual seeker looking for evidence,) Tj ET
+BT /F1 11 Tf 50 585 Td (Dedicated to every spiritual seeker searching for evidence,) Tj ET
 0 -20 Td (every new believer building a firm foundation,) Tj ET
 0 -20 Td (and every curious child discovering that Jesus is the hero of the whole story.) Tj ET
-0 -26 Td (And dedicated especially to the busy mothers, single parents, working families,) Tj ET
-0 -18 Td (and commuters listening in the car, doing chores, or caring for little ones.) Tj ET
-0 -18 Td (You are never alone on this journey. May this guide set your roots deep in Christ.) Tj ET
+
+0 -28 Td (And dedicated especially to the busy mothers, single parents, working families,) Tj ET
+0 -18 Td (and commuters listening between daily chores, morning runs, diaper changes, and bedtime routines.) Tj ET
+0 -18 Td (You are seen, loved, and never alone on this journey. May this guide set your roots deep in Christ.) Tj ET
 Q
 endstream
 endobj
@@ -60,27 +83,34 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 10 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 10 0 obj
-<</Length 1503>>
+<</Length 1733>>
 stream
 q
 0.039 0.066 0.156 rg
 BT /F2 16 Tf 50 760 Td (COPYRIGHT & CREATOR TRANSPARENCY) Tj ET
-0 0 0 rg 50 745 495 1 re f
+0.83 0.68 0.21 rg 50 745 495 1.5 re f
+
+0 0 0 rg
 BT /F2 11 Tf 50 710 Td (Copyright \(C\) 2026 by Christine A. & CSA Online Shop.) Tj ET
-BT /F1 10 Tf 50 685 Td (All rights reserved. Published by CSA Ministry & Publishing \(csaonlineshop.com\).) Tj ET
+BT /F1 10 Tf 50 685 Td (All rights reserved. Published by CSA Ministry & Publishing.) Tj ET
 0 -18 Td (Author: Christine A.) Tj ET
 0 -15 Td (Illustrated by: Christine A.) Tj ET
+0 -20 Td (Official Store: https://csaonlineshop.com) Tj ET
+0 -15 Td (Interactive Audio & Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
+0 -15 Td (Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
+
 0.83 0.68 0.21 rg
-BT /F2 11 Tf 50 610 Td (About the Author & Distilled Experience:) Tj ET
+BT /F2 11 Tf 50 545 Td (About the Author & Distilled Experience:) Tj ET
 0 0 0 rg
-BT /F1 9.5 Tf 50 585 Td (The author, Christine A., is a trained writer, former journalist, and active blogger covering current affairs) Tj ET
+BT /F1 9.5 Tf 50 520 Td (The author, Christine A., is a trained writer, former journalist, and active blogger covering current affairs) Tj ET
 0 -15 Td (and spiritual matters. All biblical reflections, prophecy cross-references, and historical insights are fact-checked.) Tj ET
 0 -20 Td (The true value of this work is the distillation of more than 30 years of firsthand faith experiences, research,) Tj ET
 0 -15 Td (and biblical investigation into concise daily devotionals that fit your schedule without wasting time.) Tj ET
+
 0.83 0.68 0.21 rg
-BT /F2 11 Tf 50 495 Td (Ethical AI Assistance Disclosure:) Tj ET
+BT /F2 11 Tf 50 430 Td (Ethical AI Assistance Disclosure:) Tj ET
 0 0 0 rg
-BT /F1 9.5 Tf 50 470 Td (Artificial intelligence tools were used strictly as productivity assistants to speed up copy editing, language) Tj ET
+BT /F1 9.5 Tf 50 405 Td (Artificial intelligence tools were used strictly as productivity assistants to speed up copy editing, language) Tj ET
 0 -15 Td (proofreading \(as non-native English speakers\), and visual illustrations under the author's direct supervision.) Tj ET
 0 -25 Td (100% Audio Enabled Edition: Available online in 6 languages at spiritualbooks.csaonlineshop.com) Tj ET
 Q
@@ -1895,36 +1925,48 @@ endobj
 <</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 86 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 86 0 obj
-<</Length 1494>>
+<</Length 1963>>
 stream
 q
 0.039 0.066 0.156 rg
-BT /F2 20 Tf 50 760 Td (ABOUT THE AUTHOR & MINISTRY) Tj ET
+BT /F2 20 Tf 50 760 Td (THE DIVINE BLUEPRINT SERIES • CATALOG) Tj ET
 0.83 0.68 0.21 rg 50 745 495 1.5 re f
 
 0 0 0 rg
-BT /F2 14 Tf 50 705 Td (Christine A.) Tj ET
-BT /F1 10.5 Tf 50 675 Td (Christine A. is a trained writer, former journalist, and active blogger covering current affairs and spiritual matters.) Tj ET
-0 -20 Td (With more than 30 years of firsthand spiritual experience, biblical study, and research, Christine's purpose) Tj ET
-0 -16 Td (is to distill these life-changing truths into concrete devotionals tailored for everyday people.) Tj ET
+BT /F2 12 Tf 50 710 Td (One Message. Three Audiences. The Same Savior.) Tj ET
+BT /F1 10 Tf 50 690 Td (Continue your 30-day journey with the other books across our three tailored collections:) Tj ET
 
 0.83 0.68 0.21 rg
-BT /F2 12 Tf 50 580 Td (100% AUDIO-ENABLED EDITION AVAILABLE) Tj ET
+BT /F2 11 Tf 50 645 Td (1. THE SPIRITUAL SEEKER COLLECTION \(25 Books\)) Tj ET
 0 0 0 rg
-BT /F1 10 Tf 50 555 Td (Did you know? Every day of this book is available with professional voice narration in 6 languages:) Tj ET
-0 -18 Td (English, Swedish, German, Spanish, Swahili, and French.) Tj ET
-0 -25 Td (Listen while commuting, jogging, doing dishes, changing diapers, or feeding the baby.) Tj ET
-0 -18 Td (Visit: https://spiritualbooks.csaonlineshop.com) Tj ET
+BT /F1 9.5 Tf 50 625 Td (For the curious and skeptical. Examines Messianic prophecies, Dead Sea Scrolls, and historical evidence.) Tj ET
+
+0.18 0.35 0.26 rg
+BT /F2 11 Tf 50 580 Td (2. THE NEW BELIEVER COLLECTION \(25 Books\)) Tj ET
+0 0 0 rg
+BT /F1 9.5 Tf 50 560 Td (For building your daily walk. Explores grace over rules, Old Testament festivals, and Jesus' presence.) Tj ET
+
+0.17 0.35 0.65 rg
+BT /F2 11 Tf 50 515 Td (3. THE CHILDREN'S EDITION \(AGES 4-8\) \(25 Books\)) Tj ET
+0 0 0 rg
+BT /F1 9.5 Tf 50 495 Td (For families and little detectives. Fun object lessons, activities, prayers, and coloring canvases.) Tj ET
+
+0.039 0.066 0.156 rg
+BT /F2 12 Tf 50 435 Td (WHERE TO FIND & UNLOCK THE BOOKS:) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 50 410 Td (• Official Interactive Audio Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
+0 -18 Td (• Official Storefront & PDF Bundles: https://csaonlineshop.gumroad.com) Tj ET
+0 -18 Td (• Ministry Store: https://csaonlineshop.com) Tj ET
+0 -18 Td (• Author Poetry & Reflections: https://christinea.csatravellers.com/) Tj ET
 
 0.83 0.68 0.21 rg
-BT /F2 12 Tf 50 430 Td (THE DIVINE BLUEPRINT SERIES) Tj ET
+BT /F2 10.5 Tf 50 300 Td (100% Audio Enabled for Real, Busy Lives:) Tj ET
 0 0 0 rg
-BT /F1 10 Tf 50 405 Td (• The Spiritual Seeker Collection \(Evidence & Prophecy\)) Tj ET
-0 -18 Td (• The New Believer Collection \(Grace & Foundations\)) Tj ET
-0 -18 Td (• The Children's Edition \(Ages 4-8 Stories, Activities & Coloring\)) Tj ET
+BT /F1 9.5 Tf 50 280 Td (Every day of every book can be listened to in 6 languages while jogging, commuting, doing chores,) Tj ET
+0 -15 Td (or feeding the baby. You never have to fall behind on your journey with Jesus.) Tj ET
 
 0.4 0.4 0.4 rg
-BT /F1 9 Tf 50 100 Td (CSA Online Shop & Publishing • Stockholm, Sweden • csaonlineshop.com) Tj ET
+BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing • Stockholm, Sweden • Author: Christine A.) Tj ET
 Q
 endstream
 endobj
@@ -1937,88 +1979,88 @@ xref
 0000000458 00000 n 
 0000000531 00000 n 
 0000000661 00000 n 
-0000001137 00000 n 
-0000001267 00000 n 
-0000002157 00000 n 
-0000002288 00000 n 
-0000003842 00000 n 
-0000003974 00000 n 
-0000005872 00000 n 
-0000006004 00000 n 
-0000008506 00000 n 
-0000008638 00000 n 
-0000008912 00000 n 
-0000009044 00000 n 
-0000011219 00000 n 
-0000011351 00000 n 
-0000013660 00000 n 
-0000013792 00000 n 
-0000016195 00000 n 
-0000016327 00000 n 
-0000016612 00000 n 
-0000016744 00000 n 
-0000018880 00000 n 
-0000019012 00000 n 
-0000021445 00000 n 
-0000021577 00000 n 
-0000021940 00000 n 
-0000022072 00000 n 
-0000024291 00000 n 
-0000024423 00000 n 
-0000026817 00000 n 
-0000026949 00000 n 
-0000029284 00000 n 
-0000029416 00000 n 
-0000031300 00000 n 
-0000031432 00000 n 
-0000033634 00000 n 
-0000033766 00000 n 
-0000035761 00000 n 
-0000035893 00000 n 
-0000037953 00000 n 
-0000038085 00000 n 
-0000040335 00000 n 
-0000040467 00000 n 
-0000042609 00000 n 
-0000042741 00000 n 
-0000044784 00000 n 
-0000044916 00000 n 
-0000046767 00000 n 
-0000046899 00000 n 
-0000049114 00000 n 
-0000049246 00000 n 
-0000051274 00000 n 
-0000051406 00000 n 
-0000053780 00000 n 
-0000053912 00000 n 
-0000054325 00000 n 
-0000054457 00000 n 
-0000056717 00000 n 
-0000056849 00000 n 
-0000057198 00000 n 
-0000057330 00000 n 
-0000059539 00000 n 
-0000059671 00000 n 
-0000061960 00000 n 
-0000062092 00000 n 
-0000064120 00000 n 
-0000064252 00000 n 
-0000066302 00000 n 
-0000066434 00000 n 
-0000068404 00000 n 
-0000068536 00000 n 
-0000070626 00000 n 
-0000070758 00000 n 
-0000072777 00000 n 
-0000072909 00000 n 
-0000074660 00000 n 
-0000074792 00000 n 
-0000076713 00000 n 
-0000076845 00000 n 
-0000079151 00000 n 
-0000079283 00000 n 
+0000001617 00000 n 
+0000001747 00000 n 
+0000002621 00000 n 
+0000002752 00000 n 
+0000004536 00000 n 
+0000004668 00000 n 
+0000006566 00000 n 
+0000006698 00000 n 
+0000009200 00000 n 
+0000009332 00000 n 
+0000009606 00000 n 
+0000009738 00000 n 
+0000011913 00000 n 
+0000012045 00000 n 
+0000014354 00000 n 
+0000014486 00000 n 
+0000016889 00000 n 
+0000017021 00000 n 
+0000017306 00000 n 
+0000017438 00000 n 
+0000019574 00000 n 
+0000019706 00000 n 
+0000022139 00000 n 
+0000022271 00000 n 
+0000022634 00000 n 
+0000022766 00000 n 
+0000024985 00000 n 
+0000025117 00000 n 
+0000027511 00000 n 
+0000027643 00000 n 
+0000029978 00000 n 
+0000030110 00000 n 
+0000031994 00000 n 
+0000032126 00000 n 
+0000034328 00000 n 
+0000034460 00000 n 
+0000036455 00000 n 
+0000036587 00000 n 
+0000038647 00000 n 
+0000038779 00000 n 
+0000041029 00000 n 
+0000041161 00000 n 
+0000043303 00000 n 
+0000043435 00000 n 
+0000045478 00000 n 
+0000045610 00000 n 
+0000047461 00000 n 
+0000047593 00000 n 
+0000049808 00000 n 
+0000049940 00000 n 
+0000051968 00000 n 
+0000052100 00000 n 
+0000054474 00000 n 
+0000054606 00000 n 
+0000055019 00000 n 
+0000055151 00000 n 
+0000057411 00000 n 
+0000057543 00000 n 
+0000057892 00000 n 
+0000058024 00000 n 
+0000060233 00000 n 
+0000060365 00000 n 
+0000062654 00000 n 
+0000062786 00000 n 
+0000064814 00000 n 
+0000064946 00000 n 
+0000066996 00000 n 
+0000067128 00000 n 
+0000069098 00000 n 
+0000069230 00000 n 
+0000071320 00000 n 
+0000071452 00000 n 
+0000073471 00000 n 
+0000073603 00000 n 
+0000075354 00000 n 
+0000075486 00000 n 
+0000077407 00000 n 
+0000077539 00000 n 
+0000079845 00000 n 
+0000079977 00000 n 
 trailer
 <</Size 87 /Root 1 0 R>>
 startxref
-80828
+81991
 %%EOF
