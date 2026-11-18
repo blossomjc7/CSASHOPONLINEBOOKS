@@ -395,7 +395,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Big%20Tent%20and%20the%20Special%20Rules',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/amynza',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Big%20Tent%20and%20the%20Special%20Rules%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Big%20Tent%20and%20the%20Special%20Rules%20Christine%20A'
   },
@@ -428,7 +428,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=Shadows%20and%20Surprises',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/dhdbvu',
     amazonUrl: 'https://www.amazon.com/s?k=Shadows%20and%20Surprises%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=Shadows%20and%20Surprises%20Christine%20A'
   },
@@ -461,7 +461,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Greatest%20Festival%20Ever',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/ftptdw',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Greatest%20Festival%20Ever%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Greatest%20Festival%20Ever%20Christine%20A'
   },
@@ -494,7 +494,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Secret%20Code%20of%20the%20Old%20Law',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/fmlxhh',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Secret%20Code%20of%20the%20Old%20Law%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Secret%20Code%20of%20the%20Old%20Law%20Christine%20A'
   },
@@ -527,7 +527,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Shadow%20Game',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/mfweib',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Shadow%20Game%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Shadow%20Game%20Christine%20A'
   },
@@ -560,7 +560,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on The Angel of the Lord, the burning bush, and Jacob wrestling, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=The%20Secret%20Visitor',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/rrmawda',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Secret%20Visitor%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Secret%20Visitor%20Christine%20A'
   },
@@ -593,7 +593,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on The Angel of the Lord, the burning bush, and Jacob wrestling, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=God%20in%20the%20Wilderness',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/niulj',
     amazonUrl: 'https://www.amazon.com/s?k=God%20in%20the%20Wilderness%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=God%20in%20the%20Wilderness%20Christine%20A'
   },
@@ -626,7 +626,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on The Angel of the Lord, the burning bush, and Jacob wrestling, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=The%20Burning%20Bush%20and%20the%20Wrestler',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/mmizz',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Burning%20Bush%20and%20the%20Wrestler%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Burning%20Bush%20and%20the%20Wrestler%20Christine%20A'
   },
@@ -659,7 +659,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on The Angel of the Lord, the burning bush, and Jacob wrestling, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=Divine%20Encounters',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/fbhxq',
     amazonUrl: 'https://www.amazon.com/s?k=Divine%20Encounters%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=Divine%20Encounters%20Christine%20A'
   },
@@ -692,7 +692,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on The Angel of the Lord, the burning bush, and Jacob wrestling, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=The%20Ghost%20in%20the%20Old%20Testament',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/ifxcnn',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Ghost%20in%20the%20Old%20Testament%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Ghost%20in%20the%20Old%20Testament%20Christine%20A'
   },
