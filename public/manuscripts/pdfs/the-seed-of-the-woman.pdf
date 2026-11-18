@@ -3,7 +3,7 @@
 <</Type /Catalog /Pages 2 0 R>>
 endobj
 2 0 obj
-<</Type /Pages /Kids [6 0 R 8 0 R 10 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R 139 0 R 141 0 R 143 0 R 145 0 R] /Count 68>>
+<</Type /Pages /Kids [5 0 R 7 0 R 9 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R 64 0 R 66 0 R 68 0 R 70 0 R 72 0 R 74 0 R 76 0 R 78 0 R 80 0 R 82 0 R 84 0 R 86 0 R 88 0 R 90 0 R 92 0 R 94 0 R 96 0 R 98 0 R 100 0 R 102 0 R 104 0 R 106 0 R 108 0 R 110 0 R 112 0 R 114 0 R 116 0 R 118 0 R 120 0 R 122 0 R 124 0 R 126 0 R 128 0 R 130 0 R 132 0 R 134 0 R 136 0 R 138 0 R 140 0 R 142 0 R 144 0 R] /Count 68>>
 endobj
 3 0 obj
 <</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>
@@ -12,56 +12,91 @@ endobj
 <</Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold>>
 endobj
 5 0 obj
-<</Type /XObject /Subtype /Image /Width 1200 /Height 1800 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length 79>>
-stream
-{"status":"error","code":404,"message":"The requested URL returned error: 404"}
-endstream
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 6 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
 6 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 7 0 R /Resources <</XObject <</Im0 5 0 R>>>>>>
-endobj
-7 0 obj
-<</Length 31>>
-stream
-q
-595 0 0 842 0 0 cm
-/Im0 Do
-Q
-endstream
-endobj
-8 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 9 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
-endobj
-9 0 obj
-<</Length 651>>
+<</Length 1183>>
 stream
 
 q
 0.98 0.98 0.98 rg 0 0 595 842 re f
-0.83 0.68 0.21 rg 20 20 555 802 re 1.5 w S
+0.83 0.68 0.21 rg 20 20 555 802 re 3 w S
+0.039 0.066 0.156 rg 28 28 539 786 re 1 w S
+
+% Inner Arch Panel matching website
+0.95 0.97 0.96 rg 80 140 435 480 re f
+0.83 0.68 0.21 rg 80 140 435 480 re 1.5 w S
+
+% Clean Delicate Spiritual Seedling Emblem (Round, peaceful, zero fraternity lines)
+0.89 0.94 0.91 rg 297 530 46 46 re f
+0.83 0.68 0.21 rg 297 530 46 46 re 1.5 w S
+
+% Ground soil line
+0.35 0.25 0.18 rg 280 545 80 1.5 re f
+
+% Deep Tap Root driving deep into soil
+0.83 0.68 0.21 rg
+320 522 3 23 re f
+312 528 10 1.8 re f
+321 528 10 1.8 re f
+315 536 7 1.4 re f
+321 536 7 1.4 re f
+
+% Sprouting Seedling Stem & Tender Leaves rising upward
+320 545 3 20 re f
+308 558 13 4 re f
+322 562 13 4 re f
+
+0.83 0.68 0.21 rg
+BT /F2 11 Tf 165 750 Td (THE SPIRITUAL SEEKER COLLECTION) Tj ET
+
+0.83 0.68 0.21 rg 130 460 335 30 re f
+1 1 1 rg
+BT /F2 10 Tf 145 478 Td (CONCEPT 4: THE GOSPEL IN GENESIS) Tj ET
 
 0.039 0.066 0.156 rg
-BT /F2 22 Tf 297 520 Td (DEDICATION) Tj ET
-0.83 0.68 0.21 rg 230 505 135 1.5 re f
+BT /F2 26 Tf 95 380 Td (THE SEED OF THE WOMAN) Tj ET
+0.83 0.68 0.21 rg
+BT /F1 11 Tf 95 340 Td (Discovering the Ancient Prophecy Hidden in the Garden) Tj ET
 
-0.15 0.15 0.15 rg
-BT /F1 12 Tf 140 450 Td (To every seeker of biblical truth, every family guiding their children,) Tj ET
-0 -22 Td (and every believer desiring to discover the beautiful tapestry) Tj ET
-0 -22 Td (of God's timeless rescue plan fulfilled in Jesus Christ.) Tj ET
-
-0.4 0.4 0.4 rg
-BT /F1 10.5 Tf 210 260 Td ("You will seek me and find me when you) Tj ET
-0 -18 Td (seek me with all your heart.") Tj ET
-BT /F2 10.5 Tf 250 220 Td (- Jeremiah 29:13) Tj ET
+0.039 0.066 0.156 rg
+BT /F2 15 Tf 220 70 Td (WRITTEN BY CHRISTINE A.) Tj ET
 Q
 
 endstream
 endobj
-10 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 11 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>> /Annots [12 0 R 13 0 R 14 0 R 15 0 R 16 0 R]>>
+7 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 8 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-11 0 obj
-<</Length 2031>>
+8 0 obj
+<</Length 823>>
+stream
+
+q
+0.039 0.066 0.156 rg
+BT /F2 22 Tf 50 750 Td (The Seed of the Woman) Tj ET
+BT /F1 12 Tf 50 720 Td (Written by Christine A.) Tj ET
+0.83 0.68 0.21 rg 50 700 495 1.5 re f
+
+0.83 0.68 0.21 rg
+BT /F2 15 Tf 50 620 Td (DEDICATION) Tj ET
+0 0 0 rg
+BT /F1 11 Tf 50 585 Td (Dedicated to every spiritual seeker searching for evidence,) Tj ET
+0 -20 Td (every new believer building a firm foundation,) Tj ET
+0 -20 Td (and every curious child discovering that Jesus is the hero of the whole story.) Tj ET
+
+0 -28 Td (And dedicated especially to the busy mothers, single parents, working families,) Tj ET
+0 -18 Td (and commuters listening between daily chores, morning runs, diaper changes, and bedtime routines.) Tj ET
+0 -18 Td (You are seen, loved, and never alone on this journey. May this guide set your roots deep in Christ.) Tj ET
+Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 10 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>> /Annots [11 0 R 12 0 R 13 0 R 14 0 R 15 0 R]>>
+endobj
+10 0 obj
+<</Length 2018>>
 stream
 
 q
@@ -95,31 +130,31 @@ BT /F1 9.5 Tf 50 380 Td (This work was researched, planned, outlined, authored, 
 0 -15 Td (are original and represent the personal creative expression of the author.) Tj ET
 
 0.4 0.4 0.4 rg
-BT /F1 9 Tf 50 100 Td (Printed and published digitally by CSA Ministry & Publishing, Stockholm, Sweden.) Tj ET
-0 -15 Td (Website: https://csaonlineshop.gumroad.com | Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
+BT /F1 9 Tf 50 100 Td (Printed and published digitally by CSA Ministry & Publishing, Sweden.) Tj ET
+0 -15 Td (Store: https://csaonlineshop.gumroad.com | Reader: https://spiritualbooks.csaonlineshop.com) Tj ET
 Q
 
 endstream
 endobj
-12 0 obj
+11 0 obj
 <</Type /Annot /Subtype /Link /Rect [50 610 320 630] /Border [0 0 0] /A <</Type /Action /S /URI /URI (https://csaonlineshop.gumroad.com)>>>>
 endobj
-13 0 obj
+12 0 obj
 <</Type /Annot /Subtype /Link /Rect [50 595 430 615] /Border [0 0 0] /A <</Type /Action /S /URI /URI (https://spiritualbooks.csaonlineshop.com)>>>>
 endobj
-14 0 obj
+13 0 obj
 <</Type /Annot /Subtype /Link /Rect [50 580 410 600] /Border [0 0 0] /A <</Type /Action /S /URI /URI (https://christinea.csatravellers.com/)>>>>
 endobj
-15 0 obj
+14 0 obj
 <</Type /Annot /Subtype /Link /Rect [50 75 260 95] /Border [0 0 0] /A <</Type /Action /S /URI /URI (https://csaonlineshop.gumroad.com)>>>>
 endobj
-16 0 obj
+15 0 obj
 <</Type /Annot /Subtype /Link /Rect [265 75 500 95] /Border [0 0 0] /A <</Type /Action /S /URI /URI (https://spiritualbooks.csaonlineshop.com)>>>>
 endobj
-17 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 18 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+16 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 17 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-18 0 obj
+17 0 obj
 <</Length 2029>>
 stream
 
@@ -173,10 +208,10 @@ Q
 
 endstream
 endobj
-19 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 20 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+18 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 19 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-20 0 obj
+19 0 obj
 <</Length 2387>>
 stream
 
@@ -231,10 +266,10 @@ Q
 
 endstream
 endobj
-21 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 22 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+20 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 21 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-22 0 obj
+21 0 obj
 <</Length 326>>
 stream
 
@@ -251,10 +286,10 @@ Q
 
 endstream
 endobj
-23 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 24 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+22 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 23 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-24 0 obj
+23 0 obj
 <</Length 2235>>
 stream
 
@@ -309,10 +344,10 @@ Q
 
 endstream
 endobj
-25 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 26 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+24 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 25 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-26 0 obj
+25 0 obj
 <</Length 556>>
 stream
 
@@ -335,10 +370,10 @@ Q
 
 endstream
 endobj
-27 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 28 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+26 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 27 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-28 0 obj
+27 0 obj
 <</Length 2124>>
 stream
 
@@ -393,10 +428,10 @@ Q
 
 endstream
 endobj
-29 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 30 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+28 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 29 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-30 0 obj
+29 0 obj
 <</Length 441>>
 stream
 
@@ -416,10 +451,10 @@ Q
 
 endstream
 endobj
-31 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 32 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+30 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 31 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-32 0 obj
+31 0 obj
 <</Length 2120>>
 stream
 
@@ -474,10 +509,10 @@ Q
 
 endstream
 endobj
-33 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 34 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+32 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 33 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-34 0 obj
+33 0 obj
 <</Length 420>>
 stream
 
@@ -497,10 +532,10 @@ Q
 
 endstream
 endobj
-35 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 36 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+34 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 35 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-36 0 obj
+35 0 obj
 <</Length 2202>>
 stream
 
@@ -555,10 +590,10 @@ Q
 
 endstream
 endobj
-37 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 38 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+36 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 37 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-38 0 obj
+37 0 obj
 <</Length 464>>
 stream
 
@@ -578,10 +613,10 @@ Q
 
 endstream
 endobj
-39 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 40 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+38 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 39 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-40 0 obj
+39 0 obj
 <</Length 2171>>
 stream
 
@@ -636,10 +671,10 @@ Q
 
 endstream
 endobj
-41 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 42 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+40 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 41 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-42 0 obj
+41 0 obj
 <</Length 497>>
 stream
 
@@ -660,10 +695,10 @@ Q
 
 endstream
 endobj
-43 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 44 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+42 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 43 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-44 0 obj
+43 0 obj
 <</Length 2074>>
 stream
 
@@ -718,10 +753,10 @@ Q
 
 endstream
 endobj
-45 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 46 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+44 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 45 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-46 0 obj
+45 0 obj
 <</Length 463>>
 stream
 
@@ -741,10 +776,10 @@ Q
 
 endstream
 endobj
-47 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 48 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+46 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 47 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-48 0 obj
+47 0 obj
 <</Length 2036>>
 stream
 
@@ -799,10 +834,10 @@ Q
 
 endstream
 endobj
-49 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 50 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+48 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 49 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-50 0 obj
+49 0 obj
 <</Length 403>>
 stream
 
@@ -820,10 +855,10 @@ Q
 
 endstream
 endobj
-51 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 52 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+50 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 51 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-52 0 obj
+51 0 obj
 <</Length 2186>>
 stream
 
@@ -878,10 +913,10 @@ Q
 
 endstream
 endobj
-53 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 54 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+52 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 53 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-54 0 obj
+53 0 obj
 <</Length 429>>
 stream
 
@@ -902,10 +937,10 @@ Q
 
 endstream
 endobj
-55 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 56 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+54 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 55 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-56 0 obj
+55 0 obj
 <</Length 1980>>
 stream
 
@@ -960,10 +995,10 @@ Q
 
 endstream
 endobj
-57 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 58 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+56 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 57 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-58 0 obj
+57 0 obj
 <</Length 400>>
 stream
 
@@ -981,10 +1016,10 @@ Q
 
 endstream
 endobj
-59 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 60 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+58 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 59 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-60 0 obj
+59 0 obj
 <</Length 2026>>
 stream
 
@@ -1039,10 +1074,10 @@ Q
 
 endstream
 endobj
-61 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 62 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+60 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 61 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-62 0 obj
+61 0 obj
 <</Length 465>>
 stream
 
@@ -1061,10 +1096,10 @@ Q
 
 endstream
 endobj
-63 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 64 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+62 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 63 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-64 0 obj
+63 0 obj
 <</Length 2090>>
 stream
 
@@ -1119,10 +1154,10 @@ Q
 
 endstream
 endobj
-65 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 66 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+64 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 65 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-66 0 obj
+65 0 obj
 <</Length 508>>
 stream
 
@@ -1142,10 +1177,10 @@ Q
 
 endstream
 endobj
-67 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 68 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+66 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 67 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-68 0 obj
+67 0 obj
 <</Length 2086>>
 stream
 
@@ -1200,10 +1235,10 @@ Q
 
 endstream
 endobj
-69 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 70 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+68 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 69 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-70 0 obj
+69 0 obj
 <</Length 380>>
 stream
 
@@ -1221,10 +1256,10 @@ Q
 
 endstream
 endobj
-71 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 72 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+70 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 71 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-72 0 obj
+71 0 obj
 <</Length 1996>>
 stream
 
@@ -1279,10 +1314,10 @@ Q
 
 endstream
 endobj
-73 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 74 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+72 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 73 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-74 0 obj
+73 0 obj
 <</Length 443>>
 stream
 
@@ -1300,10 +1335,10 @@ Q
 
 endstream
 endobj
-75 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 76 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+74 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 75 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-76 0 obj
+75 0 obj
 <</Length 1956>>
 stream
 
@@ -1358,10 +1393,10 @@ Q
 
 endstream
 endobj
-77 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 78 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+76 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 77 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-78 0 obj
+77 0 obj
 <</Length 414>>
 stream
 
@@ -1379,10 +1414,10 @@ Q
 
 endstream
 endobj
-79 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 80 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+78 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 79 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-80 0 obj
+79 0 obj
 <</Length 2039>>
 stream
 
@@ -1437,10 +1472,10 @@ Q
 
 endstream
 endobj
-81 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 82 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+80 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 81 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-82 0 obj
+81 0 obj
 <</Length 402>>
 stream
 
@@ -1458,10 +1493,10 @@ Q
 
 endstream
 endobj
-83 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 84 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+82 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 83 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-84 0 obj
+83 0 obj
 <</Length 2020>>
 stream
 
@@ -1516,10 +1551,10 @@ Q
 
 endstream
 endobj
-85 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 86 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+84 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 85 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-86 0 obj
+85 0 obj
 <</Length 353>>
 stream
 
@@ -1536,10 +1571,10 @@ Q
 
 endstream
 endobj
-87 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 88 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+86 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 87 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-88 0 obj
+87 0 obj
 <</Length 1985>>
 stream
 
@@ -1594,10 +1629,10 @@ Q
 
 endstream
 endobj
-89 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 90 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+88 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 89 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-90 0 obj
+89 0 obj
 <</Length 429>>
 stream
 
@@ -1615,10 +1650,10 @@ Q
 
 endstream
 endobj
-91 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 92 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+90 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 91 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-92 0 obj
+91 0 obj
 <</Length 2014>>
 stream
 
@@ -1673,10 +1708,10 @@ Q
 
 endstream
 endobj
-93 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 94 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+92 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 93 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-94 0 obj
+93 0 obj
 <</Length 420>>
 stream
 
@@ -1694,10 +1729,10 @@ Q
 
 endstream
 endobj
-95 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 96 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+94 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 95 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-96 0 obj
+95 0 obj
 <</Length 2085>>
 stream
 
@@ -1752,10 +1787,10 @@ Q
 
 endstream
 endobj
-97 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 98 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+96 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 97 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-98 0 obj
+97 0 obj
 <</Length 253>>
 stream
 
@@ -1771,10 +1806,10 @@ Q
 
 endstream
 endobj
-99 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 100 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+98 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 99 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-100 0 obj
+99 0 obj
 <</Length 927>>
 stream
 
@@ -1807,10 +1842,10 @@ Q
 
 endstream
 endobj
-101 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 102 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+100 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 101 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-102 0 obj
+101 0 obj
 <</Length 1814>>
 stream
 
@@ -1860,10 +1895,10 @@ Q
 
 endstream
 endobj
-103 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 104 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+102 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 103 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-104 0 obj
+103 0 obj
 <</Length 2039>>
 stream
 
@@ -1918,10 +1953,10 @@ Q
 
 endstream
 endobj
-105 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 106 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+104 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 105 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-106 0 obj
+105 0 obj
 <</Length 402>>
 stream
 
@@ -1939,10 +1974,10 @@ Q
 
 endstream
 endobj
-107 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 108 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+106 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 107 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-108 0 obj
+107 0 obj
 <</Length 2020>>
 stream
 
@@ -1997,10 +2032,10 @@ Q
 
 endstream
 endobj
-109 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 110 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+108 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 109 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-110 0 obj
+109 0 obj
 <</Length 353>>
 stream
 
@@ -2017,10 +2052,10 @@ Q
 
 endstream
 endobj
-111 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 112 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+110 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 111 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-112 0 obj
+111 0 obj
 <</Length 1985>>
 stream
 
@@ -2075,10 +2110,10 @@ Q
 
 endstream
 endobj
-113 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 114 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+112 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 113 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-114 0 obj
+113 0 obj
 <</Length 429>>
 stream
 
@@ -2096,10 +2131,10 @@ Q
 
 endstream
 endobj
-115 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 116 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+114 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 115 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-116 0 obj
+115 0 obj
 <</Length 2014>>
 stream
 
@@ -2154,10 +2189,10 @@ Q
 
 endstream
 endobj
-117 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 118 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+116 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 117 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-118 0 obj
+117 0 obj
 <</Length 420>>
 stream
 
@@ -2175,10 +2210,10 @@ Q
 
 endstream
 endobj
-119 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 120 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+118 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 119 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-120 0 obj
+119 0 obj
 <</Length 2085>>
 stream
 
@@ -2233,10 +2268,10 @@ Q
 
 endstream
 endobj
-121 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 122 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+120 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 121 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-122 0 obj
+121 0 obj
 <</Length 253>>
 stream
 
@@ -2252,10 +2287,10 @@ Q
 
 endstream
 endobj
-123 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 124 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+122 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 123 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-124 0 obj
+123 0 obj
 <</Length 2090>>
 stream
 
@@ -2310,10 +2345,10 @@ Q
 
 endstream
 endobj
-125 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 126 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+124 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 125 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-126 0 obj
+125 0 obj
 <</Length 508>>
 stream
 
@@ -2333,10 +2368,10 @@ Q
 
 endstream
 endobj
-127 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 128 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+126 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 127 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-128 0 obj
+127 0 obj
 <</Length 2086>>
 stream
 
@@ -2391,10 +2426,10 @@ Q
 
 endstream
 endobj
-129 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 130 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+128 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 129 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-130 0 obj
+129 0 obj
 <</Length 380>>
 stream
 
@@ -2412,10 +2447,10 @@ Q
 
 endstream
 endobj
-131 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 132 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+130 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 131 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-132 0 obj
+131 0 obj
 <</Length 1996>>
 stream
 
@@ -2470,10 +2505,10 @@ Q
 
 endstream
 endobj
-133 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 134 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+132 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 133 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-134 0 obj
+133 0 obj
 <</Length 443>>
 stream
 
@@ -2491,10 +2526,10 @@ Q
 
 endstream
 endobj
-135 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 136 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+134 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 135 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-136 0 obj
+135 0 obj
 <</Length 2026>>
 stream
 
@@ -2549,10 +2584,10 @@ Q
 
 endstream
 endobj
-137 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 138 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+136 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 137 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-138 0 obj
+137 0 obj
 <</Length 465>>
 stream
 
@@ -2571,10 +2606,10 @@ Q
 
 endstream
 endobj
-139 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 140 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+138 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 139 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-140 0 obj
+139 0 obj
 <</Length 2126>>
 stream
 
@@ -2629,10 +2664,10 @@ Q
 
 endstream
 endobj
-141 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 142 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+140 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 141 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-142 0 obj
+141 0 obj
 <</Length 511>>
 stream
 
@@ -2653,11 +2688,11 @@ Q
 
 endstream
 endobj
-143 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 144 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
+142 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 143 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>>>>
 endobj
-144 0 obj
-<</Length 1135>>
+143 0 obj
+<</Length 1124>>
 stream
 
 q
@@ -2679,7 +2714,7 @@ BT /F1 10 Tf 50 740 Td
 0 -16 Td () Tj
 0 -16 Td (About the Author) Tj
 0 -16 Td (Christine A. writes for those investigating faith with honest questions. She) Tj
-0 -16 Td (lives with her family in Stockholm, Sweden.) Tj
+0 -16 Td (lives with her family in Sweden.) Tj
 0 -16 Td () Tj
 0 -16 Td (Coming Next: The Substance Behind the Symbol) Tj
 0 -16 Td (Continue the investigation with the next title in the series.) Tj
@@ -2691,11 +2726,11 @@ Q
 
 endstream
 endobj
-145 0 obj
-<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 146 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>> /Annots [147 0 R 148 0 R 149 0 R]>>
+144 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 145 0 R /Resources <</Font <</F1 3 0 R /F2 4 0 R>>>> /Annots [146 0 R 147 0 R 148 0 R]>>
 endobj
-146 0 obj
-<</Length 1890>>
+145 0 obj
+<</Length 1879>>
 stream
 
 q
@@ -2736,174 +2771,173 @@ BT /F1 9.5 Tf 50 290 Td (Every day of every book can be listened to in 6 languag
 0 -15 Td (or feeding the baby. You never have to fall behind on your journey with Jesus.) Tj ET
 
 0.4 0.4 0.4 rg
-BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing - Stockholm, Sweden - Author: Christine A.) Tj ET
+BT /F1 9 Tf 50 80 Td (CSA Online Shop & Publishing - Sweden - Author: Christine A.) Tj ET
 Q
 
 endstream
 endobj
-147 0 obj
+146 0 obj
 <</Type /Annot /Subtype /Link /Rect [50 400 480 425] /Border [0 0 0] /A <</Type /Action /S /URI /URI (https://spiritualbooks.csaonlineshop.com)>>>>
 endobj
-148 0 obj
+147 0 obj
 <</Type /Annot /Subtype /Link /Rect [50 382 430 405] /Border [0 0 0] /A <</Type /Action /S /URI /URI (https://csaonlineshop.gumroad.com)>>>>
 endobj
-149 0 obj
+148 0 obj
 <</Type /Annot /Subtype /Link /Rect [50 364 430 387] /Border [0 0 0] /A <</Type /Action /S /URI /URI (https://christinea.csatravellers.com/)>>>>
 endobj
 xref
-0 150
+0 149
 0000000000 65535 f 
 0000000009 00000 n 
 0000000056 00000 n 
-0000000603 00000 n 
-0000000671 00000 n 
-0000000744 00000 n 
-0000000989 00000 n 
-0000001113 00000 n 
-0000001191 00000 n 
-0000001321 00000 n 
-0000002021 00000 n 
-0000002198 00000 n 
-0000004280 00000 n 
-0000004437 00000 n 
-0000004601 00000 n 
-0000004762 00000 n 
-0000004917 00000 n 
-0000005080 00000 n 
-0000005212 00000 n 
-0000007292 00000 n 
-0000007424 00000 n 
-0000009862 00000 n 
-0000009994 00000 n 
-0000010370 00000 n 
-0000010502 00000 n 
-0000012788 00000 n 
-0000012920 00000 n 
-0000013526 00000 n 
-0000013658 00000 n 
-0000015833 00000 n 
-0000015965 00000 n 
-0000016456 00000 n 
-0000016588 00000 n 
-0000018759 00000 n 
-0000018891 00000 n 
-0000019361 00000 n 
-0000019493 00000 n 
-0000021746 00000 n 
-0000021878 00000 n 
-0000022392 00000 n 
-0000022524 00000 n 
-0000024746 00000 n 
-0000024878 00000 n 
-0000025425 00000 n 
-0000025557 00000 n 
-0000027682 00000 n 
-0000027814 00000 n 
-0000028327 00000 n 
-0000028459 00000 n 
-0000030546 00000 n 
-0000030678 00000 n 
-0000031131 00000 n 
-0000031263 00000 n 
-0000033500 00000 n 
-0000033632 00000 n 
-0000034111 00000 n 
-0000034243 00000 n 
-0000036274 00000 n 
-0000036406 00000 n 
-0000036856 00000 n 
-0000036988 00000 n 
-0000039065 00000 n 
-0000039197 00000 n 
-0000039712 00000 n 
-0000039844 00000 n 
-0000041985 00000 n 
-0000042117 00000 n 
-0000042675 00000 n 
-0000042807 00000 n 
-0000044944 00000 n 
-0000045076 00000 n 
-0000045506 00000 n 
-0000045638 00000 n 
-0000047685 00000 n 
-0000047817 00000 n 
-0000048310 00000 n 
-0000048442 00000 n 
-0000050449 00000 n 
-0000050581 00000 n 
-0000051045 00000 n 
-0000051177 00000 n 
-0000053267 00000 n 
-0000053399 00000 n 
-0000053851 00000 n 
-0000053983 00000 n 
-0000056054 00000 n 
-0000056186 00000 n 
-0000056589 00000 n 
-0000056721 00000 n 
-0000058757 00000 n 
-0000058889 00000 n 
-0000059368 00000 n 
-0000059500 00000 n 
-0000061565 00000 n 
-0000061697 00000 n 
-0000062167 00000 n 
-0000062299 00000 n 
-0000064435 00000 n 
-0000064567 00000 n 
-0000064870 00000 n 
-0000065003 00000 n 
-0000065981 00000 n 
-0000066115 00000 n 
-0000067981 00000 n 
-0000068115 00000 n 
-0000070206 00000 n 
-0000070340 00000 n 
-0000070793 00000 n 
-0000070927 00000 n 
-0000072999 00000 n 
-0000073133 00000 n 
-0000073537 00000 n 
-0000073671 00000 n 
-0000075708 00000 n 
-0000075842 00000 n 
-0000076322 00000 n 
-0000076456 00000 n 
-0000078522 00000 n 
-0000078656 00000 n 
-0000079127 00000 n 
-0000079261 00000 n 
-0000081398 00000 n 
-0000081532 00000 n 
-0000081836 00000 n 
-0000081970 00000 n 
-0000084112 00000 n 
-0000084246 00000 n 
-0000084805 00000 n 
-0000084939 00000 n 
-0000087077 00000 n 
-0000087211 00000 n 
-0000087642 00000 n 
-0000087776 00000 n 
-0000089824 00000 n 
-0000089958 00000 n 
-0000090452 00000 n 
-0000090586 00000 n 
-0000092664 00000 n 
-0000092798 00000 n 
-0000093314 00000 n 
-0000093448 00000 n 
-0000095626 00000 n 
-0000095760 00000 n 
-0000096322 00000 n 
-0000096456 00000 n 
-0000097643 00000 n 
-0000097811 00000 n 
-0000099753 00000 n 
-0000099918 00000 n 
-0000100076 00000 n 
+0000000602 00000 n 
+0000000670 00000 n 
+0000000743 00000 n 
+0000000873 00000 n 
+0000002106 00000 n 
+0000002236 00000 n 
+0000003108 00000 n 
+0000003284 00000 n 
+0000005353 00000 n 
+0000005510 00000 n 
+0000005674 00000 n 
+0000005835 00000 n 
+0000005990 00000 n 
+0000006153 00000 n 
+0000006285 00000 n 
+0000008365 00000 n 
+0000008497 00000 n 
+0000010935 00000 n 
+0000011067 00000 n 
+0000011443 00000 n 
+0000011575 00000 n 
+0000013861 00000 n 
+0000013993 00000 n 
+0000014599 00000 n 
+0000014731 00000 n 
+0000016906 00000 n 
+0000017038 00000 n 
+0000017529 00000 n 
+0000017661 00000 n 
+0000019832 00000 n 
+0000019964 00000 n 
+0000020434 00000 n 
+0000020566 00000 n 
+0000022819 00000 n 
+0000022951 00000 n 
+0000023465 00000 n 
+0000023597 00000 n 
+0000025819 00000 n 
+0000025951 00000 n 
+0000026498 00000 n 
+0000026630 00000 n 
+0000028755 00000 n 
+0000028887 00000 n 
+0000029400 00000 n 
+0000029532 00000 n 
+0000031619 00000 n 
+0000031751 00000 n 
+0000032204 00000 n 
+0000032336 00000 n 
+0000034573 00000 n 
+0000034705 00000 n 
+0000035184 00000 n 
+0000035316 00000 n 
+0000037347 00000 n 
+0000037479 00000 n 
+0000037929 00000 n 
+0000038061 00000 n 
+0000040138 00000 n 
+0000040270 00000 n 
+0000040785 00000 n 
+0000040917 00000 n 
+0000043058 00000 n 
+0000043190 00000 n 
+0000043748 00000 n 
+0000043880 00000 n 
+0000046017 00000 n 
+0000046149 00000 n 
+0000046579 00000 n 
+0000046711 00000 n 
+0000048758 00000 n 
+0000048890 00000 n 
+0000049383 00000 n 
+0000049515 00000 n 
+0000051522 00000 n 
+0000051654 00000 n 
+0000052118 00000 n 
+0000052250 00000 n 
+0000054340 00000 n 
+0000054472 00000 n 
+0000054924 00000 n 
+0000055056 00000 n 
+0000057127 00000 n 
+0000057259 00000 n 
+0000057662 00000 n 
+0000057794 00000 n 
+0000059830 00000 n 
+0000059962 00000 n 
+0000060441 00000 n 
+0000060573 00000 n 
+0000062638 00000 n 
+0000062770 00000 n 
+0000063240 00000 n 
+0000063372 00000 n 
+0000065508 00000 n 
+0000065640 00000 n 
+0000065943 00000 n 
+0000066075 00000 n 
+0000067052 00000 n 
+0000067186 00000 n 
+0000069052 00000 n 
+0000069186 00000 n 
+0000071277 00000 n 
+0000071411 00000 n 
+0000071864 00000 n 
+0000071998 00000 n 
+0000074070 00000 n 
+0000074204 00000 n 
+0000074608 00000 n 
+0000074742 00000 n 
+0000076779 00000 n 
+0000076913 00000 n 
+0000077393 00000 n 
+0000077527 00000 n 
+0000079593 00000 n 
+0000079727 00000 n 
+0000080198 00000 n 
+0000080332 00000 n 
+0000082469 00000 n 
+0000082603 00000 n 
+0000082907 00000 n 
+0000083041 00000 n 
+0000085183 00000 n 
+0000085317 00000 n 
+0000085876 00000 n 
+0000086010 00000 n 
+0000088148 00000 n 
+0000088282 00000 n 
+0000088713 00000 n 
+0000088847 00000 n 
+0000090895 00000 n 
+0000091029 00000 n 
+0000091523 00000 n 
+0000091657 00000 n 
+0000093735 00000 n 
+0000093869 00000 n 
+0000094385 00000 n 
+0000094519 00000 n 
+0000096697 00000 n 
+0000096831 00000 n 
+0000097393 00000 n 
+0000097527 00000 n 
+0000098703 00000 n 
+0000098871 00000 n 
+0000100802 00000 n 
+0000100967 00000 n 
+0000101125 00000 n 
 trailer
-<</Size 150 /Root 1 0 R>>
+<</Size 149 /Root 1 0 R>>
 startxref
-100238
+101287
 %%EOF
