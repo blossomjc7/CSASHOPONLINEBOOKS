@@ -725,7 +725,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=God%20Came%20Close',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/ujdzc',
     amazonUrl: 'https://www.amazon.com/s?k=God%20Came%20Close%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=God%20Came%20Close%20Christine%20A'
   },
@@ -758,7 +758,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=The%20Angel%20of%20the%20Lord',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/ezlwvm',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Angel%20of%20the%20Lord%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Angel%20of%20the%20Lord%20Christine%20A'
   },
@@ -791,7 +791,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=Before%20the%20Manger',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/eprnhb',
     amazonUrl: 'https://www.amazon.com/s?k=Before%20the%20Manger%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=Before%20the%20Manger%20Christine%20A'
   },
@@ -824,7 +824,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=The%20God%20Who%20Shows%20Up',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/uinae',
     amazonUrl: 'https://www.amazon.com/s?k=The%20God%20Who%20Shows%20Up%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20God%20Who%20Shows%20Up%20Christine%20A'
   },
@@ -857,7 +857,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=The%20Secret%20Visitor%3A%20Always%20With%20Us',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/hbdbjo',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Secret%20Visitor%3A%20Always%20With%20Us%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Secret%20Visitor%3A%20Always%20With%20Us%20Christine%20A'
   },
@@ -890,7 +890,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Secret%20Visitor%3A%20Kids%20Edition',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/djgte',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Secret%20Visitor%3A%20Kids%20Edition%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Secret%20Visitor%3A%20Kids%20Edition%20Christine%20A'
   },
@@ -923,7 +923,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Burning%20Bush%20and%20the%20Big%20Wrestling%20Match',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/fuzrh',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Burning%20Bush%20and%20the%20Big%20Wrestling%20Match%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Burning%20Bush%20and%20the%20Big%20Wrestling%20Match%20Christine%20A'
   },
@@ -956,7 +956,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=God%20in%20Disguise',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/iovdcz',
     amazonUrl: 'https://www.amazon.com/s?k=God%20in%20Disguise%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=God%20in%20Disguise%20Christine%20A'
   },
@@ -989,7 +989,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Big%20Surprise',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/tdrvyo',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Big%20Surprise%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Big%20Surprise%20Christine%20A'
   },
@@ -1022,7 +1022,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Mystery%20Visitor',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/ytxics',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Mystery%20Visitor%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Mystery%20Visitor%20Christine%20A'
   },
