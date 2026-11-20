@@ -1055,7 +1055,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on Specific predictions like Bethlehem, the Virgin Birth, and pierced hands and feet, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=The%20Prophecy%20Code',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/dvwdot?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Prophecy%20Code%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Prophecy%20Code%20Christine%20A'
   },
@@ -1088,7 +1088,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on Specific predictions like Bethlehem, the Virgin Birth, and pierced hands and feet, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=Written%20in%20the%20Stars',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/jmyxx?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=Written%20in%20the%20Stars%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=Written%20in%20the%20Stars%20Christine%20A'
   },
@@ -1121,7 +1121,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on Specific predictions like Bethlehem, the Virgin Birth, and pierced hands and feet, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=The%201%2C000-Year-Old%20Blueprint',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/pqldlk?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%201%2C000-Year-Old%20Blueprint%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%201%2C000-Year-Old%20Blueprint%20Christine%20A'
   },
@@ -1154,7 +1154,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on Specific predictions like Bethlehem, the Virgin Birth, and pierced hands and feet, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=The%20Future%20Told',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/kcitlw?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Future%20Told%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Future%20Told%20Christine%20A'
   },
@@ -1187,7 +1187,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on Specific predictions like Bethlehem, the Virgin Birth, and pierced hands and feet, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=The%20Ultimate%20Evidence',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/lpxpt?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Ultimate%20Evidence%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Ultimate%20Evidence%20Christine%20A'
   },
@@ -1220,7 +1220,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=You%20Can%20Trust%20the%20Bible',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/blsht?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=You%20Can%20Trust%20the%20Bible%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=You%20Can%20Trust%20the%20Bible%20Christine%20A'
   },
@@ -1253,7 +1253,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=The%20Promised%20King',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/qgeqx?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Promised%20King%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Promised%20King%20Christine%20A'
   },
@@ -1286,7 +1286,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=Prophecy%20Fulfilled',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/elfrg?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=Prophecy%20Fulfilled%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=Prophecy%20Fulfilled%20Christine%20A'
   },
@@ -1319,7 +1319,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=The%20Certainty%20of%20Christ',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/nywmtd?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Certainty%20of%20Christ%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Certainty%20of%20Christ%20Christine%20A'
   },
@@ -1352,7 +1352,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=The%20Ancient%20Promise',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/vqlzvy?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Ancient%20Promise%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Ancient%20Promise%20Christine%20A'
   },
