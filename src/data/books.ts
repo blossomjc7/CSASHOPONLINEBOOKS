@@ -2045,7 +2045,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on Old Testament figures like Joseph, Moses, David, and Jonah whose lives parallel Jesus, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=The%20Ancient%20Heroes',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/btzeeg?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Ancient%20Heroes%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Ancient%20Heroes%20Christine%20A'
   },
@@ -2078,7 +2078,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on Old Testament figures like Joseph, Moses, David, and Jonah whose lives parallel Jesus, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=Echoes%20of%20the%20Savior',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/vnmlw?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=Echoes%20of%20the%20Savior%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=Echoes%20of%20the%20Savior%20Christine%20A'
   },
@@ -2111,7 +2111,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on Old Testament figures like Joseph, Moses, David, and Jonah whose lives parallel Jesus, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=The%20Rejected%20Deliverer',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/iofsks?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Rejected%20Deliverer%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Rejected%20Deliverer%20Christine%20A'
   },
@@ -2144,7 +2144,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on Old Testament figures like Joseph, Moses, David, and Jonah whose lives parallel Jesus, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=The%20Ultimate%20Hero',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/stldeq?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Ultimate%20Hero%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Ultimate%20Hero%20Christine%20A'
   },
@@ -2177,7 +2177,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Luke 24:27 - \'And beginning with Moses and all the Prophets, He explained to them what was said in all the Scriptures concerning Himself.\'',
     sampleExcerpt: 'When we open the ancient Hebrew texts not as a dry rulebook, but as an investigative dossier on Old Testament figures like Joseph, Moses, David, and Jonah whose lives parallel Jesus, a startling pattern emerges. Details recorded centuries apart lock together like gears in a timepiece...',
     sampleReflectionOrActivity: 'Investigative Prompt: As you read Day 1, ask yourself whether these converging patterns across centuries could happen by chance - or by design.',
-    directBuyUrl: '/contact/?book=Parallel%20Lives',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/gqzrau?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=Parallel%20Lives%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=Parallel%20Lives%20Christine%20A'
   },
@@ -2210,7 +2210,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=More%20Than%20Just%20Stories',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/tmgnh?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=More%20Than%20Just%20Stories%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=More%20Than%20Just%20Stories%20Christine%20A'
   },
@@ -2243,7 +2243,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=The%20Real%20Hero',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/byxzaj?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Real%20Hero%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Real%20Hero%20Christine%20A'
   },
@@ -2276,7 +2276,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=Old%20Testament%20Shadows',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/hnhudb?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=Old%20Testament%20Shadows%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=Old%20Testament%20Shadows%20Christine%20A'
   },
@@ -2309,7 +2309,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=The%20Rescue%20Plan',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/acadrq?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Rescue%20Plan%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Rescue%20Plan%20Christine%20A'
   },
@@ -2342,7 +2342,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'John 5:39 - \'These are the very Scriptures that testify about Me.\'',
     sampleExcerpt: 'Have you ever opened your Bible and wondered how the ancient stories connect to your life today? Here is the best news in the world: every page of the Old Testament is a love letter pointing straight to Jesus, your Rescuer...',
     sampleReflectionOrActivity: 'Today Grace Prayer: \'Lord Jesus, thank You for rescuing me by grace. Open my eyes today to see Your love on every page of Scripture. Amen.\'',
-    directBuyUrl: '/contact/?book=The%20Great%20Parallel',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/gprdhe?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Great%20Parallel%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Great%20Parallel%20Christine%20A'
   },
