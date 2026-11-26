@@ -2537,3 +2537,80 @@ export function getConceptsByAudience(audience: 'seeker' | 'believer' | 'kids'):
 export function getFeaturedBooks(): Book[] {
   return BOOKS.filter((b) => b.featured);
 }
+
+// ==========================================
+// OFFICIAL GUMROAD BUNDLES & COLLECTIONS
+// ==========================================
+export interface BookBundle {
+  id: string;
+  name: string;
+  slug: string;
+  series: string;
+  bookCount: number;
+  price: number;
+  originalPrice: number;
+  savings: string;
+  coverImage: string;
+  gumroadUrl: string;
+  directCheckoutUrl: string;
+  description: string;
+}
+
+export const bookBundles: BookBundle[] = [
+  {
+    id: 'bundle-the-seeker-collection',
+    name: 'The Complete Spiritual Seeker Collection',
+    slug: 'bundle-the-seeker-collection',
+    series: 'The Spiritual Seeker',
+    bookCount: 25,
+    price: 87.00,
+    originalPrice: 299.75,
+    savings: '71% OFF',
+    coverImage: '/images/ebook-cover-images/bundle-the-seeker-collection.jpg',
+    gumroadUrl: 'https://csaonlineshop.gumroad.com/l/zyyoiv',
+    directCheckoutUrl: 'https://csaonlineshop.gumroad.com/l/zyyoiv?wanted=true',
+    description: 'Complete 25-book library for seekers exploring truth, prophecy, eternity, and deep biblical mysteries.'
+  },
+  {
+    id: 'bundle-the-new-believer-collection',
+    name: 'The Complete New Believer Collection',
+    slug: 'bundle-the-new-believer-collection',
+    series: 'The New Believer',
+    bookCount: 25,
+    price: 67.00,
+    originalPrice: 249.75,
+    savings: '73% OFF',
+    coverImage: '/images/ebook-cover-images/bundle-the-new-believer-collection.jpg',
+    gumroadUrl: 'https://csaonlineshop.gumroad.com/l/fwszzm',
+    directCheckoutUrl: 'https://csaonlineshop.gumroad.com/l/fwszzm?wanted=true',
+    description: 'Foundational 25-book library equipping disciples in foundational doctrine, prayer, spiritual warfare, and daily walk with Christ.'
+  },
+  {
+    id: 'bundle-the-childrens-edition-collection',
+    name: 'The Complete Children\'s Edition Collection',
+    slug: 'bundle-the-childrens-edition-collection',
+    series: 'Children\'s Edition',
+    bookCount: 25,
+    price: 47.00,
+    originalPrice: 174.75,
+    savings: '73% OFF',
+    coverImage: '/images/ebook-cover-images/bundle-the-childrens-edition-collection.jpg',
+    gumroadUrl: 'https://csaonlineshop.gumroad.com/l/evpked',
+    directCheckoutUrl: 'https://csaonlineshop.gumroad.com/l/evpked?wanted=true',
+    description: 'All 25 exciting Bible adventure, prophecy detective, and discovery ebooks for young hearts and family reading.'
+  },
+  {
+    id: 'bundle-the-master-library-75-books',
+    name: 'The Ultimate Divine Blueprint Master Library (All 75 Books)',
+    slug: 'bundle-the-master-library-75-books',
+    series: 'Master Collection',
+    bookCount: 75,
+    price: 147.00,
+    originalPrice: 724.25,
+    savings: '80% OFF',
+    coverImage: '/images/ebook-cover-images/bundle-the-master-library-75-books.jpg',
+    gumroadUrl: 'https://csaonlineshop.gumroad.com/l/dmridw',
+    directCheckoutUrl: 'https://csaonlineshop.gumroad.com/l/dmridw?wanted=true',
+    description: 'The monumental 75-ebook Divine Blueprint library: Spiritual Seeker, New Believer, and Children\'s Editions combined.'
+  }
+];
