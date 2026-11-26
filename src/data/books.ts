@@ -2375,7 +2375,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Big%20Clue%20Hunt',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/nxbftp?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Big%20Clue%20Hunt%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Big%20Clue%20Hunt%20Christine%20A'
   },
@@ -2408,7 +2408,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=More%20Than%20Just%20a%20Story',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/eafyug?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=More%20Than%20Just%20a%20Story%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=More%20Than%20Just%20a%20Story%20Christine%20A'
   },
@@ -2441,7 +2441,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Secret%20Hero',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/yuolma?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Secret%20Hero%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Secret%20Hero%20Christine%20A'
   },
@@ -2474,7 +2474,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Old%20Testament%20Detective',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/vbwwse?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Old%20Testament%20Detective%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Old%20Testament%20Detective%20Christine%20A'
   },
@@ -2507,7 +2507,7 @@ export const BOOKS: Book[] = [
     sampleScripture: 'Psalm 119:105 - \'Your Word is a lamp to my feet and a light to my path!\'',
     sampleExcerpt: 'BIBLE DETECTIVE BRIEFING: Did you know God hid amazing clues all through the Old Testament so we could recognize Jesus? Today we are opening our detective notebook to discover how God planned to rescue us from the very beginning!',
     sampleReflectionOrActivity: 'HANDS-ON ACTIVITY & COLORING: Grab your favorite crayons and draw today\'s Bible clue! Then thank Jesus together in prayer for loving your family.',
-    directBuyUrl: '/contact/?book=The%20Great%20Adventure',
+    directBuyUrl: 'https://csaonlineshop.gumroad.com/l/gqlztty?wanted=true',
     amazonUrl: 'https://www.amazon.com/s?k=The%20Great%20Adventure%20Christine%20A',
     googleBooksUrl: 'https://books.google.com/?q=The%20Great%20Adventure%20Christine%20A'
   }
